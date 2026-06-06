@@ -1,17 +1,18 @@
 # UI Automation Playwright
 
-A modern UI test automation framework built with Playwright and TypeScript, following scalable QA automation practices.
+A modern UI test automation framework built with Playwright and TypeScript, following scalable and maintainable QA automation practices.
 
 ## Features
 
 * Playwright + TypeScript
 * Page Object Model (POM)
 * Custom Fixtures
-* Smoke Tests
-* End-to-End (E2E) Tests
+* Smoke Testing
+* End-to-End (E2E) Testing
 * Reusable Test Data
 * Authentication State Management
-* HTML Reports
+* HTML Reporting
+* Scalable Test Architecture
 
 ## Project Structure
 
@@ -56,6 +57,14 @@ npx playwright test --project=e2e
 * Playwright
 * TypeScript
 * Node.js
+
+## Architecture Highlights
+
+* Separation of Smoke and E2E test suites
+* Page Object Model for maintainability
+* Shared fixtures for reusable setup
+* Authentication state reuse for faster execution
+* Organized test data management
 
 ## Author
 
