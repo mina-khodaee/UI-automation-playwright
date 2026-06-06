@@ -1,0 +1,28 @@
+[6n[m]0;C:\Windows\system32\cmd.exe[?25h]0;npm]0;npm prefix]0;npm]0;npm run lint[25l
+> @repo/ui@1.0.0 lint      
+> eslint . --max-warnings 0[5;1H[?25h]0;C:\Windows\system32\cmd.exe [25l[4m
+C:\Users\m.khodaie\Desktop\dejban_frontend_new\packages\ui\src\custom-components\mrt-datatable\
+use-base-grid-styles.js[24m[K
+  12:17  [33mwarning[m  React Hook "useTheme" is called in function "getTheme" that is neither a Reac
+t function component nor a custom React Hook function. React component names must start with an
+ uppercase letter. React Hook names must start with the word "use"  react-hooks/rules-of-hooks 
+  19:25  [33mwarning[m  React Hook "useMemo" is called in function "getTheme" that is neither a React
+ function component nor a custom React Hook function. React component names must start with an 
+uppercase letter. React Hook names must start with the word "use"   react-hooks/rules-of-hooks 
+  27:5   [33mwarning[m  React Hook useMemo has missing dependencies: 'direction', 'font', 'mode', and
+ 'primaryColor'. Either include them or remove the dependency array[K
+                                                                    react-hooks/exhaustive-deps
+  36:13  [33mwarning[m  'direction' is assigned a value but never used[K
+[K
+                                                                    @typescript-eslint/no-unuse
+d-vars[K
+[K[4m
+C:\Users\m.khodaie\Desktop\dejban_frontend_new\packages\ui\src\locales\use-locales.js[24m[K
+  61:18  [33mwarning[m  'e' is defined but never used  @typescript-eslint/no-unused-vars[K
+  61:21  [33mwarning[m  Empty block statement          no-empty[K
+[K[1m[93m
+✖ 6 problems (0 errors, 6 warnings)[m[K[28;1H[?25hESLint found too many warnings (maximum: 0).
+npm [31mERR![m [35mLifecycle script `lint` failed with error:[m 
+npm [31mERR![m [35mError: command failed[m[K
+npm [31mERR![m [35m  in workspace: @repo/ui@1.0.0[m[K
+npm [31mERR![m [35m  at location: C:\Users\m.khodaie\Desktop\dejban_frontend_new\packages\ui[m[K

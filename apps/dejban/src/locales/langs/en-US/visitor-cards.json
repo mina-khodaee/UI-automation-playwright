@@ -1,0 +1,38 @@
+
+{
+"breadcrumb": {
+"dashboard": "Dashboard",
+"newVisitorCards": "New Card",
+"blockUsers": "Guest Cards"
+},
+"formsInputs": {
+"description": "Description",
+"cardNumber": "Card Number"
+},
+"buttons": {
+"newVisitorCards": "Add New Card"
+},
+"columns": {
+"cardNumber": "Card Number",
+"isAssigned": "Card Status",
+"visitor": "Recipient",
+"description": "Description"
+},
+"toastMessages": {
+"deleteVisitorCards": "Card deleted successfully",
+"update": "Card updated successfully",
+"create": "Card created successfully"
+},
+"title": {
+"insertVisitorCards": "Create New Card",
+"updateVisitorCards": "Edit Card"
+},
+"formValidationErrors": {
+"cardNumber": {
+"required": "Card Number is required"
+},
+"description": {
+"required": "Description is required"
+}
+}
+}

@@ -1,0 +1,47 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "newAssignEquipment": "تخصیص تجهیزات جدید",
+    "assignEquipment": "تخصیص تجهیزات"
+  },
+  "formsInputs": {
+    "personnel": "پرسنل",
+    "equipment": "تجهیزات",
+    "startDate": "تاریخ شروع",
+    "endDate": "تاریخ پایان",
+    "description": "توضیحات"
+  },
+  "buttons": {
+    "newAssignEquipment": "تخصیص تجهیزات جدید",
+    "save": "ذخیره",
+    "cancel": "لغو"
+  },
+  "columns": {
+    "personnels": "پرسنل",
+    "equipments": "تجهیزات تخصیص یافته",
+    "startDate": "تاریخ شروع",
+    "endDate": "تاریخ پایان",
+    "description": "توضیحات"
+  },
+  "toastMessages": {
+    "create": "تخصیص تجهیزات با موفقیت انجام شد",
+    "update": "به‌روزرسانی تخصیص تجهیزات با موفقیت انجام شد"
+  },
+  "title": {
+    "assign": "تخصیص تجهیزات"
+  },
+  "formValidationErrors": {
+    "personnel": {
+      "required": "انتخاب حداقل یک پرسنل الزامی است"
+    },
+    "equipment": {
+      "required": "انتخاب حداقل یک تجهیز الزامی است"
+    },
+    "startDate": {
+      "required": "وارد کردن تاریخ شروع الزامی است"
+    },
+    "endDate": {
+      "required": "وارد کردن تاریخ پایان الزامی است"
+    }
+  }
+}

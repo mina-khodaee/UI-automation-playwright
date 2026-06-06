@@ -1,0 +1,37 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "newPatrolArea": "New Patrol Area",
+    "patrolArea": "Patrol Area"
+  },
+  "formsInputs": {
+    "name": "Area Name",
+    "siteId": "Site Name",
+    "description": "Description"
+  },
+  "buttons": {
+    "newPatrolArea": "Add Patrol Area"
+  },
+  "columns": {
+    "name": "Area Name",
+    "siteId": "Site Name",
+    "description": "Description"
+  },
+  "toastMessages": {
+    "delete": "Patrol area was successfully deleted",
+    "update": "Patrol area was successfully updated",
+    "create": "Patrol area was successfully created"
+  },
+  "title": {
+    "insertPatrolArea": "Create Patrol Area",
+    "updatePatrolArea": "Edit Patrol Area"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "Patrol area name is required"
+    },
+    "siteId": {
+      "required": "Site name is required"
+    }
+  }
+}

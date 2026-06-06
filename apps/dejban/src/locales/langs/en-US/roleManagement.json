@@ -1,0 +1,52 @@
+{
+"breadcrumb": {
+"dashboard": "Dashboard",
+"roles": "Roles",
+"rolesList": "Roles List"
+},
+"formsInputs": {
+"roleName": "Role Name",
+"description": "Description",
+"sites": "Sites",
+"selectSites": "Select Site"
+},
+"buttons": {
+"createRole": "New Role"
+},
+"tabs": {
+"profile": "Profile",
+"activeSessionManagement": "Active Session Management",
+"changePassword": "Change Password",
+"apiKeysManagement": "API Keys Management"
+},
+"columns": {
+"roleName": "Role Name",
+"roleDescription": "Description",
+"createdAt": "Registration Date"
+},
+"filters": {
+"active": "Active",
+"inactive": "Inactive"
+},
+"formValidationErrors": {
+"roleName": {
+"required": "Role name is required!"
+},
+"description": {
+"required": "Description is required!"
+},
+"sites": {
+"required": "Selecting a site is required!"
+}
+},
+"toastMessages": {
+"createRoleManagementSuccess": "Registration was successful.",
+"updateRoleManagementSuccess": "Edit was successful.",
+"general": "Error performing the operation!",
+"deleteRoleManagementSuccess": "Deletion was successful."
+},
+"title": {
+"insertRoleManagement": "Create Role",
+"updateRoleManagement": "Edit Role"
+}
+}

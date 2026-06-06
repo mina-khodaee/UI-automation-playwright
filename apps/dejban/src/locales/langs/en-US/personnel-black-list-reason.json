@@ -1,0 +1,32 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "newBlockUsers": "New Reason",
+    "blockUsers": "Personnel Ban Reasons"
+  },
+  "formsInputs": {
+    "name": "Reason Name",
+    "description": "Description"
+  },
+  "buttons": {
+    "newBlockUsers": "Add Ban Reason"
+  },
+  "columns": {
+    "name": "Reason Name",
+    "description": "Description"
+  },
+  "toastMessages": {
+    "deleteBlockUsers": "Reason deleted successfully",
+    "update": "Reason updated successfully",
+    "create": "Reason created successfully"
+  },
+  "title": {
+    "insertBlockUsers": "Create Ban Reason",
+    "updateBlockUsers": "Edit Reason"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "Reason name is required"
+    }
+  }
+}

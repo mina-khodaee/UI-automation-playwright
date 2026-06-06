@@ -1,0 +1,38 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "newDegrees": "مقطع جدید",
+    "updateDegrees": "به‌روزرسانی مقطع",
+    "degrees": "مقطع های تحصیلی"
+  },
+  "formsInputs": {
+    "description": "توضیحات",
+    "name": "نام مقطع",
+    "code": "کد مقطع"
+  },
+  "buttons": {
+    "newDegrees": "افزودن مقطع جدید"
+  },
+  "columns": {
+    "degreesName": "نام مقطع",
+    "description": "توضیحات",
+    "code": "کد مقطع"
+  },
+  "toastMessages": {
+    "deleteDegrees": "حذف مقطع با موفقیت انجام شد",
+    "update": "به‌روزرسانی مقطع با موفقیت انجام شد",
+    "create": "مقطع با موفقیت ایجاد شد"
+  },
+  "title": {
+    "insertDegrees": "ایجاد مقطع",
+    "updateDegrees": "ویرایش مقطع"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "وارد کردن نام مقطع الزامی است"
+    },
+    "code": {
+      "required": "وارد کردن کد مقطع الزامی است"
+    }
+  }
+}

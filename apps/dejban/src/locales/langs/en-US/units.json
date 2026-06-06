@@ -1,0 +1,41 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "newUnits": "New Unit",
+    "updateUnits": "Update Unit",
+    "units": "Organizational Units"
+  },
+  "formsInputs": {
+    "description": "Description",
+    "name": "Name",
+    "selectSites": "Select Site",
+    "sites": "Sites",
+    "floorNumber": "Floor Number",
+    "callExtension": "Call Extension"
+  },
+  "buttons": {
+    "newUnits": "Add New Unit"
+  },
+  "columns": {
+    "unitsName": "Unit Name",
+    "description": "Description",
+    "siteIds": "Site Code"
+  },
+  "toastMessages": {
+    "deleteUnits": "Unit deleted successfully",
+    "update": "Unit updated successfully",
+    "create": "Unit created successfully"
+  },
+  "title": {
+    "insertUnits": "Create Unit",
+    "updateUnits": "Edit Unit"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "Name is required"
+    },
+    "sites": {
+      "required": "Selecting at least one site is required"
+    }
+  }
+}

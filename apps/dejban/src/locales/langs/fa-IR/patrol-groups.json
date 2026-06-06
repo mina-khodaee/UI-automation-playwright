@@ -1,0 +1,38 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "newPatrolGroups": "گروه نگهبانی جدید",
+    "patrolGroups": "گروه نگهبانی"
+  },
+  "formsInputs": {
+    "name": "نام گروه",
+    "siteId": "نام مرکز",
+    "description": "توضیحات"
+
+  },
+  "buttons": {
+    "newPatrolGroups": "افزودن گروه نگهبانی"
+  },
+  "columns": {
+    "name": "نام گروه",
+    "siteId": "نام مرکز",
+    "description": "توضیحات"
+  },
+  "toastMessages": {
+    "delete": "حذف گروه نگهبانی با موفقیت انجام شد",
+    "update": "به‌روزرسانی گروه نگهبانی با موفقیت انجام شد",
+    "create": "گروه نگهبانی با موفقیت ایجاد شد"
+  },
+  "title": {
+    "insertPatrolGroups": "ایجاد گروه نگهبانی",
+    "updatePatrolGroups": "ویرایش گروه نگهبانی"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "وارد کردن گروه نگهبانی الزامی است"
+    },
+    "siteId": {
+      "required": "وارد کردن نام مرکز گروه الزامی است"
+    }
+  }
+}

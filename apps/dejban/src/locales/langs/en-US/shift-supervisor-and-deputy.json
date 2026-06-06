@@ -1,0 +1,47 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "shiftSupervisorAndDeputy": "Shift Supervisor and Deputy",
+    "newShiftSupervisorAndDeputy": "New Shift Supervisor and Deputy"
+  },
+  "formsInputs": {
+    "personnelId": "Personnel",
+    "shiftId": "Shift",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "description": "Description"
+  },
+  "buttons": {
+    "newShiftSupervisorAndDeputy": "Add Shift Supervisor and Deputy"
+  },
+  "columns": {
+    "personnelId": "Personnel",
+    "shiftId": "Shift",
+    "startDate": "From Date",
+    "endDate": "To Date",
+    "description": "Description"
+  },
+  "toastMessages": {
+    "delete": "Shift Supervisor and Deputy deleted successfully",
+    "update": "Shift Supervisor and Deputy updated successfully",
+    "create": "Shift Supervisor and Deputy created successfully"
+  },
+  "title": {
+    "insertShiftSupervisorAndDeputy": "Create Shift Supervisor and Deputy",
+    "updateShiftSupervisorAndDeputy": "Edit Shift Supervisor and Deputy"
+  },
+  "formValidationErrors": {
+    "personnelId": {
+      "required": "Personnel selection is required"
+    },
+    "shiftId": {
+      "required": "Shift selection is required"
+    },
+    "startDate": {
+      "required": "Start date is required"
+    },
+    "endDate": {
+      "required": "End date is required"
+    }
+  }
+}

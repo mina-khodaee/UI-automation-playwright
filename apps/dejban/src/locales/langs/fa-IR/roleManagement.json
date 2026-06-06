@@ -1,0 +1,53 @@
+{
+    "breadcrumb": {
+        "dashboard": "داشبورد",
+        "roles": "نقش ها",
+        "rolesList": "لیست نقش ها"
+    },
+    "formsInputs": {
+        "roleName": "نام نقش",
+        "description": "شرح",
+        "sites": "مراکز",
+        "selectSites": "انتخاب مرکز"
+    },
+    "buttons": {
+        "createRole": "نقش جدید"
+    },
+    "tabs": {
+        "profile": "پروفایل",
+        "activeSessionManagement": "مدیریت نشست‌های فعال",
+        "changePassword": "تغییر رمز عبور",
+        "apiKeysManagement": "مدیریت کلید‌های API"
+    },
+    "columns": {
+        "roleName": "نام نقش",
+        "roleDescription": "شرح",
+        "createdAt": "تاریخ ثبت"
+    },
+    "filters": {
+        "active": "فعال",
+        "inactive": "غیر فعال"
+    },
+    "formValidationErrors": {
+        "roleName": {
+            "required": "نام نقش اجباری است!"
+        },
+        "description": {
+            "required": "شرح اجباری است!"
+        },
+        "sites": {
+            "required": "انتخاب مرکز اجباری است!"
+        }
+    },
+    "toastMessages": {
+        "createRoleManagementSuccess": "ثبت موفقیت امیز بود.",
+        "updateRoleManagementSuccess": "ویرایش موفقیت امیز بود.",
+        "general": "خطا در انجام عملیات!",
+        "deleteRoleManagementSuccess": "حذف موفقیت امیز بود.",
+        "deleteConfirm": "آیا از حذف این ایتم مطمین هستید؟"
+    },
+    "title": {
+        "insertRoleManagement": "ایجاد نقش",
+        "updateRoleManagement": "ویرایش نقش"
+    }
+}

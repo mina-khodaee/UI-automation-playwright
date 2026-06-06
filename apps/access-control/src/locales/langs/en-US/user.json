@@ -1,0 +1,242 @@
+{
+    "breadcrumb": {
+        "dashboard": "Dashboard",
+        "deviceUsers": "Device Users",
+        "newDeviceUser": "New Device User",
+        "updateDeviceUser": "Update Device User",
+        "APIKeys": "API Keys",
+        "newAPIKey": "New API Key",
+        "updateAPI": "Update API Key"
+    },
+    "formsInputs": {
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "email": "Email",
+        "password": "Password",
+        "confirmPassword": "Confirm Password",
+        "phoneNumber": "Phone Number",
+        "currentPassword": "Current Password",
+        "newPassword": "New Password",
+        "ipAddress": "IP Address",
+        "device": "Device",
+        "loginDate": "Login Date",
+        "isCurrent": "Current Device",
+        "clientVersion": "Client Version",
+        "clientType": "Client Type",
+        "clientName": "Client Name",
+        "userType": "User Type",
+        "userId": "User ID",
+        "userName": "User Name",
+        "uniqueId": "Unique ID",
+        "isBlacklist": "Blacklist",
+        "FPSecurityLevel": "FP SecurityLevel",
+        "accessGroupIds": "Access Groups",
+        "authTypeConfig": "َAccess Type Settings",
+        "isAndOperation": "Required all selected items",
+        "isAdmin": "Device Admin",
+        "isIdentify": "Fingerprint Search",
+        "fingerId": "Finger ID",
+        "isDuressFinger": "Duress Finger",
+        "dateType": "Access Type",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "cardNumber": "Card Number",
+        "rfid": "RFID",
+        "cardType": "Card Type",
+        "isCheckSimilarFinger": "Not Register Similar Finger",
+        "notCheckSimilarFinger": "Register Similar Finger",
+        "isFace1toN": "Searching Face",
+        "accessFlags": "Access Flags",
+        "initializeCard": "Delete Previous Cards",
+        "applicationUserId": "Application User",
+        "enrollmentDeviceTerminalId": "Enrollment Device Terminal ID",
+        "nationalCode": "National Code",
+        "registerDate": "Register Date",
+        "apiKeyName": "API Key Name",
+        "scopes": "Scopes",
+        "description": "Description",
+        "expirationDate": "Expiration Date",
+        "creatorName": "Creator Name",
+        "createdAt": "Created Time",
+        "lastUpdate": "Last Update",
+        "syncWithDevicesInUserAccessGroups": "Sync with Devices in User Access Groups",
+        "roles": "Roles",
+        "accessType": "Access Type"
+    },
+    "buttons": {
+        "changingPassword": "Changing Password...",
+        "logoutOtherAccounts": "Logout Other Accounts",
+        "loggingout": "loggingout...",
+        "createDeviceUser": "Create Device User",
+        "newDeviceUser": "New Device User",
+        "fingerprintSettings": "Fingerprint Settings",
+        "cardSettings": "Card Settings",
+        "accessAuthoritiesSettings": "Access Authorities Settings",
+        "addFingerprint": "Add Finger",
+        "addCard": "Add Card",
+        "addAccessAuthority": "Add Access Authority",
+        "addNewDeviceUser": "Add New Device User",
+        "quickAddNewDeviceUser": "Quick Add New Device User",
+        "editAccessAuthorities": "Edit Access Authorities",
+        "editConfigureType": "Edit Configure Type",
+        "editIsBlacklist": "Deactivate User",
+        "editIsNotBlacklist": "Activate User",
+        "editAccessGroups": "Edit Access Groups",
+        "editIsNotBlacklistLoading": "Activating User...",
+        "editIsBlacklistLoading": "Deactivating User...",
+        "newAPIKey": "New API Key",
+        "createAPIKey": "Create API Key",
+        "updateAPIKey": "Update API Key",
+        "removeCards": "Remove Cards",
+        "userReports": "User Reports",
+        "sendUserBiometricDataToDevices": "Send User Biometric Data To Devices",
+        "getUserBiometricDataFromDevice": "Get User Biometric Data From Device"
+    },
+    "tabs": {
+        "profile": "Profile",
+        "activeSessionManagement": "Active Session Management",
+        "changePassword": "Change Password",
+        "apiKeysManagement": "API Keys Management"
+    },
+    "columns": {
+        "userId": "User ID",
+        "userName": "User Name",
+        "userType": "User Type",
+        "isBlacklist": "Active User",
+        "createdAt": "Created Time"
+    },
+    "filters": {
+        "active": "active",
+        "inactive": "inactive"
+    },
+    "formValidationErrors": {
+        "currentPassword": {
+            "required": "Current password is required!"
+        },
+        "newPassword": {
+            "required": "New password is required!"
+        },
+        "confirmPassword": {
+            "required": "Confirm password is required!",
+            "validate": "Passwords do not match!"
+        },
+        "fingerId": {
+            "required": "Finger ID is required!",
+            "invalid": "Invalid finger ID!"
+        },
+        "dateType": {
+            "required": "Access type is required!"
+        },
+        "startDate": {
+            "required": "Start date is required!"
+        },
+        "dateRequired": {
+            "required": "Start date or end date is required!"
+        },
+        "endDate": {
+            "required": "End date is required!",
+            "greaterThanStartDate": "End date must be greater than start date!"
+        },
+        "rfid": {
+            "required": "RFID is required!"
+        },
+        "userId": {
+            "required": "User ID is required!",
+            "number": "User ID must be a number!"
+        },
+        "userName": {
+            "required": "User Name is required!"
+        },
+        "userType": {
+            "required": "User Type is required!"
+        },
+        "password": {
+            "required": "Password is required!",
+            "invalid": "Password must be number!",
+            "invalidStartWithZero": "Password must not start with zero!"
+        },
+        "FPSecurityLevel": {
+            "required": "FP Security Level is required!"
+        },
+        "cards": {
+            "required": "Cards are required!"
+        },
+        "cardType": {
+            "required": "Card Type is required!"
+        },
+        "accessGroupIds": {
+            "required": "Access groups are required!"
+        },
+        "fingerprints": {
+            "required": "Fingerprints are required!"
+        },
+        "authTypeConfig": {
+            "required": "Authentication Type is required!"
+        },
+        "accessAuthorities":  {
+            "required": "Access Authorities are required!",
+            "passwordOrCardRequired": "Password or Card is required!"
+        },
+        "enrollmentDeviceTerminalId": {
+            "required": "Device Terminal ID is required!"
+        },
+        "APIKeyName": {
+            "required": "API Key Name is required!"
+        },
+        "scopes": {
+            "required": "Scopes is required!"
+        },
+        "expirationDate": {
+            "required": "Expiration Date is required!",
+            "invalid": "Invalid Expiration Date!",
+            "greaterThanNow": "Expiration Date must be greater than now!"
+        },
+        "deviceId": {
+            "required": "Device is required!"
+        },
+        "accessType": {
+            "required": "Access type is required!"
+        }
+    },
+    "toastMessages": {
+        "changePasswordSuccess": "Password was changed successfully!",
+        "logoutSuccess": "Logged out successfully!",
+        "logoutError": "Logout failed!",
+        "deleteDeviceUser": "Device user was deleted successfully!",
+        "updateDeviceUser": "Device user was updated successfully!",
+        "createDeviceUser": "Device user was created successfully!",
+        "activateDeviceUser": "Device user was activated successfully!",
+        "deactivateDeviceUser": "Device user was deactivated successfully!",
+        "updateAccessAuthorities": "Access authorities updated successfully!",
+        "updateAccessGroups": "Access groups updated successfully!",
+        "updateAuthTypeConfig": "Authentication type updated successfully!",
+        "deleteAPIKey": "API key deleted successfully!",
+        "createAPIKey": "API key with value {{key}} created successfully and it will never be shown to you ! plaese copy and save it.",
+        "updateAPIKey": "API key updated successfully!",
+        "addAccessAuthority": " One access authority added to list successfully!",
+        "addCard": "One card added to list successfully!",
+        "addFingerprint": "One fingerprint added to list successfully!",
+        "sameTime": "This time duration already exists!",
+        "copy": "API key copied successfully!",
+        "sendUserBiometricDataToDevices": "User's biometric data sent to devices successfully!",
+        "getUserBiometricDataFromDevice": "user's biometric data was gotten from device successfully!"
+    },
+    "texts": {
+        "logoutConfirm": "Are you sure you want to logout?",
+        "currentLogoutConfirm": "This is your current account! Are you sure you want to logout?",
+        "logoutOtherAccounts": "Are you sure you want to logout from all other accounts?",
+        "accessGroupsChoices": "Access Groups Choices",
+        "accessGroupsChosens": "Access Groups Chosens",
+        "selected": "Selected",
+        "choices": "Choices",
+        "chosens": "Chosens",
+        "firstCaption": "*Not Used: ",
+        "secondCaption": "*Allowed Period: User is allowed to use device during the specified period",
+        "thirdCaption": "*Not Allowed Period: User is not allowed to use device during the specified period",
+        "activateConfirm": "Are you sure you want to activate this user?",
+        "deactivateConfirm": "Are you sure you want to deactivate this user?",
+        "removeCardsConfirm": "By deleting the previous cards, your personnel card list will be updated to only one card (the last card).",
+        "getUserBiometricDataFromDevice": "This action will get this user's biometric data from selected device which has this user and are online. Are you sure you want to get this user's biometric data from device?",
+        "sendUserBiometricDataToDevices": "This action will send this user's biometric data to devices which have this user and are online. Are you sure you want to send this user's biometric data to devices?"
+    }
+}

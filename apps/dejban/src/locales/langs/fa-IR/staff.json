@@ -1,0 +1,85 @@
+{
+    "breadcrumb": {
+        "dashboard": "داشبورد",
+        "newStaffs": "پرسنل جدید",
+        "updateStaffs": "به‌روزرسانی پرسنل",
+        "staffs": "پرسنل"
+    },
+    "formsInputs": {
+        "personnelCode": "کد پرسنلی",
+        "firstName": "نام",
+        "lastName": "نام خانوادگی",
+        "nationalCode": "کد ملی",
+        "gender": "جنسیت",
+        "contractStartDate": "تاریخ شروع قرارداد",
+        "contractEndDate": "تاریخ پایان قرارداد",
+        "employmentTypeId": "نوع استخدام",
+        "employmentStatusId": "نوع اشتغال",
+        "positionId": "سمت",
+        "siteId": "مرکز",
+        "contractorsId": "شرکت قرارداد",
+        "contractId" : "قرارداد پیمانکار",
+        "unitId": "واحد",
+        "dateOfBirth": "تاریخ تولد",
+        "fatherName": "نام پدر",
+        "phoneNumber": "شماره تماس",
+        "birthCertificateCode": "شماره شناسنامه",
+        "birthCertificateIssuePlace": "محل صدور شناسنامه",
+        "birthPlace": "محل تولد"
+    },
+    "buttons": {
+        "newStaffs": "افزودن پرسنل جدید"
+    },
+    "tabs": {
+        "staff": "پرسنلی",
+        "personal": "شخصی",
+        "organization": "سازمانی",
+        "vehicle" : "خودرو"
+
+
+    },
+    "columns": {
+        "firstName": "نام",
+        "lastName": "نام خانوادگی",
+        "personnelCode": "کد پرسنلی",
+        "contractStartDate": "شروع استخدام",
+        "contractEndDate": "پایان استخدام",
+        "siteName": "مرکز",
+        "unitName": "واحد",
+        "positionName": "سمت",
+        "employmentTypeName": "نوع استخدام",
+        "employmentStatusName": "نوع اشتغال"
+    },
+    "toastMessages": {
+        "deleteStaffs": "حذف پرسنل با موفقیت انجام شد",
+        "update": "به‌روزرسانی پرسنل با موفقیت انجام شد",
+        "create": "پرسنل با موفقیت ایجاد شد"
+    },
+    "title": {
+        "insertStaffs": "ایجاد پرسنل",
+        "updateStaffs": "ویرایش پرسنل"
+    },
+    "formValidationErrors": {
+        "personnelCode": "فیلد کد پرسنلی اجباری می‌باشد",
+        "firstName": "فیلد نام اجباری می‌باشد",
+        "lastName": "فیلد نام خانوادگی اجباری می‌باشد",
+        "nationalCode": "فیلد کد ملی اجباری می‌باشد",
+        "gender": "فیلد جنسیت اجباری می‌باشد",
+        "contractStartDate": "فیلد تاریخ شروع قرارداد اجباری می‌باشد",
+        "contractEndDate": "فیلد تاریخ پایان قرارداد اجباری می‌باشد",
+        "employmentTypeId": "فیلد نوع استخدام اجباری می‌باشد",
+        "employmentStatusId": "فیلد نوع اشتغال اجباری می‌باشد",
+        "positionId": "فیلد سمت اجباری می‌باشد",
+        "siteId": "فیلد مرکز اجباری می‌باشد",
+        "contractorsId": "فیلد شرکت قرارداد اجباری می‌باشد",
+        "contractId": "فیلد قرارداد پیمانکار اجباری میباشد",
+
+        "unitId": "فیلد واحد اجباری می‌باشد",
+        "dateOfBirth": "فیلد تاریخ تولد اجباری می‌باشد",
+        "fatherName": "فیلد نام پدر اجباری می‌باشد",
+        "phoneNumber": "فیلد شماره تماس اجباری می‌باشد",
+        "birthCertificateCode": "فیلد شماره شناسنامه اجباری می‌باشد",
+        "birthCertificateIssuePlace": "فیلد محل صدور شناسنامه اجباری می‌باشد",
+        "birthPlace": "فیلد محل تولد اجباری می‌باشد"
+    }
+}

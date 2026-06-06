@@ -1,0 +1,53 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "newSecurityEquipments": "New Equipment",
+    "updateSecurityEquipments": "Update Equipment",
+    "SecurityEquipments": "Define Equipment"
+  },
+  "formsInputs": {
+    "equipmentTypeId": "Equipment Type",
+    "serialNumber": "Serial Number",
+    "description": "Description",
+    "count": "Quantity",
+    "name": "Name",
+    "placeholder": "Please search something"
+
+  },
+  "buttons": {
+    "newSecurityEquipments": "Add New"
+  },
+  "columns": {
+    "equipmentTypeId": "Equipment Type",
+    "serialNumber": "Serial Number",
+    "description": "Description",
+    "count": "Quantity",
+    "name": "Name"
+  },
+  "toastMessages": {
+    "deleteSecurityEquipments": "Military equipment was successfully deleted",
+    "update": "Military equipment was successfully updated",
+    "create": "Military equipment was successfully created"
+  },
+  "title": {
+    "insertSecurityEquipments": "Create Equipment",
+    "updateSecurityEquipments": "Edit Equipment"
+  },
+  "formValidationErrors": {
+    "equipmentTypeId": {
+      "required": "Equipment type is required"
+    },
+    "count": {
+      "required": "Quantity is required",
+      "invalid": "Please enter a valid number"
+    },
+    "name": {
+      "required": "name is required",
+      "invalid": "Please enter a valid number"
+    },
+    "serialNumber": {
+      "required": "serialNumber is required",
+      "invalid": "Please enter a valid serialNumber"
+    }
+  }
+}

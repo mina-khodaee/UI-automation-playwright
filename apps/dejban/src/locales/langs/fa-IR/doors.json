@@ -1,0 +1,33 @@
+{
+    "breadcrumb": {
+        "title": "مدیریت درب‌ها"
+    },
+    "buttons": {
+        "newDoor": "درب جدید"
+    },
+    "columns": {
+        "doorName": "نام درب",
+        "site": "سایت",
+        "unit": "واحد"
+    },
+    "fields": {
+        "doorName": "نام درب",
+        "site": "سایت",
+        "unit": "واحد"
+    },
+    "placeholders": {
+        "selectSite": "انتخاب سایت...",
+        "selectUnit": "انتخاب واحد..."
+    },
+    "formValidation": {
+        "doorNameRequired": "نام درب الزامی است",
+        "siteRequired": "انتخاب سایت الزامی است"
+    },
+    "toastMessages": {
+        "createSuccess": "درب با موفقیت ایجاد شد",
+        "updateSuccess": "درب با موفقیت ویرایش شد",
+        "deleteSuccess": "درب با موفقیت حذف شد"
+    },
+    "createTitle": "ایجاد درب جدید",
+    "editTitle": "ویرایش درب"
+}

@@ -1,0 +1,38 @@
+# .gitlab-ci.yml
+stages:
+  - deploy
+
+deploy_to_server:
+  stage: deploy
+  image: alpine:latest           # Lightweight image with only what we need
+  before_script:
+    # Install OpenSSH client
+    - ALPINE_VER=$(cat /etc/alpine-release | cut -d. -f1-2)
+    - echo "https://linux-mirror.liara.ir/repository/alpine/v${ALPINE_VER}/main" > /etc/apk/repositories
+    - echo "https://linux-mirror.liara.ir/repository/alpine/v${ALPINE_VER}/community" >> /etc/apk/repositories
+    - apk add --no-cache openssh-client
+    # Start the SSH agent and add the private key from GitLab variables
+    - mkdir -p ~/.ssh && chmod 700 ~/.ssh
+    - echo "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
+    # Create the SSH directory and add the server's host key to avoid prompts
+    - chmod 600 ~/.ssh/deploy_key
+    - ssh-keyscan -H $SSH_HOST >> ~/.ssh/known_hosts
+  script:
+    # Connect to the deploy server and run the deployment sequence
+    - |
+      ssh -i ~/.ssh/deploy_key $SSH_USER@$SSH_HOST "
+        if [ ! -d ~/dejban_frontend_new/.git ]; then
+          echo \"Cloning repository for the first time...\" &&
+          git clone $GIT_HTTP_CLONE_URL ~/dejban_frontend_new
+        fi &&
+        cd ~/dejban_frontend_new &&
+        git checkout master &&
+        git pull origin master &&
+        npm ci &&
+        NODE_OPTIONS=\"--max-old-space-size=4096\" npm run build &&
+        pm2 stop dejban_frontend_new &&
+        pm2 delete dejban_frontend_new &&
+        pm2 start npm --name dejban_frontend_new -- start
+      "
+  only:
+    - master   # Triggers on a push to master (commit or merge)

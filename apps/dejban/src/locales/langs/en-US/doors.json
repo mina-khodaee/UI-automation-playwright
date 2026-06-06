@@ -1,0 +1,33 @@
+{
+    "breadcrumb": {
+        "title": "Doors Management"
+    },
+    "buttons": {
+        "newDoor": "New Door"
+    },
+    "columns": {
+        "doorName": "Door Name",
+        "site": "Site",
+        "unit": "Unit"
+    },
+    "fields": {
+        "doorName": "Door Name",
+        "site": "Site",
+        "unit": "Unit"
+    },
+    "placeholders": {
+        "selectSite": "Select site...",
+        "selectUnit": "Select unit..."
+    },
+    "formValidation": {
+        "doorNameRequired": "Door name is required",
+        "siteRequired": "Site selection is required"
+    },
+    "toastMessages": {
+        "createSuccess": "Door created successfully",
+        "updateSuccess": "Door updated successfully",
+        "deleteSuccess": "Door deleted successfully"
+    },
+    "createTitle": "Create New Door",
+    "editTitle": "Edit Door"
+}

@@ -1,0 +1,67 @@
+{
+  "commonTexts": {
+    "signInText": "ورود به حساب کاربری",
+    "signInWelcomeText": "سلام خوش آمدید",
+    "signingIn": "در حال ورود...",
+    "forgotPassword": "فراموشی رمز عبور؟",
+    "requestError": "خطا در ارسال درخواست!",
+    "deleteConfirm": "آیا مطمئن هستید که می‌خواهید حذف کنید؟",
+    "deleteItemsConfirm": "آیا مطمئن هستید که می‌خواهید {{count}} مورد را حذف کنید؟",
+    "selected": "مورد انتخاب شده",
+    "noData": "اطلاعاتی یافت نشد!",
+    "notFound": "یافت نشد",
+    "noResultFound": "نتیجه‌ای یافت نشد برای",
+    "tryCheckingTypos": "لطفا کلمه صحیح وارد نمایید.",
+    "enterKeyWord": "لطفا کلمه‌ی مورد نظر خود را وارد کنید.",
+    "notFoundPage": "صفحه مورد نظر یافت نشد!",
+    "notFoundText": "صفحه مورد نظر یافت نشد! شاید شما آدرس را اشتباه وارد کرده‌اید؟ لطفا بررسی کنید.",
+    "enterYourAccount": "وارد حساب کاربری خود شوید"
+  },
+  "button": {
+    "create": "ایجاد",
+    "edit": "ویرایش",
+    "delete": "حذف",
+    "update": "ثبت تغییرات",
+    "signIn": "ورود",
+    "print": "پرینت",
+    "deleteLoading": "درحال حذف...",
+    "isLoading": "درحال بارگذاری...",
+    "cancel": "انصراف",
+    "back": "بازگشت",
+    "settings": "تنظیمات",
+    "close": "بستن",
+    "ok": "تایید",
+    "save": "ذخیره",
+    "details": "جزئیات",
+    "more": "بیشتر",
+    "quickEdit": "ویرایش سریع",
+    "view": "نمایش",
+    "goToHome": "بازگشت به صفحه اصلی",
+    "copy": "کپی",
+    "sending": "درحال ارسال ..."
+  },
+  "formsInputs": {
+    "username": "نام کاربری",
+    "password": "رمز عبور",
+    "createdDateTime": "تاریخ ثبت",
+    "lastUpdatedDateTime": "تاریخ آخرین به‌روزرسانی"
+  },
+  "formValidationErrors": {
+    "username": {
+      "required": "نام کاربری الزامی است!"
+    },
+    "password": {
+      "required": "رمز عبور الزامی است!"
+    },
+    "required": "این فیلد الزامی است!"
+  },
+  "placeholders": {
+    "search": "جستجو ..."
+  },
+  "labels": {
+    "row": "ردیف",
+    "action": "عملیات",
+    "yes": "بله",
+    "no": "خیر"
+  }
+}

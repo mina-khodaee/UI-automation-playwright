@@ -1,0 +1,40 @@
+{
+  "breadcrumb": {
+    "claims": "Claims Management"
+  },
+  "title": {
+    "insertClaim": "Create Claim",
+    "updateClaim": "Edit Claim"
+  },
+  "buttons": {
+    "newClaim": "New Claim"
+  },
+  "formsInputs": {
+    "value": "Value",
+    "displayValue": "Display Value",
+    "claimType": "Claim Type",
+    "description": "Description"
+  },
+  "columns": {
+    "value": "Value",
+    "displayValue": "Display Value",
+    "claimType": "Claim Type",
+    "description": "Description"
+  },
+  "formValidationErrors": {
+    "value": {
+      "required": "Value is required"
+    },
+    "displayValue": {
+      "required": "Display value is required"
+    },
+    "claimTypeId": {
+      "required": "Claim type is required"
+    }
+  },
+  "toastMessages": {
+    "create": "Claim created successfully",
+    "update": "Claim updated successfully",
+    "delete": "Claim deleted successfully"
+  }
+}

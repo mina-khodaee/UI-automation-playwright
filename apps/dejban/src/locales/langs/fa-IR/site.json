@@ -1,0 +1,41 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "sites": "مراکز",
+    "newSite": "مرکز جدید",
+    "editSite": "ویرایش مرکز"
+  },
+  "formsInputs": {
+    "name": "نام مرکز",
+    "parentSiteId": "مرکز والد",
+    "description": "توضیحات"
+  },
+  "buttons": {
+    "newSite": "افزودن مرکز",
+    "create": "ایجاد",
+    "update": "به‌روزرسانی",
+    "cancel": "انصراف",
+    "creating": "در حال ایجاد...",
+    "updating": "در حال به‌روزرسانی..."
+  },
+  "columns": {
+    "name": "نام مرکز",
+    "parentSiteId": "مرکز والد",
+    "description": "توضیحات",
+    "createdAt": "تاریخ ایجاد"
+  },
+  "toastMessages": {
+    "delete": "مرکز با موفقیت حذف شد",
+    "update": "مرکز با موفقیت به‌روزرسانی شد",
+    "create": "مرکز با موفقیت ایجاد شد"
+  },
+  "title": {
+    "insertSite": "ایجاد مرکز",
+    "updateSite": "ویرایش مرکز"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "وارد کردن نام مرکز الزامی است"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "deviceManagement": {
+    "title": " مدیریت دستگاه‌ها",
+    "device": {
+      "title": "دستگاه‌ها"
+    },
+    "deviceType": {
+      "title": "انواع دستگاه‌ها"
+    },
+    "region": {
+      "title": "بخش‌ها"
+    },
+    "trafficReport": {
+      "title": "گزارشات تردد "
+    }
+  },
+  "userManagement": {
+    "title": "مدیریت کاربران",
+    "accessGroup": {
+      "title": "گروه‌های دسترسی"
+    },
+    "deviceUser": {
+      "title": "کاربران دستگاه"
+    }
+  },
+  "deviceScheduleManagement": {
+    "title": "مدیریت زمانبندی دستگاه‌ها",
+    "calendar": {
+      "title": "تقویم‌ها"
+    }
+  },
+  "apiKeyManagement": {
+    "title": "مدیریت کلیدهای API",
+    "APIs": {
+      "title": "کلیدهای API"
+    }
+  },
+  "sidebar": {
+    "modules": "ماژول‌ها",
+    "accountManagement": "مدیریت حساب کاربری",
+    "dashboard": "داشبورد",
+    "logout": "خروج",
+    "settings": "تنظیمات",
+    "resetAll": "بازنشانی همه",
+    "close": "بستن",
+    "darkMode": "حالت تاریک",
+    "exit": "خروج",
+    "fullscreen": "تمام صفحه",
+    "presets": "پیش‌فرض‌ها",
+    "contrast": "کنتراست",
+    "RTL": "راست به چپ",
+    "nav": "منو",
+    "dashboardOnly": "فقط داشبورد",
+    "compact": "کوچک کردن",
+    "compactTooltip": "فقط داشبورد و تنها در وضوح‌های بالا (بیش از ۱۶۰۰ پیکسل) در دسترس است.",
+    "layout": "چیدمان",
+    "color": "رنگ",
+    "integrate": "یکپارچه",
+    "apparent": "نمایان",
+    "theme": "تم",
+    "font": "فونت",
+    "family": "خانواده فونت",
+    "size": "اندازه"
+  }
+}

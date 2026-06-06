@@ -1,0 +1,41 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "newUnits": "واحد جدید",
+    "updateUnits": "به‌روزرسانی واحد",
+    "units": "واحد های سازمانی"
+  },
+  "formsInputs": {
+    "description": "توضیحات",
+    "name": "نام",
+    "selectSites": "انتخاب مرکز",
+    "sites": "مراکز",
+    "floorNumber": "شماره طبقه",
+    "callExtension": "شماره تماس داخلی"
+  },
+  "buttons": {
+    "newUnits": "افزودن واحد جدید"
+  },
+  "columns": {
+    "unitsName": "نام واحد",
+    "description": "توضیحات",
+    "siteIds": "کد مرکز"
+  },
+  "toastMessages": {
+    "deleteUnits": "حذف واحد با موفقیت انجام شد",
+    "update": "به‌روزرسانی واحد با موفقیت انجام شد",
+    "create": "واحد با موفقیت ایجاد شد"
+  },
+  "title": {
+    "insertUnits": "ایجاد واحد",
+    "updateUnits": "ویرایش واحد"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "وارد کردن نام الزامی است"
+    },
+    "sites": {
+      "required": "انتخاب حداقل یک مرکز الزامی است"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "sidebar": {
+    "modules": "ماژول‌ها",
+    "accountManagement": "مدیریت حساب کاربری",
+    "dashboard": "داشبورد",
+    "logout": "خروج",
+    "settings": "تنظیمات",
+    "resetAll": "بازنشانی همه",
+    "close": "بستن",
+    "darkMode": "حالت تیره",
+    "exit": "خروج",
+    "fullscreen": "تمام صفحه",
+    "presets": "تم",
+    "contrast": "کنتراست",
+    "RTL": "راست به چپ",
+    "nav": "منو",
+    "dashboardOnly": "فقط داشبورد",
+    "compact": "فشرده",
+    "compactTooltip": "فقط داشبورد و تنها در وضوح‌های بالا (بیش از ۱۶۰۰ پیکسل) در دسترس است.",
+    "layout": "چینش",
+    "color": "رنگ",
+    "integrate": "روشن",
+    "apparent": "تیره",
+    "font": "فونت",
+    "family": "نوع متن",
+    "size": "اندازه متن"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "newStaffs": "New Staff",
+    "updateStaffs": "Update Staff",
+    "staffs": "Staff"
+  },
+  "formsInputs": {
+    "personnelCode": "Personnel Code",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "nationalCode": "National ID",
+    "gender": "Gender",
+    "contractStartDate": "Contract Start Date",
+    "contractEndDate": "Contract End Date",
+    "employmentTypeId": "Employment Type",
+    "employmentStatusId": "Employment Status",
+    "positionId": "Position",
+    "siteId": "Site",
+    "contractorsId": "contractors",
+    "contractId" : "contract",
+    "unitId": "Unit",
+    "dateOfBirth": "Date of Birth",
+    "fatherName": "Father's Name",
+    "phoneNumber": "Phone Number",
+    "birthCertificateCode": "Birth Certificate Number",
+    "birthCertificateIssuePlace": "Birth Certificate Issue Place",
+    "birthPlace": "Place of Birth"
+  },
+  "buttons": {
+    "newStaffs": "Add New Staff"
+  },
+  "tabs": {
+    "staff": "Staff",
+    "personal": "Personal",
+    "organization": "Organizational",
+    "vehicle" : "vehicle"
+  },
+  "columns": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "personnelCode": "Personnel Code",
+    "contractStartDate": "Employment Start",
+    "contractEndDate": "Employment End",
+    "siteName": "Site",
+    "unitName": "Unit",
+    "positionName": "Position",
+    "employmentTypeName": "Employment Type",
+    "employmentStatusName": "Employment Status"
+  },
+  "toastMessages": {
+    "deleteStaffs": "Staff deleted successfully",
+    "update": "Staff updated successfully",
+    "create": "Staff created successfully"
+  },
+  "title": {
+    "insertStaffs": "Create Staff",
+    "updateStaffs": "Edit Staff"
+  },
+  "formValidationErrors": {
+    "personnelCode": "Personnel Code field is required",
+    "firstName": "First Name field is required",
+    "lastName": "Last Name field is required",
+    "nationalCode": "National ID field is required",
+    "gender": "Gender field is required",
+    "contractStartDate": "Contract Start Date field is required",
+    "contractEndDate": "Contract End Date field is required",
+    "employmentTypeId": "Employment Type field is required",
+    "employmentStatusId": "Employment Status field is required",
+    "positionId": "Position field is required",
+    "siteId": "Site field is required",
+    "contractorsId": "contractors field is required",
+    "contractId" : "contract field is required",
+    "unitId": "Unit field is required",
+    "dateOfBirth": "Date of Birth field is required",
+    "fatherName": "Father's Name field is required",
+    "phoneNumber": "Phone Number field is required",
+    "birthCertificateCode": "Birth Certificate Number field is required",
+    "birthCertificateIssuePlace": "Birth Certificate Issue Place field is required",
+    "birthPlace": "Place of Birth field is required"
+  }
+}

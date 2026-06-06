@@ -1,0 +1,54 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "patrolShifts": "شیفت‌های گشت",
+    "newPatrolShift": "شیفت گشت جدید"
+  },
+  "formsInputs": {
+    "name": "نام شیفت",
+    "siteId": "مرکز",
+    "calendarId": "تقویم کاری",
+    "validFromDate": "تاریخ شروع اعتبار",
+    "validToDate": "تاریخ پایان اعتبار",
+    "isCycleShift": "شیفت چرخشی",
+    "description": "توضیحات"
+  },
+  "buttons": {
+    "newPatrolShift": "افزودن شیفت گشت"
+  },
+  "columns": {
+    "name": "نام شیفت",
+    "siteId": "مرکز",
+    "calendarId": "تقویم",
+    "validFromDate": "از تاریخ",
+    "validToDate": "تا تاریخ",
+    "isCycleShift": "چرخشی",
+    "description": "توضیحات"
+  },
+  "toastMessages": {
+    "delete": "شیفت گشت با موفقیت حذف شد",
+    "update": "شیفت گشت با موفقیت به‌روزرسانی شد",
+    "create": "شیفت گشت با موفقیت ایجاد شد"
+  },
+  "title": {
+    "insertPatrolShift": "ایجاد شیفت گشت",
+    "updatePatrolShift": "ویرایش شیفت گشت"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "وارد کردن نام شیفت الزامی است"
+    },
+    "siteId": {
+      "required": "انتخاب مرکز الزامی است"
+    },
+    "calendarId": {
+      "required": "انتخاب تقویم کاری الزامی است"
+    },
+    "validFromDate": {
+      "required": "تاریخ شروع الزامی است"
+    },
+    "validToDate": {
+      "required": "تاریخ پایان الزامی است"
+    }
+  }
+}

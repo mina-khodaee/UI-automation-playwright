@@ -1,0 +1,37 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "newVisitorCards": "کارت جدید",
+    "blockUsers": "کارت مهمان ها"
+  },
+  "formsInputs": {
+    "description": "توضیحات",
+    "cardNumber": "شماره کارت"
+  },
+  "buttons": {
+    "newVisitorCards": "افزودن کارت جدید"
+  },
+  "columns": {
+    "cardNumber": "شماره کارت",
+    "isAssigned": "وضعیت کارت",
+    "visitor": "گیرنده",
+    "description": "توضیحات"
+  },
+  "toastMessages": {
+    "deleteVisitorCards": "حذف کارت با موفقیت انجام شد",
+    "update": "به‌روزرسانی کارت با موفقیت انجام شد",
+    "create": "کارت با موفقیت ایجاد شد"
+  },
+  "title": {
+    "insertVisitorCards": "ایجاد کارت جدید",
+    "updateVisitorCards": "ویرایش کارت"
+  },
+  "formValidationErrors": {
+    "cardNumber": {
+      "required": "وارد کردن شماره کارت الزامی است"
+    },
+    "description": {
+      "required": "وارد کردن توضیحات الزامی است"
+    }
+  }
+}

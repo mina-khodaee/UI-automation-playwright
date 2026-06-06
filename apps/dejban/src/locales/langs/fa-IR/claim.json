@@ -1,0 +1,40 @@
+{
+  "breadcrumb": {
+    "claims": "لیست دسترسی‌ها"
+  },
+  "title": {
+    "insertClaim": "ایجاد دسترسی",
+    "updateClaim": "ویرایش دسترسی"
+  },
+  "buttons": {
+    "newClaim": "دسترسی جدید"
+  },
+  "formsInputs": {
+    "value": "مقدار",
+    "displayValue": "نام نمایشی",
+    "claimType": "نوع دسترسی",
+    "description": "توضیحات"
+  },
+  "columns": {
+    "value": "مقدار",
+    "displayValue": "نام نمایشی",
+    "claimType": "نوع دسترسی",
+    "description": "توضیحات"
+  },
+  "formValidationErrors": {
+    "value": {
+      "required": "مقدار اجباری است"
+    },
+    "displayValue": {
+      "required": "نام نمایشی اجباری است"
+    },
+    "claimTypeId": {
+      "required": "نوع دسترسی اجباری است"
+    }
+  },
+  "toastMessages": {
+    "create": "دسترسی با موفقیت ایجاد شد",
+    "update": "دسترسی با موفقیت ویرایش شد",
+    "delete": "دسترسی با موفقیت حذف شد"
+  }
+}

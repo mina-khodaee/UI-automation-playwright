@@ -1,0 +1,38 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "newDegrees": "New Degree",
+    "updateDegrees": "Update Degree",
+    "degrees": "Academic Degrees"
+  },
+  "formsInputs": {
+    "description": "Description",
+    "name": "Degree Name",
+    "code": "Degree Code"
+  },
+  "buttons": {
+    "newDegrees": "Add New Degree"
+  },
+  "columns": {
+    "degreesName": "Degree Name",
+    "description": "Description",
+    "code": "Degree Code"
+  },
+  "toastMessages": {
+    "deleteDegrees": "Degree deleted successfully",
+    "update": "Degree updated successfully",
+    "create": "Degree created successfully"
+  },
+  "title": {
+    "insertDegrees": "Create Degree",
+    "updateDegrees": "Edit Degree"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "Degree name is required"
+    },
+    "code": {
+      "required": "Degree code is required"
+    }
+  }
+}

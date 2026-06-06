@@ -1,0 +1,63 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "ammunition": "مهمات",
+    "newAmmunition": "مهمات جدید",
+    "editAmmunition": "ویرایش مهمات"
+  },
+  "formsInputs": {
+    "name": "نام مهمات",
+    "type": "نوع",
+    "quantity": "تعداد"
+  },
+  "buttons": {
+    "newAmmunition": "افزودن مهمات",
+    "create": "ایجاد",
+    "update": "به‌روزرسانی",
+    "cancel": "انصراف",
+    "creating": "در حال ایجاد...",
+    "updating": "در حال به‌روزرسانی..."
+  },
+  "columns": {
+    "name": "نام مهمات",
+    "type": "نوع",
+    "quantity": "تعداد",
+    "createdAt": "تاریخ ثبت"
+  },
+  "toastMessages": {
+    "delete": "مهمات با موفقیت حذف شد",
+    "update": "مهمات با موفقیت به‌روزرسانی شد",
+    "create": "مهمات با موفقیت ایجاد شد"
+  },
+  "title": {
+    "insertAmmunition": "ایجاد مهمات",
+    "updateAmmunition": "ویرایش مهمات"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "وارد کردن نام مهمات الزامی است",
+      "duplicate": "این نام مهمات قبلاً ثبت شده است"
+    },
+    "type": {
+      "required": "انتخاب نوع مهمات الزامی است"
+    },
+    "quantity": {
+      "required": "وارد کردن تعداد الزامی است",
+      "min": "تعداد باید بزرگتر یا مساوی 0 باشد"
+    }
+  },
+  "typeOptions": {
+    "pistol": "تپانچه",
+    "rifle": "تفنگ",
+    "shotgun": "شاتگان",
+    "sniper": "تک تیرانداز",
+    "machinegun": "مسلسل",
+    "grenade": "نارنجک"
+  },
+  "stockStatus": {
+    "outOfStock": "ناموجود",
+    "lowStock": "کم",
+    "inStock": "موجود",
+    "lowStockWarning": "تعداد کم است، به زودی سفارش دهید"
+  }
+}

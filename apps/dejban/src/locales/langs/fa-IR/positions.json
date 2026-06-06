@@ -1,0 +1,38 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "newPosition": "سمت سازمانی جدید",
+    "updatePosition": "به‌روزرسانی سمت سازمانی",
+    "positions": "سمت سازمانی"
+  },
+  "formsInputs": {
+    "description": "توضیحات",
+    "name": "نام",
+    "selectSites": "انتخاب مرکز",
+    "sites": "مراکز"
+  },
+  "buttons": {
+    "newPosition": "افزودن سمت جدید"
+  },
+  "columns": {
+    "positionName": "نام سمت",
+    "description": "توضیحات"
+  },
+  "toastMessages": {
+    "deletePosition": "حذف سمت با موفقیت انجام شد",
+    "update": "به‌روزرسانی سمت با موفقیت انجام شد",
+    "create": "سمت با موفقیت ایجاد شد"
+  },
+  "title": {
+    "insertPosition": "ایجاد سمت",
+    "updatePosition": "ویرایش سمت"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "وارد کردن نام الزامی است"
+    },
+    "sites": {
+      "required": "انتخاب حداقل یک مرکز الزامی است"
+    }
+  }
+}

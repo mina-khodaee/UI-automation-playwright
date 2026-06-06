@@ -1,0 +1,62 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "newStaffAccess": "New Personnel Access",
+    "updateStaffAccess": "Update Personnel Access",
+    "StaffAccess": "Personnel Access"
+  },
+  "formsInputs": {
+    "searchQuery": "Search by name, last name, national code, card code",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "nationalCode": "National Code",
+    "unitId": "Organizational Unit",
+    "accessGroupId": "Entry Door",
+    "exitDoor": "Exit Door",
+    "visitDate": "Start Date",
+    "visitStartTime": "Start Time",
+    "visitEndDate": "End Date",
+    "visitEndTime": "End Time"
+  },
+  "buttons": {
+    "newStaffAccess": "Add New Access",
+    "accessList": "Access List",
+    "submitAccess": "Submit Access",
+    "cancel": "Cancel",
+    "update" : "Update"
+  },
+  "columns": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "nationalCode": "National Code",
+    "unitName": "Organizational Unit",
+    "accessGroupName": "Entry Door",
+    "exitDoor": "Exit Door",
+    "visitDate": "Start Date",
+    "visitStartTime": "Start Time",
+    "visitEndDate": "End Date",
+    "visitEndTime": "End Time"
+  },
+  "toastMessages": {
+    "deleteStaffAccess": "Access deleted successfully",
+    "create": "Access created successfully",
+    "update": "Access updated successfully"
+  },
+  "title": {
+    "insertStaffAccess": "Personnel Access Information",
+    "updateStaffAccess": "Edit Personnel Access"
+  },
+  "formValidationErrors": {
+    "searchQuery": "Search field is required",
+    "firstName": "First name field is required",
+    "lastName": "Last name field is required",
+    "nationalCode": "National code field is required",
+    "unitId": "Organizational unit field is required",
+    "accessGroupId": "Entry door field is required",
+    "exitDoor": "Exit door field is required",
+    "visitDate": "Start date field is required",
+    "visitStartTime": "Start time field is required",
+    "visitEndDate": "End date field is required",
+    "visitEndTime": "End time field is required"
+  }
+}

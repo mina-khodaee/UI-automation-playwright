@@ -1,0 +1,220 @@
+{
+  "deviceManagement": {
+    "title": "Device Management",
+    "device": {
+      "title": "Devices"
+    },
+    "deviceType": {
+      "title": "Device Types"
+    },
+    "region": {
+      "title": "Regions"
+    },
+    "trafficReport": {
+      "title": "Traffic Reports"
+    }
+  },
+  "userManagement": {
+    "title": "User Management",
+    "accessGroup": {
+      "title": "Access Groups"
+    },
+    "deviceUser": {
+      "title": "Device Users"
+    }
+  },
+
+  "staffAccessReport": {
+    "title": "Staff Access Report"
+  },
+  "vehicleAccessReport": {
+    "title": "Vehicle Access Report"
+  },
+  "guestReport": {
+    "title": "Guest Report"
+  },
+
+  "deviceScheduleManagement": {
+    "title": "Device Schedule Management",
+    "calendar": {
+      "title": "Calendars"
+    }
+  },
+  "apiKeyManagement": {
+    "title": "API Key Management",
+    "APIs": {
+      "title": "API Keys"
+    }
+  },
+  "positions": {
+    "title": "positions"
+  },
+  "VisitorAndAppointment": {
+    "title": "Visitor Access and Appointment"
+  },
+
+  "contractors": {
+    "title": "Contractors"
+  },
+
+  "guestVisitor": {
+    "title": "Guest Visitor"
+  },
+  "guestVisitorList": {
+    "title": "Guest Visitor List"
+  },
+  "guestReserve": {
+    "title": "Guest Reserve"
+  },
+  "visitorCards": {
+    "title": "Visitor Cards"
+  },
+  "vehicleAccess": {
+    "title": "Vehicle Access"
+  },
+  "visitorBlockList": {
+    "title": "Banned Visitor"
+  },
+  "visitorBlackListReasons": {
+    "title": "Visitor Ban Reasons"
+  },
+  "personnelBlackList": {
+    "title": "Banned Personnel"
+  },
+  "personnelBlackListReasons": {
+    "title": "Personnel Ban Reasons"
+  },
+  "units": {
+    "title": "units"
+  },
+  "patrolArea": {
+    "title": "Guard Station"
+  },
+  "patrolShift": {
+    "title": "Patrol Shift"
+  },
+  "assignEquipments": {
+    "title": "Assign Employments"
+  },
+  "patrolShiftWorkPeriod": {
+    "title": "Patrol Shift Work Period"
+  },
+  "shiftSupervisorAndDeputy": {
+    "title": "Shift Supervisor And Deputy"
+  },
+  "employmentType": {
+    "title": "Employment Type"
+  },
+  "occupationType": {
+    "title": "Occupation Type"
+  },
+  "staff": {
+    "title": "Staff"
+  },
+  "organizationChart": {
+    "title": "Organization Chart"
+  },
+  "organizationTree": {
+    "title": "Organization Tree"
+  },
+  "manageCartable": {
+    "title": "Approval Dashboard"
+  },
+  "staffAccess": {
+    "title": "Staff Access"
+  },
+  "staffInfo": {
+    "title": "Staff Info"
+  },
+  "major": {
+    "title": "Major"
+  },
+  "degree": {
+    "title": "Degree"
+  },
+  "location": {
+    "title": "Location Management"
+  },
+  "roleManagement": {
+    "title": "Role Management"
+  },
+  "accessPermission": {
+    "title": "Access Permissions"
+  },
+  "claimTypes": {
+    "title": "Claim Types"
+  },
+  "claimList": {
+    "title": "Claim List"
+  },
+  "sites": {
+    "title": "Sites"
+  },
+  "securityEquipmentTypes": {
+    "title": "Security Equipment Types"
+  },
+  "securityEquipments": {
+    "title": "security Equipment"
+  },
+  "guardPlaque": {
+    "title": "Guard Plaque"
+  },
+  "patrolGroups": {
+    "title": "Patrol Groups"
+  },
+  "armoryCategories": {
+    "title": "Armory Categories"
+  },
+  "ArmoryLocations": {
+    "title": "Armory Locations"
+  },
+  "armoryInventory": {
+    "title": "Armory Inventory"
+  },
+  "armoryEquipments": {
+    "title": "Armory Equipments"
+  },
+  "cashInTransit": {
+    "title": "Cash In Transit"
+  },
+  "doors": {
+    "title": "Doors Management"
+  },
+  "sidebar": {
+    "modules": "Modules",
+    "accountManagement": "Account Management",
+    "dashboard": "Dashboard",
+    "logout": "Log out",
+    "settings": "Settings",
+    "resetAll": "Reset All",
+    "close": "Close",
+    "darkMode": "Dark Mode",
+    "exit": "Exit",
+    "fullscreen": "Full Screen",
+    "presets": "Presets",
+    "contrast": "Contrast",
+    "RTL": "Right to left",
+    "nav": "Nav",
+    "dashboardOnly": "Dashboard Only",
+    "compact": "Compact",
+    "compactTooltip": "Dashboard only and available at large resolutions > 1600px (xl)",
+    "layout": "Layout",
+    "color": "Color",
+    "integrate": "Integrate",
+    "apparent": "Apparent",
+    "font": "Font",
+    "family": "Family",
+    "size": "Size"
+  },
+  "armory": {
+    "armory": "Armory",
+    "sites": "Sites",
+    "armoryResponsible": "Armory Responsible",
+    "weaponInfo": "Weapon Info",
+    "magazineInfo": "Magazine Info",
+    "ammunitionInfo": "Ammunition Info",
+    "equipmentInfo": "Equipment Info"
+  }
+
+
+}

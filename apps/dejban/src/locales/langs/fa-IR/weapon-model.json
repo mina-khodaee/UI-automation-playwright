@@ -1,0 +1,107 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "weaponModels": "مدل‌های سلاح",
+    "newWeaponModel": "مدل سلاح جدید",
+    "editWeaponModel": "ویرایش مدل سلاح"
+  },
+  "formsInputs": {
+    "manufacturer": "سازنده",
+    "modelName": "نام مدل",
+    "category": "دسته‌بندی",
+    "caliber": "کالیبر",
+    "action": "نظام عملیاتی",
+    "magazineModel": "مدل خشاب",
+    "weightEmptyGrams": "وزن خالی (گرم)",
+    "overallLengthMm": "طول کلی (میلی‌متر)",
+    "barrelLengthMm": "طول لوله (میلی‌متر)",
+    "rifling": "نوع خان"
+  },
+  "buttons": {
+    "newWeaponModel": "افزودن مدل سلاح",
+    "create": "ایجاد",
+    "update": "به‌روزرسانی",
+    "cancel": "انصراف",
+    "creating": "در حال ایجاد...",
+    "updating": "در حال به‌روزرسانی..."
+  },
+  "columns": {
+    "manufacturer": "سازنده",
+    "modelName": "نام مدل",
+    "category": "دسته‌بندی",
+    "caliber": "کالیبر",
+    "action": "نظام عملیاتی",
+    "magazineModel": "مدل خشاب",
+    "weightEmptyGrams": "وزن خالی",
+    "overallLengthMm": "طول کلی",
+    "barrelLengthMm": "طول لوله",
+    "rifling": "نوع خان",
+    "createdAt": "تاریخ ایجاد"
+  },
+  "toastMessages": {
+    "delete": "مدل سلاح با موفقیت حذف شد",
+    "update": "مدل سلاح با موفقیت به‌روزرسانی شد",
+    "create": "مدل سلاح با موفقیت ایجاد شد"
+  },
+  "title": {
+    "insertWeaponModel": "ایجاد مدل سلاح",
+    "updateWeaponModel": "ویرایش مدل سلاح"
+  },
+  "formValidationErrors": {
+    "manufacturer": {
+      "required": "وارد کردن سازنده الزامی است"
+    },
+    "modelName": {
+      "required": "وارد کردن نام مدل الزامی است"
+    },
+    "category": {
+      "required": "انتخاب دسته‌بندی الزامی است"
+    },
+    "caliber": {
+      "required": "وارد کردن کالیبر الزامی است"
+    },
+    "action": {
+      "required": "انتخاب نظام عملیاتی الزامی است"
+    },
+    "weightEmptyGrams": {
+      "invalid": "وزن باید عدد مثبت باشد"
+    },
+    "overallLengthMm": {
+      "invalid": "طول باید عدد مثبت باشد"
+    },
+    "barrelLengthMm": {
+      "invalid": "طول لوله باید عدد مثبت باشد"
+    }
+  },
+  "categoryOptions": {
+    "pistol": "تپانچه",
+    "rifle": "تفنگ",
+    "shotgun": "شاتگان",
+    "sniper": "تک تیرانداز",
+    "machinegun": "مسلسل",
+    "subMachinegun": "تپانچه مسلسل"
+  },
+  "actionOptions": {
+    "semiAuto": "نیمه اتوماتیک",
+    "auto": "تمام اتوماتیک",
+    "bolt": "پیچی",
+    "lever": "اهرمی",
+    "pump": "پمپی",
+    "break": "شکسته"
+  },
+  "riflingOptions": {
+    "polygonal": "چندضلعی",
+    "conventional": "معمولی",
+    "button": "دکمه‌ای",
+    "cut": "برشی"
+  },
+  "magazineOptions": {
+    "none": "ندارد",
+    "stanag": "STANAG",
+    "ak": "AK",
+    "glock": "Glock",
+    "beretta": "Beretta",
+    "m4": "M4/M16",
+    "other": "سایر"
+  }
+}

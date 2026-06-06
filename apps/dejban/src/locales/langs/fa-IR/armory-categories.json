@@ -1,0 +1,36 @@
+{
+    "breadcrumb": {
+        "title": "دسته‌بندی تجهیزات"
+    },
+    "buttons": {
+        "newCategory": "دسته‌بندی جدید"
+    },
+    "columns": {
+        "name": "نام دسته‌بندی",
+        "code": "کد دسته‌بندی",
+        "hasSerialNumber": "دارای شماره سریال"
+    },
+    "fields": {
+        "name": "نام دسته‌بندی",
+        "code": "کد دسته‌بندی",
+        "status": "وضعیت",
+        "hasSerialNumber": "این دسته دارای شماره سریال منحصر به فرد است",
+        "description": "توضیحات"
+    },
+    "status": {
+        "active": "فعال",
+        "inactive": "غیرفعال"
+    },
+    "yes": "بله",
+    "no": "خیر",
+    "formValidation": {
+        "nameRequired": "نام دسته‌بندی الزامی است"
+    },
+    "toastMessages": {
+        "createSuccess": "دسته‌بندی با موفقیت ایجاد شد",
+        "updateSuccess": "دسته‌بندی با موفقیت ویرایش شد",
+        "deleteSuccess": "دسته‌بندی با موفقیت حذف شد"
+    },
+    "createTitle": "ایجاد دسته‌بندی جدید",
+    "editTitle": "ویرایش دسته‌بندی"
+}

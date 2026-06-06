@@ -1,0 +1,63 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "newStaffAccess": "تردد جدید پرسنل",
+    "updateStaffAccess": "به‌روزرسانی تردد پرسنل",
+    "StaffAccess": "تردد پرسنل"
+  },
+  "formsInputs": {
+    "searchQuery": "جستجوی نام پرسنل یا کدملی",
+    "firstName": "نام",
+    "lastName": "نام خانوادگی",
+    "nationalCode": "کد ملی",
+    "unitId": "واحد سازمانی",
+    "accessGroupId": "درب ورود",
+    "exitDoor": "درب خروج",
+    "visitDate": "تاریخ شروع",
+    "visitStartTime": "ساعت شروع",
+    "visitEndDate": "تاریخ پایان",
+    "visitEndTime": "ساعت پایان"
+  },
+  "buttons": {
+    "newStaffAccess": "افزودن تردد جدید",
+    "accessList": "لیست ترددها",
+    "submitAccess": "ثبت تردد",
+    "cancel": "انصراف",
+    "update" : "ویرایش"
+
+  },
+  "columns": {
+    "firstName": "نام",
+    "lastName": "نام خانوادگی",
+    "nationalCode": "کد ملی",
+    "unitName": "واحد سازمانی",
+    "accessGroupName": "درب ورود",
+    "exitDoor": "درب خروج",
+    "visitDate": "تاریخ شروع",
+    "visitStartTime": "ساعت شروع",
+    "visitEndDate": "تاریخ پایان",
+    "visitEndTime": "ساعت پایان"
+  },
+  "toastMessages": {
+    "deleteStaffAccess": "حذف تردد با موفقیت انجام شد",
+    "create": "ثبت تردد با موفقیت انجام شد",
+    "update": "به‌روزرسانی تردد با موفقیت انجام شد"
+  },
+  "title": {
+    "insertStaffAccess": "اطلاعات تردد پرسنل",
+    "updateStaffAccess": "ویرایش تردد پرسنل"
+  },
+  "formValidationErrors": {
+    "searchQuery": "فیلد جستجو اجباری می‌باشد",
+    "firstName": "فیلد نام اجباری می‌باشد",
+    "lastName": "فیلد نام خانوادگی اجباری می‌باشد",
+    "nationalCode": "فیلد کد ملی اجباری می‌باشد",
+    "unitId": "فیلد واحد سازمانی اجباری می‌باشد",
+    "accessGroupId": "فیلد درب ورود اجباری می‌باشد",
+    "exitDoor": "فیلد درب خروج اجباری می‌باشد",
+    "visitDate": "فیلد تاریخ شروع اجباری می‌باشد",
+    "visitStartTime": "فیلد ساعت شروع اجباری می‌باشد",
+    "visitEndDate": "فیلد تاریخ پایان اجباری می‌باشد",
+    "visitEndTime": "فیلد ساعت پایان اجباری می‌باشد"
+  }
+}

@@ -1,0 +1,52 @@
+{
+    "breadcrumb": {
+        "title": "مدیریت انبارهای اسلحه‌خانه"
+    },
+    "buttons": {
+        "newLocation": "انبار جدید"
+    },
+    "columns": {
+        "name": "نام انبار",
+        "code": "کد انبار",
+        "site": "مرکز مربوطه",
+        "location": "موقعیت",
+        "capacity": "ظرفیت",
+        "responsiblePerson": "مسئول",
+        "contactNumber": "شماره تماس",
+        "type": "نوع",
+        "status": "وضعیت"
+    },
+    "fields": {
+        "name": "نام انبار",
+        "code": "کد انبار",
+        "location": "موقعیت فیزیکی",
+        "capacity": "ظرفیت (تعداد)",
+        "responsiblePerson": "نام مسئول",
+        "contactNumber": "شماره تماس",
+        "type": "نوع انبار",
+        "status": "وضعیت",
+        "createdAt": "تاریخ ایجاد",
+        "description": "توضیحات"
+    },
+    "types": {
+        "weapon": "اسلحه",
+        "ammo": "مهمات",
+        "both": "ترکیبی (اسلحه و مهمات)"
+    },
+    "status": {
+        "active": "فعال",
+        "inactive": "غیرفعال"
+    },
+    "formValidation": {
+        "nameRequired": "نام انبار الزامی است",
+        "codeRequired": "کد انبار الزامی است",
+        "typeRequired": "نوع انبار الزامی است"
+    },
+    "toastMessages": {
+        "createSuccess": "انبار با موفقیت ایجاد شد",
+        "updateSuccess": "انبار با موفقیت ویرایش شد",
+        "deleteSuccess": "انبار با موفقیت حذف شد"
+    },
+    "createTitle": "ایجاد انبار جدید",
+    "editTitle": "ویرایش اطلاعات انبار"
+}

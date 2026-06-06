@@ -1,0 +1,60 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "newVisitor": "مهمان جدید",
+    "visitors": "مهمان‌ها"
+  },
+  "formsInputs": {
+    "visitorType": "نوع مهمان",
+    "passportNumber": "شماره پاسپورت",
+    "inclusiveNumber": "شماره فراگیر",
+    "nationalCode": "کد ملی",
+    "mobileNumber": "شماره تلفن همراه",
+    "firstName": "نام",
+    "lastName": "نام خانوادگی",
+    "dateOfBirth": "تاریخ تولد",
+    "gender": {
+      "label": "جنسیت",
+      "placeholder": "انتخاب کنید",
+      "male": "مرد",
+      "female": "زن"
+    },
+    "uploadAvatarHelper": "فرمت‌های مجاز: .jpeg, .jpg, .png, .gif<br /> حداکثر اندازه: 3 مگابایت",
+    "isPublic": "پروفایل عمومی"
+  },
+  "buttons": {
+    "newVisitor": "افزودن مهمان جدید",
+    "editVisitor": "ویرایش  مهمان",
+    "cancel": "انصراف"
+
+  },
+  "columns": {
+    "visitorName": "نام مهمان",
+    "nationalCode": "کد ملی",
+    "mobileNumber": "شماره تماس",
+    "visitorType": "نوع مهمان"
+  },
+  "toastMessages": {
+    "deleteGuest": "حذف مهمان با موفقیت انجام شد",
+    "update": "ویرایش مهمان با موفقیت انجام شد",
+    "create": "ثبت مهمان با موفقیت انجام شد",
+    "default": "عملیات با خطا مواجه شد"
+  },
+  "title": {
+    "addGuest": "افزودن مهمان جدید",
+    "editGuest": "ویرایش اطلاعات مهمان"
+
+  },
+  "formValidationErrors": {
+    "visitorType": "نوع مهمان الزامی است",
+    "firstName": "نام الزامی است",
+    "lastName": "نام خانوادگی الزامی است",
+    "gender": "جنسیت الزامی است",
+    "dateOfBirth": "تاریخ تولد الزامی است",
+    "mobileNumber": "شماره تلفن همراه الزامی است",
+    "nationalCode": "کدملی الزامی است",
+    "passportNumber": "شماره پاسپورت الزامی است",
+    "inclusiveNumber": "شماره فراگیر الزامی است"
+
+  }
+}

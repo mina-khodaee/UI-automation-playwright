@@ -1,0 +1,54 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "patrolShifts": "Patrol Shifts",
+    "newPatrolShift": "New Patrol Shift"
+  },
+  "formsInputs": {
+    "name": "Shift Name",
+    "siteId": "Site",
+    "calendarId": "Work Calendar",
+    "validFromDate": "Valid From Date",
+    "validToDate": "Valid To Date",
+    "isCycleShift": "Cycle Shift",
+    "description": "Description"
+  },
+  "buttons": {
+    "newPatrolShift": "Add Patrol Shift"
+  },
+  "columns": {
+    "name": "Shift Name",
+    "siteId": "Site",
+    "calendarId": "Calendar",
+    "validFromDate": "From Date",
+    "validToDate": "To Date",
+    "isCycleShift": "Cycle",
+    "description": "Description"
+  },
+  "toastMessages": {
+    "delete": "Patrol shift deleted successfully",
+    "update": "Patrol shift updated successfully",
+    "create": "Patrol shift created successfully"
+  },
+  "title": {
+    "insertPatrolShift": "Create Patrol Shift",
+    "updatePatrolShift": "Edit Patrol Shift"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "Shift name is required"
+    },
+    "siteId": {
+      "required": "Site selection is required"
+    },
+    "calendarId": {
+      "required": "Calendar selection is required"
+    },
+    "validFromDate": {
+      "required": "Start date is required"
+    },
+    "validToDate": {
+      "required": "End date is required"
+    }
+  }
+}

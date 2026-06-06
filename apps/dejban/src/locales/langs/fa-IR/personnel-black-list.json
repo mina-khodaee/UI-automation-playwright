@@ -1,0 +1,51 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "newBlockUsers": "پرسنل جدید",
+    "blockUsers": "پرسنل ممنوع الورود"
+  },
+  "formsInputs": {
+    "personnelId": "شناسه پرسنلی",
+    "reasonId": "علت ممنوعیت",
+    "startDate": "تاریخ شروع",
+    "endDate": "تاریخ پایان",
+    "description": "توضیحات"
+  },
+  "buttons": {
+    "newBlockUsers": "افزودن پرسنل ممنوع الورود"
+  },
+  "columns": {
+    "personnelId": "پرسنل",
+    "reasonId": "علت ممنوعیت",
+    "startDate": "تاریخ شروع",
+    "endDate": "تاریخ پایان",
+    "description": "توضیحات"
+  },
+  "toastMessages": {
+    "deleteBlockUsers": "حذف پرسنل با موفقیت انجام شد",
+    "update": "به‌روزرسانی پرسنل با موفقیت انجام شد",
+    "create": "پرسنل با موفقیت ایجاد شد"
+  },
+  "title": {
+    "insertBlockUsers": "ایجاد پرسنل ممنوع الورود",
+    "updateBlockUsers": "ویرایش پرسنل"
+  },
+  "formValidationErrors": {
+    "personnelId": {
+      "required": "وارد کردن شناسه پرسنلی الزامی است"
+    },
+    "reasonId": {
+      "required": "انتخاب علت ممنوعیت الزامی است"
+    },
+    "startDate": {
+      "required": "وارد کردن تاریخ شروع الزامی است"
+    },
+    "endDate": {
+      "required": "وارد کردن تاریخ پایان الزامی است"
+    },
+    "description": {
+      "required": "وارد کردن توضیحات الزامی است"
+    }
+
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "breadcrumb": {
+    "claimTypes": "Claim Types Management"
+  },
+  "title": {
+    "insertClaimType": "Create Claim Type",
+    "updateClaimType": "Edit Claim Type"
+  },
+  "buttons": {
+    "newClaimType": "New Claim Type"
+  },
+  "formsInputs": {
+    "name": "Name",
+    "description": "Description"
+  },
+  "columns": {
+    "name": "Name",
+    "description": "Description",
+    "createdAt": "Created At"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "Name is required"
+    }
+  },
+  "toastMessages": {
+    "create": "Claim type created successfully",
+    "update": "Claim type updated successfully",
+    "delete": "Claim type deleted successfully"
+  }
+}

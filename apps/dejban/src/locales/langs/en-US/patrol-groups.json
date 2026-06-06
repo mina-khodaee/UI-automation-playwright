@@ -1,0 +1,37 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "newPatrolGroups": "New Patrol Group",
+    "patrolGroups": "Patrol Groups"
+  },
+  "formsInputs": {
+    "name": "Group Name",
+    "siteId": "Site Name",
+    "description": "Description"
+  },
+  "buttons": {
+    "newPatrolGroups": "Add Patrol Group"
+  },
+  "columns": {
+    "name": "Group Name",
+    "siteId": "Site Name",
+    "description": "Description"
+  },
+  "toastMessages": {
+    "delete": "Patrol group was successfully deleted",
+    "update": "Patrol group was successfully updated",
+    "create": "Patrol group was successfully created"
+  },
+  "title": {
+    "insertPatrolGroups": "Create Patrol Group",
+    "updatePatrolGroups": "Edit Patrol Group"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "Patrol group name is required"
+    },
+    "siteId": {
+      "required": "Site name is required"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "workPeriods": "بازه‌های کاری شیفت",
+    "newWorkPeriod": "بازه کاری جدید"
+  },
+  "formsInputs": {
+    "name": "نام بازه کاری",
+    "shiftId": "شیفت",
+    "startDate": "تاریخ شروع",
+    "endDate": "تاریخ پایان",
+    "hasBreak": "دارای زمان استراحت",
+    "useCalendar": "استفاده از تقویم",
+    "description": "توضیحات"
+  },
+  "buttons": {
+    "newWorkPeriod": "افزودن بازه کاری"
+  },
+  "columns": {
+    "name": "نام بازه کاری",
+    "shiftId": "شیفت",
+    "startDate": "تاریخ شروع",
+    "endDate": "تاریخ پایان",
+    "hasBreak": "استراحت",
+    "useCalendar": "تقویم",
+    "description": "توضیحات"
+  },
+  "toastMessages": {
+    "delete": "حذف بازه کاری با موفقیت انجام شد",
+    "update": "به‌روزرسانی بازه کاری با موفقیت انجام شد",
+    "create": "بازه کاری با موفقیت ایجاد شد"
+  },
+  "title": {
+    "insertWorkPeriod": "ایجاد بازه کاری",
+    "updateWorkPeriod": "ویرایش بازه کاری"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "وارد کردن نام بازه کاری الزامی است"
+    },
+    "shiftId": {
+      "required": "انتخاب شیفت الزامی است"
+    },
+    "startDate": {
+      "required": "وارد کردن تاریخ شروع الزامی است"
+    },
+    "endDate": {
+      "required": "وارد کردن تاریخ پایان الزامی است"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "newVisitor": "New Guest",
+    "visitors": "Guests"
+  },
+  "formsInputs": {
+    "visitorType": "Visitor Type",
+    "passportNumber": "Passport Number",
+    "inclusiveNumber": "Inclusive Number",
+    "nationalCode": "National Code",
+    "mobileNumber": "Mobile Number",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "gender": {
+      "label": "gender",
+      "placeholder": "Select",
+      "male": "Male",
+      "female": "Female"
+    },
+    "dateOfBirth": "Date of Birth",
+    "uploadAvatarHelper": "Allowed .jpeg, .jpg, .png, .gif<br /> max size of 3 MB",
+    "isPublic": "Public Profile"
+  },
+  "buttons": {
+    "newVisitor": "Add New Guest"
+  },
+  "columns": {
+    "visitorName": "Visitor Name",
+    "nationalCode": "National Code",
+    "mobileNumber": "Contact Number",
+    "visitorType": "Visitor Type"
+  },
+  "toastMessages": {
+    "delete": "Guest deleted successfully",
+    "update": "Guest updated successfully",
+    "create": "Guest created successfully"
+  },
+  "title": {
+    "addGuest": "Add New Guest"
+  },
+  "formValidationErrors": {
+    "visitorType": "Visitor type field is required",
+    "firstName": "First name field is required",
+    "lastName": "Last name field is required",
+    "gender": "Gender field is required",
+    "dateOfBirth": "Date of birth field is required",
+    "mobileNumber": "Mobile number field is required",
+    "passportNumber": "Passport number field is required",
+    "inclusiveNumber": "Inclusive number field is required"
+  }
+}

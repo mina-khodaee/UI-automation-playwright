@@ -1,0 +1,75 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "newVehicleAccess": "تردد جدید خودرو",
+    "updateVehicleAccess": "به‌روزرسانی تردد خودرو",
+    "VehicleAccess": "تردد خودرو"
+  },
+  "formsInputs": {
+    "searchQuery": "جستجوی پلاک وسیله نقلیه",
+    "driverName": "نام راننده",
+    "vehicleType": "نوع خودرو",
+    "vehiclePlate": "پلاک خودرو",
+    "passengers": "سرنشین‌ها",
+    "firstName": "نام",
+    "lastName": "نام خانوادگی",
+    "nationalCode": "کد ملی",
+    "phoneNumber": "شماره تماس",
+    "gender": "جنسیت",
+    "accessGroupId": "درب ورود",
+    "exitDoor": "درب خروج",
+    "visitDate": "تاریخ شروع",
+    "visitStartTime": "ساعت شروع",
+    "visitEndDate": "تاریخ پایان",
+    "visitEndTime": "ساعت پایان",
+    "trafficMode": "نوع تردد",
+    "doorId": "نام درب",
+    "date": "تاریخ",
+    "entry": "ورود",
+    "exit": "خروج"
+  },
+  "buttons": {
+    "newVehicleAccess": "افزودن تردد جدید خودرو",
+    "accessList": "لیست ترددها",
+    "submitAccess": "ثبت تردد",
+    "cancel": "انصراف",
+    "addCompanion": "افزودن سرنشین"
+  },
+  "columns": {
+    "vehiclePlate": "پلاک خودرو",
+    "vehicleType": "نوع خودرو",
+    "driverName": "نام راننده",
+    "ownerName": "نام مالک",
+    "entryDoor": "درب ورود",
+    "entryDateTime": "تاریخ و ساعت ورود",
+    "exitDoor": "درب خروج",
+    "exitDateTime": "تاریخ و ساعت خروج",
+    "occupantsCount": "سرنشین"
+  },
+  "toastMessages": {
+    "deleteVehicleAccess": "حذف تردد خودرو با موفقیت انجام شد",
+    "create": "ثبت تردد خودرو با موفقیت انجام شد",
+    "update": "به‌روزرسانی تردد خودرو با موفقیت انجام شد"
+  },
+  "title": {
+    "insertVehicleAccess": "اطلاعات تردد خودرو",
+    "updateVehicleAccess": "ویرایش تردد خودرو"
+  },
+  "formValidationErrors": {
+    "searchQuery": "فیلد جستجو اجباری می‌باشد",
+    "driverName": "فیلد نام راننده اجباری می‌باشد",
+    "vehicleType": "فیلد نوع خودرو اجباری می‌باشد",
+    "vehiclePlate": "فیلد پلاک خودرو اجباری می‌باشد",
+    "firstName": "فیلد نام اجباری می‌باشد",
+    "lastName": "فیلد نام خانوادگی اجباری می‌باشد",
+    "nationalCode": "فیلد کد ملی اجباری می‌باشد",
+    "phoneNumber": "فیلد شماره تماس اجباری می‌باشد",
+    "gender": "فیلد جنسیت اجباری می‌باشد",
+    "accessGroupId": "فیلد درب ورود اجباری می‌باشد",
+    "exitDoor": "فیلد درب خروج اجباری می‌باشد",
+    "visitDate": "فیلد تاریخ شروع اجباری می‌باشد",
+    "visitStartTime": "فیلد ساعت شروع اجباری می‌باشد",
+    "visitEndDate": "فیلد تاریخ پایان اجباری می‌باشد",
+    "visitEndTime": "فیلد ساعت پایان اجباری می‌باشد"
+  }
+}

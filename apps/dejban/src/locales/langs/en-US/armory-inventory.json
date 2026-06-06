@@ -1,0 +1,58 @@
+{
+    "breadcrumb": {
+        "title": "Equipment Management"
+    },
+    "buttons": {
+        "newItem": "New Equipment"
+    },
+    "columns": {
+        "equipment": "Equipment Name",
+        "serialNumber": "Serial Number",
+        "status": "Status",
+        "quantity": "Quantity",
+        "manufactureYear": "Manufacture Year",
+        "site": "Site/Center",
+        "location": "Armory Location"
+    },
+    "fields": {
+        "equipment": "Select Equipment",
+        "serialNumber": "Serial Number",
+        "status": "Status",
+        "description": "Description",
+        "manufactureYear": "Manufacture Year",
+        "site": "Related Site",
+        "location": "Related Armory"
+    },
+    "placeholders": {
+        "selectEquipment": "Select equipment...",
+        "selectStatus": "Select status...",
+        "selectSite": "Select site...",
+        "selectLocation": "Select armory..."
+    },
+    "status": {
+        "new": "New",
+        "used": "Used",
+        "repair": "Under Repair",
+        "outOfService": "Out of Service",
+        "active": "Active",
+        "inactive": "Inactive"
+    },
+    "actions": {
+        "disable": "Disable",
+        "enable": "Enable"
+    },
+    "formValidation": {
+        "equipmentRequired": "Equipment selection is required",
+        "serialRequired": "Serial number is required",
+        "statusRequired": "Status selection is required"
+    },
+    "toastMessages": {
+        "createSuccess": "Equipment registered successfully",
+        "updateSuccess": "Equipment updated successfully",
+        "deleteSuccess": "Equipment deleted successfully",
+        "disableSuccess": "Equipment disabled successfully",
+        "enableSuccess": "Equipment enabled successfully"
+    },
+    "createTitle": "Register New Equipment",
+    "editTitle": "Edit Equipment"
+}

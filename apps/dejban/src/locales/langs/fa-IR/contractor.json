@@ -1,0 +1,60 @@
+{
+    "breadcrumb": {
+        "dashboard": "داشبورد",
+        "newContractor": "پیمانکار جدید",
+        "updateContractor": "به‌روزرسانی پیمانکار",
+        "contractors": "لیست پیمانکاران"
+    },
+    "formsInputs": {
+        "name": "نام",
+        "parentSiteId": "شرکت پیمانکار والد",
+        "registrationDate": "تاریخ ثبت شرکت",
+        "representativeFullName": "نماينده شماره يک شرکت",
+        "representativeMobilNo": "تلفن همراه نماينده شماره يک",
+        "representativePersonnelCode": "کد پرسنلی نماينده شماره يک شرکت",
+        "registrationNumber": "شماره ثبت شرکت",
+        "companyPhoneNumber": "شماره تلفن شرکت",
+        "companyWebsite": "آدرس سايت شرکت",
+        "companyEmail": "آدرس ايميل شرکت",
+        "ceoFullName": "نام مديرعامل شرکت",
+        "ceoMobileNo": "شماره مدیرعامل شرکت",
+        "nationalCode": "کد ملي مديرعامل",
+        "ceoEducation": "مدرک تحصیلی مدیر عامل",
+        "superviserFullName": "نام ناظر",
+        "superviserMobileNo": "شماره همراه ناظر",
+        "superviserPersonnelCode": "کد پرسنلی ناظر",
+        "description": "توضیحات",
+        "companyAddress": "آدرس شرکت",
+        "companyBackground": "آدرس شرکت"
+    },
+    "columns": {
+        "name": "نام پیمانکار",
+        "ceoFullName": "نام مدیرعامل",
+        "supervisorFullName": "نام ناظر",
+        "description": "توضیحات",
+        "createdAt": "تاریخ ایجاد"
+    },
+    "toastMessages": {
+        "delete": "حذف پیمانکار با موفقیت انجام شد",
+        "update": "به‌روزرسانی پیمانکار با موفقیت انجام شد",
+        "create": "پیمانکار با موفقیت ایجاد شد"
+    },
+    "title": {
+        "insertContractor": "ایجاد پیمانکار",
+        "updateContractor": "ویرایش پیمانکار"
+    },
+    "formValidationErrors": {
+        "name": "نام شرکت اجباری است",
+        "registrationNumber": "شماره ثبت شرکت اجباری است",
+        "parentSiteId": "شرکت پیمانکار والد اجباری است",
+        "ceoFullName": "نام مدیرعامل اجباری است",
+        "ceoMobileNo": "تلفن همراه مدیرعامل اجباری است",
+        "registrationDate": "تاریخ ثبت شرکت اجباری است",
+        "superviserFullName": "نام ناظر اجباری است",
+        "superviserMobileNo": "شماره همراه ناظر اجباری است",
+        "superviserPersonnelCode": "کد پرسنلی ناظر اجباری است",
+        "representativeFullName": "نماينده شماره یک اجباری است",
+        "representativeMobilNo": "تلفن همراه نماينده شماره یک اجباری است",
+        "representativePersonnelCode": "کد پرسنلی نماينده شماره یک اجباری است"
+    }
+}

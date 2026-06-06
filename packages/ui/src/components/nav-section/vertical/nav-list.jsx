@@ -1,0 +1,127 @@
+import { useBoolean } from 'minimal-shared/hooks';
+import { useRef, useEffect, useCallback } from 'react';
+import { isActiveLink, isExternalLink } from 'minimal-shared/utils';
+
+import { usePathname } from 'src/routes/hooks';
+
+import { NavItem } from './nav-item';
+import { navSectionClasses } from '../styles';
+import { NavUl, NavLi, NavCollapse } from '../components';
+
+// ----------------------------------------------------------------------
+
+function isPathInChildren(pathname, item) {
+  if (!pathname) return false;
+
+  if (item.path && item.path !== '#' && pathname.startsWith(item.path)) {
+    return true;
+  }
+
+  if (item.children && item.children.length) {
+    return item.children.some(child => isPathInChildren(pathname, child));
+  }
+
+  return false;
+}
+
+// ----------------------------------------------------------------------
+
+export function NavList({ data, depth, render, slotProps, checkPermissions, enabledRootRedirect }) {
+  const pathname = usePathname();
+  const navItemRef = useRef(null);
+
+  let isActive = false;
+
+  if (data.path && data.path !== '#') {
+    isActive = isActiveLink(pathname, data.path, !!data.children);
+  } else if (data.children && data.children.length) {
+    isActive = isPathInChildren(pathname, data);
+  }
+
+  const { value: open, onFalse: onClose, onToggle } = useBoolean(isActive);
+
+  useEffect(() => {
+    if (!isActive) {
+      onClose();
+    }
+  }, [pathname, isActive, onClose]);
+
+  const handleToggleMenu = useCallback(() => {
+    if (data.children) {
+      onToggle();
+    }
+  }, [data.children, onToggle]);
+
+  const renderNavItem = () => (
+    <NavItem
+      ref={navItemRef}
+      path={data.path}
+      icon={data.icon}
+      info={data.info}
+      title={data.title}
+      caption={data.caption}
+      open={open}
+      active={isActive}
+      disabled={data.disabled}
+      depth={depth}
+      render={render}
+      hasChild={!!data.children}
+      externalLink={isExternalLink(data.path)}
+      enabledRootRedirect={enabledRootRedirect}
+      slotProps={depth === 1 ? slotProps?.rootItem : slotProps?.subItem}
+      onClick={handleToggleMenu}
+    />
+  );
+
+  const renderCollapse = () =>
+    !!data.children && (
+      <NavCollapse mountOnEnter unmountOnExit depth={depth} in={open} data-group={data.title}>
+        <NavSubList
+          data={data.children}
+          render={render}
+          depth={depth}
+          slotProps={slotProps}
+          checkPermissions={checkPermissions}
+          enabledRootRedirect={enabledRootRedirect}
+        />
+      </NavCollapse>
+    );
+
+  if (data.allowedRoles && checkPermissions && checkPermissions(data.allowedRoles)) {
+    return null;
+  }
+
+  return (
+    <NavLi
+      disabled={data.disabled}
+      sx={{
+        ...(!!data.children && {
+          [`& .${navSectionClasses.li}`]: { '&:first-of-type': { mt: 'var(--nav-item-gap)' } },
+        }),
+      }}
+    >
+      {renderNavItem()}
+      {renderCollapse()}
+    </NavLi>
+  );
+}
+
+// ----------------------------------------------------------------------
+
+function NavSubList({ data, render, depth = 0, slotProps, checkPermissions, enabledRootRedirect }) {
+  return (
+    <NavUl sx={{ gap: 'var(--nav-item-gap)' }}>
+      {data.map((list) => (
+        <NavList
+          key={list.title}
+          data={list}
+          render={render}
+          depth={depth + 1}
+          slotProps={slotProps}
+          checkPermissions={checkPermissions}
+          enabledRootRedirect={enabledRootRedirect}
+        />
+      ))}
+    </NavUl>
+  );
+}

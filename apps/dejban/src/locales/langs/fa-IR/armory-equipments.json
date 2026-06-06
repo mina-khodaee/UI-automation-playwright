@@ -1,0 +1,32 @@
+{
+    "breadcrumb": {
+        "title": "تعریف تجهیزات"
+    },
+    "buttons": {
+        "newEquipment": "تجهیز جدید"
+    },
+    "columns": {
+        "name": "نام تجهیز",
+        "category": "دسته‌بندی"
+    },
+    "fields": {
+        "category": "دسته‌بندی",
+        "name": "نام تجهیز",
+        "status": "وضعیت",
+        "description": "توضیحات"
+    },
+    "placeholders": {
+        "selectCategory": "انتخاب دسته‌بندی..."
+    },
+    "formValidation": {
+        "categoryRequired": "انتخاب دسته‌بندی الزامی است",
+        "nameRequired": "نام تجهیز الزامی است"
+    },
+    "toastMessages": {
+        "createSuccess": "تجهیز با موفقیت ایجاد شد",
+        "updateSuccess": "تجهیز با موفقیت ویرایش شد",
+        "deleteSuccess": "تجهیز با موفقیت حذف شد"
+    },
+    "createTitle": "ایجاد تجهیز جدید",
+    "editTitle": "ویرایش تجهیز"
+}

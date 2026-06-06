@@ -1,0 +1,51 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "workPeriods": "Shift Work Periods",
+    "newWorkPeriod": "New Work Period"
+  },
+  "formsInputs": {
+    "name": "Work Period Name",
+    "shiftId": "Shift",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "hasBreak": "Has Break",
+    "useCalendar": "Use Calendar",
+    "description": "Description"
+  },
+  "buttons": {
+    "newWorkPeriod": "Add Work Period"
+  },
+  "columns": {
+    "name": "Work Period Name",
+    "shiftId": "Shift",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "hasBreak": "Break",
+    "useCalendar": "Calendar",
+    "description": "Description"
+  },
+  "toastMessages": {
+    "delete": "Work period deleted successfully",
+    "update": "Work period updated successfully",
+    "create": "Work period created successfully"
+  },
+  "title": {
+    "insertWorkPeriod": "Create Work Period",
+    "updateWorkPeriod": "Edit Work Period"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "Work period name is required"
+    },
+    "shiftId": {
+      "required": "Shift selection is required"
+    },
+    "startDate": {
+      "required": "Start date is required"
+    },
+    "endDate": {
+      "required": "End date is required"
+    }
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "ammunition": "Ammunition",
+    "newAmmunition": "New Ammunition",
+    "editAmmunition": "Edit Ammunition"
+  },
+  "formsInputs": {
+    "name": "Ammunition Name",
+    "type": "Type",
+    "quantity": "Quantity"
+  },
+  "buttons": {
+    "newAmmunition": "Add Ammunition",
+    "create": "Create",
+    "update": "Update",
+    "cancel": "Cancel",
+    "creating": "Creating...",
+    "updating": "Updating..."
+  },
+  "columns": {
+    "name": "Ammunition Name",
+    "type": "Type",
+    "quantity": "Quantity",
+    "createdAt": "Created At"
+  },
+  "toastMessages": {
+    "delete": "Ammunition deleted successfully",
+    "update": "Ammunition updated successfully",
+    "create": "Ammunition created successfully"
+  },
+  "title": {
+    "insertAmmunition": "Create Ammunition",
+    "updateAmmunition": "Edit Ammunition"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "Ammunition name is required",
+      "duplicate": "This ammunition name already exists"
+    },
+    "type": {
+      "required": "Ammunition type is required"
+    },
+    "quantity": {
+      "required": "Quantity is required",
+      "min": "Quantity must be greater than or equal to 0"
+    }
+  },
+  "typeOptions": {
+    "pistol": "Pistol",
+    "rifle": "Rifle",
+    "shotgun": "Shotgun",
+    "sniper": "Sniper",
+    "machinegun": "Machine Gun",
+    "grenade": "Grenade"
+  },
+  "stockStatus": {
+    "outOfStock": "Out of Stock",
+    "lowStock": "Low Stock",
+    "inStock": "In Stock",
+    "lowStockWarning": "Low stock, please order soon"
+  }
+}

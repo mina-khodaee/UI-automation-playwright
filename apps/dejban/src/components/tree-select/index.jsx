@@ -1,0 +1,1 @@
+export { AdvancedTreeSelect as TreeSelect } from './advanced-tree-select';

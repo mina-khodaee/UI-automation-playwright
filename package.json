@@ -1,0 +1,43 @@
+{
+  "name": "pg_frontend",
+  "private": true,
+  "scripts": {
+    "test:e2e": "turbo run test:e2e",
+    "test:unit": "turbo run test:unit",
+    "start": "turbo run start",
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "dev:proxy": "node scripts/dev-proxy.js",
+    "dev:all": "concurrently \"cd apps/main && npm run dev\" \"cd apps/dejban && npm run dev\" \"cd apps/access-control && npm run dev\" \"npm run dev:proxy\"",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "check-types": "turbo run check-types"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/react": "^16.3.0",
+    "@vitejs/plugin-react": "^4.5.2",
+    "concurrently": "^9.2.1",
+    "cross-env": "^10.1.0",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "jsdom": "^26.1.0",
+    "prettier": "^3.5.3",
+    "turbo": "^2.5.4",
+    "typescript": "5.8.2",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^3.2.3"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "npm@10.9.2",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "dependencies": {
+    "@mui/stylis-plugin-rtl": "^9.0.1"
+  }
+}

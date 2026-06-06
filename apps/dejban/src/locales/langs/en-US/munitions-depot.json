@@ -1,0 +1,39 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "munitionsDepots": "Munitions Depots",
+    "newMunitionsDepot": "New Depot",
+    "editMunitionsDepot": "Edit Depot"
+  },
+  "formsInputs": {
+    "name": "Depot Name",
+    "siteId": "Site"
+  },
+  "buttons": {
+    "newMunitionsDepot": "Add Munitions Depot",
+    "create": "Create",
+    "update": "Update",
+    "cancel": "Cancel",
+    "creating": "Creating...",
+    "updating": "Updating..."
+  },
+  "columns": {
+    "name": "Depot Name",
+    "siteId": "Site",
+    "createdAt": "Created At"
+  },
+  "toastMessages": {
+    "delete": "Munitions depot deleted successfully",
+    "update": "Munitions depot updated successfully",
+    "create": "Munitions depot created successfully"
+  },
+  "title": {
+    "insertMunitionsDepot": "Create Munitions Depot",
+    "updateMunitionsDepot": "Edit Munitions Depot"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "Depot name is required"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "newMajors": "رشته جدید",
+    "updateMajors": "به‌روزرسانی رشته",
+    "majors": "رشته های تحصیلی"
+  },
+  "formsInputs": {
+    "description": "توضیحات",
+    "name": "نام رشته",
+    "code": "کد رشته"
+  },
+  "buttons": {
+    "newMajors": "افزودن رشته جدید"
+  },
+  "columns": {
+    "majorsName": "نام رشته",
+    "description": "توضیحات",
+    "code": "کد رشته"
+  },
+  "toastMessages": {
+    "deleteMajors": "حذف رشته با موفقیت انجام شد",
+    "update": "به‌روزرسانی رشته با موفقیت انجام شد",
+    "create": "رشته با موفقیت ایجاد شد"
+  },
+  "title": {
+    "insertMajors": "ایجاد رشته",
+    "updateMajors": "ویرایش رشته"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "وارد کردن نام رشته الزامی است"
+    },
+    "code": {
+      "required": "وارد کردن کد رشته الزامی است"
+    }
+  }
+}

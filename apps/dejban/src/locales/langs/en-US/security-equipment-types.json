@@ -1,0 +1,35 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "newSecurityEquipmentTypes": "New Security Equipment Types",
+    "updateSecurityEquipmentTypes": "Update Security Equipment Types",
+    "securityEquipmentTypes": "Security Equipment Types"
+  },
+  "formsInputs": {
+    "description": "Description",
+    "name": "Name",
+    "isUnique": "Requires Serial Number"
+
+  },
+  "buttons": {
+    "newSecurityEquipmentTypes": "Add New"
+  },
+  "columns": {
+    "name": "Name",
+    "description": "Description"
+  },
+  "toastMessages": {
+    "deleteSecurityEquipmentTypes": "Security equipment type deleted successfully",
+    "update": "Security equipment type updated successfully",
+    "create": "Security equipment type created successfully"
+  },
+  "title": {
+    "insertSecurityEquipmentTypes": "Create Security Equipment Type",
+    "updateSecurityEquipmentTypes": "Edit Security Equipment Type"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "Name is required"
+    }
+  }
+}

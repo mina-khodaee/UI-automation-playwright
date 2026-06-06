@@ -1,0 +1,58 @@
+{
+    "breadcrumb": {
+        "title": "مدیریت تجهیزات"
+    },
+    "buttons": {
+        "newItem": "تجهیز جدید"
+    },
+    "columns": {
+        "equipment": "نام تجهیز",
+        "serialNumber": "شماره سریال",
+        "status": "وضعیت",
+        "manufactureYear": "سال ساخت",
+        "site": "مرکز",
+        "quantity": "تعداد",
+        "location": "انبار"
+    },
+    "fields": {
+        "equipment": "انتخاب تجهیز",
+        "serialNumber": "شماره سریال",
+        "status": "وضعیت",
+        "description": "توضیحات",
+        "manufactureYear": "سال ساخت",
+        "site": "مرکز مربوطه",
+        "location": "انبار مربوطه"
+    },
+    "placeholders": {
+        "selectEquipment": "انتخاب تجهیز...",
+        "selectStatus": "انتخاب وضعیت...",
+        "selectSite": "انتخاب مرکز...",
+        "selectLocation": "انتخاب انبار..."
+    },
+    "status": {
+        "new": "نو",
+        "used": "کارکرده",
+        "repair": "تعمیری",
+        "outOfService": "از رده خارج",
+        "active": "فعال",
+        "inactive": "غیرفعال"
+    },
+    "actions": {
+        "disable": "غیرفعال‌سازی",
+        "enable": "فعال‌سازی"
+    },
+    "formValidation": {
+        "equipmentRequired": "انتخاب تجهیز الزامی است",
+        "serialRequired": "شماره سریال الزامی است",
+        "statusRequired": "انتخاب وضعیت الزامی است"
+    },
+    "toastMessages": {
+        "createSuccess": "تجهیز با موفقیت ثبت شد",
+        "updateSuccess": "تجهیز با موفقیت ویرایش شد",
+        "deleteSuccess": "تجهیز با موفقیت حذف شد",
+        "disableSuccess": "تجهیز با موفقیت غیرفعال شد",
+        "enableSuccess": "تجهیز با موفقیت فعال شد"
+    },
+    "createTitle": "ثبت تجهیز جدید",
+    "editTitle": "ویرایش تجهیز"
+}

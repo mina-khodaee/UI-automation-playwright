@@ -1,0 +1,38 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "newPatrolArea": "محل نگهبانی جدید",
+    "patrolArea": "محل نگهبانی"
+  },
+  "formsInputs": {
+    "name": "نام محل",
+      "siteId": "نام مرکز",
+    "description": "توضیحات"
+
+  },
+  "buttons": {
+    "newPatrolArea": "افزودن محل نگهبانی"
+  },
+  "columns": {
+    "name": "نام محل",
+    "siteId": "نام مرکز",
+    "description": "توضیحات"
+  },
+  "toastMessages": {
+    "delete": "حذف محل نگهبانی با موفقیت انجام شد",
+    "update": "به‌روزرسانی محل نگهبانی با موفقیت انجام شد",
+    "create": "محل نگهبانی با موفقیت ایجاد شد"
+  },
+  "title": {
+    "insertPatrolArea": "ایجاد محل نگهبانی",
+    "updatePatrolArea": "ویرایش محل نگهبانی"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "وارد کردن محل نگهبانی الزامی است"
+    },
+    "siteId": {
+      "required": "وارد کردن نام مرکز محل الزامی است"
+    }
+  }
+}

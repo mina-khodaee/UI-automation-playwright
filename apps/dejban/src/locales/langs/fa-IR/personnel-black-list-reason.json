@@ -1,0 +1,32 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "newBlockUsers": "علت جدید",
+    "blockUsers": "علل ممنوعیت پرسنل"
+  },
+  "formsInputs": {
+    "name": "نام علت",
+    "description": "توضیحات"
+  },
+  "buttons": {
+    "newBlockUsers": "افزودن علت ممنوعیت"
+  },
+  "columns": {
+    "name": "نام علت",
+    "description": "توضیحات"
+  },
+  "toastMessages": {
+    "deleteBlockUsers": "حذف علت با موفقیت انجام شد",
+    "update": "به‌روزرسانی علت با موفقیت انجام شد",
+    "create": "علت با موفقیت ایجاد شد"
+  },
+  "title": {
+    "insertBlockUsers": "ایجاد علت ممنوعیت",
+    "updateBlockUsers": "ویرایش علت"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "وارد کردن نام علت الزامی است"
+    }
+  }
+}

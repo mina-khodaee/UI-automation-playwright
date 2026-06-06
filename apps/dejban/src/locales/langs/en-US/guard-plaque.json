@@ -1,0 +1,67 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "firearms": "Firearms",
+    "newFirearm": "New Firearm",
+    "editFirearm": "Edit Firearm"
+  },
+  "formsInputs": {
+    "weaponModelId": "Weapon Model",
+    "serialNumber": "Serial Number",
+    "manufactureYear": "Manufacture Year",
+    "status": "Status",
+    "munitionsDepotId": "Munitions Depot",
+    "assignedPersonnelId": "Assigned Personnel"
+  },
+  "buttons": {
+    "newFirearm": "Add Firearm",
+    "create": "Create",
+    "update": "Update",
+    "cancel": "Cancel",
+    "creating": "Creating...",
+    "updating": "Updating..."
+  },
+  "columns": {
+    "weaponModel": "Weapon Model",
+    "serialNumber": "Serial Number",
+    "manufactureYear": "Manufacture Year",
+    "status": "Status",
+    "munitionsDepot": "Depot",
+    "assignedPersonnel": "Assigned Personnel",
+    "createdAt": "Created At"
+  },
+  "toastMessages": {
+    "delete": "Firearm deleted successfully",
+    "update": "Firearm updated successfully",
+    "create": "Firearm created successfully"
+  },
+  "title": {
+    "insertFirearm": "Create Firearm",
+    "updateFirearm": "Edit Firearm"
+  },
+  "formValidationErrors": {
+    "weaponModelId": {
+      "required": "Weapon model is required"
+    },
+    "serialNumber": {
+      "required": "Serial number is required",
+      "duplicate": "Serial number already exists"
+    },
+    "manufactureYear": {
+      "invalid": "Invalid manufacture year (between 1800 and current year)"
+    },
+    "status": {
+      "required": "Status is required"
+    },
+    "munitionsDepotId": {
+      "required": "Munitions depot is required"
+    }
+  },
+  "statusOptions": {
+    "operational": "Operational",
+    "maintenance": "Maintenance",
+    "damaged": "Damaged",
+    "stored": "Stored",
+    "lost": "Lost"
+  }
+}

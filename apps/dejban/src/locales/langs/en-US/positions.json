@@ -1,0 +1,38 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "newPosition": "New Position",
+    "updatePosition": "Update Position",
+    "positions": "Positions"
+  },
+  "formsInputs": {
+    "description": "Description",
+    "name": "Name",
+    "selectSites": "Select Site",
+    "sites": "Sites"
+  },
+  "buttons": {
+    "newPosition": "Add New Position"
+  },
+  "columns": {
+    "positionName": "Position Name",
+    "description": "Description"
+  },
+  "toastMessages": {
+    "deletePosition": "Position deleted successfully",
+    "update": "Position updated successfully",
+    "create": "Position created successfully"
+  },
+  "title": {
+    "insertPosition": "Create Position",
+    "updatePosition": "Edit Position"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "Name is required"
+    },
+    "sites": {
+      "required": "At least one site must be selected"
+    }
+  }
+}

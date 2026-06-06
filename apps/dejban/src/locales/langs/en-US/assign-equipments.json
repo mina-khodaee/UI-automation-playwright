@@ -1,0 +1,47 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "newAssignEquipment": "New Equipment Assignment",
+    "assignEquipment": "Equipment Assignment"
+  },
+  "formsInputs": {
+    "personnel": "Personnel",
+    "equipment": "Equipment",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "description": "Description"
+  },
+  "buttons": {
+    "newAssignEquipment": "New Equipment Assignment",
+    "save": "Save",
+    "cancel": "Cancel"
+  },
+  "columns": {
+    "personnel": "Personnel",
+    "equipment": "Equipment",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "description": "Description"
+  },
+  "toastMessages": {
+    "create": "Equipment assignment created successfully",
+    "update": "Equipment assignment updated successfully"
+  },
+  "title": {
+    "assign": "Assign Equipment"
+  },
+  "formValidationErrors": {
+    "personnel": {
+      "required": "At least one personnel must be selected"
+    },
+    "equipment": {
+      "required": "At least one equipment must be selected"
+    },
+    "startDate": {
+      "required": "Start date is required"
+    },
+    "endDate": {
+      "required": "End date is required"
+    }
+  }
+}

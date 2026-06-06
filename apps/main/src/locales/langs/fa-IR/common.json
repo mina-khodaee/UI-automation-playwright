@@ -1,0 +1,143 @@
+{
+  "commonTexts": {
+    "signInText": "ورود به حساب کاربری",
+    "signInWelcomeText": "سلام خوش آمدید",
+    "signingIn": "در حال ورود...",
+    "forgotPassword": "فراموشی رمز عبور؟",
+    "requestError": "خطا در ارسال درخواست!",
+    "deleteConfirm": "آیا مطمئن هستید که می‌خواهید حذف کنید؟",
+    "deleteItemsConfirm": "آیا مطمئن هستید که می‌خواهید {{count}} مورد را حذف کنید؟",
+    "selected": "مورد انتخاب شده",
+    "noData": "اطلاعاتی یافت نشد!",
+    "notFound": "یافت نشد",
+    "noResultFound": "نتیجه‌ای یافت نشد برای",
+    "tryCheckingTypos": "لطفا کلمه صحیح وارد نمایید.",
+    "enterKeyWord": "لطفا کلمه‌ی مورد نظر خود را وارد کنید.",
+    "notFoundPage": "صفحه مورد نظر یافت نشد!",
+    "notFoundText": "صفحه مورد نظر یافت نشد! شاید شما آدرس را اشتباه وارد کرده‌اید؟ لطفا بررسی کنید.",
+    "languageSwitchSuccess": "زبان نرم‌افزار تغییر کرد",
+    "languageSwitchError": "خطا در تغییر زبان نرم‌افزار",
+    "languageSwitchLoading": "در حال بارگزاری...",
+    "loading": "در حال بارگذاری...",
+    "pleaseWait": "لطفاً صبر کنید...",
+    "saveSuccess": "اطلاعات با موفقیت ذخیره شد",
+    "updateSuccess": "اطلاعات با موفقیت به‌روزرسانی شد",
+    "deleteSuccess": "مورد با موفقیت حذف شد",
+    "enterYourAccount": "وارد حساب کاربری خود شوید"
+  },
+  "button": {
+    "create": "ایجاد",
+    "edit": "ویرایش",
+    "delete": "حذف",
+    "update": "ثبت تغییرات",
+    "signIn": "ورود",
+    "print": "پرینت",
+    "deleteLoading": "درحال حذف...",
+    "isLoading": "درحال بارگذاری...",
+    "cancel": "انصراف",
+    "back": "بازگشت",
+    "settings": "تنظیمات",
+    "close": "بستن",
+    "ok": "تایید",
+    "save": "ذخیره",
+    "details": "جزئیات",
+    "more": "بیشتر",
+    "quickEdit": "ویرایش سریع",
+    "view": "نمایش",
+    "goToHome": "بازگشت به صفحه اصلی",
+    "copy": "کپی",
+    "sending": "درحال ارسال ...",
+    "creating": "در حال ایجاد...",
+    "updating": "در حال به‌روزرسانی...",
+    "add": "افزودن",
+    "addNew": "افزودن جدید",
+    "refresh": "بازخوانی",
+    "export": "خروجی",
+    "import": "ورودی",
+    "clear": "پاک کردن",
+    "submit": "ارسال",
+    "confirm": "تایید",
+    "reject": "رد"
+  },
+  "formsInputs": {
+    "username": "نام کاربری",
+    "password": "رمز عبور",
+    "createdDateTime": "تاریخ ثبت",
+    "lastUpdatedDateTime": "تاریخ آخرین به‌روزرسانی",
+    "id": "شناسه",
+    "code": "کد",
+    "name": "نام",
+    "title": "عنوان",
+    "description": "توضیحات",
+    "status": "وضعیت",
+    "type": "نوع",
+    "image": "تصویر",
+    "notes": "یادداشت‌ها"
+  },
+  "formValidationErrors": {
+    "username": {
+      "required": "نام کاربری الزامی است!"
+    },
+    "password": {
+      "required": "رمز عبور الزامی است!"
+    },
+    "required": "این فیلد الزامی است!",
+    "invalidEmail": "ایمیل نامعتبر است",
+    "minLength": "حداقل {{count}} کاراکتر وارد کنید",
+    "maxLength": "حداکثر {{count}} کاراکتر مجاز است",
+    "numeric": "فقط اعداد مجاز است"
+  },
+  "placeholders": {
+    "search": "جستجو ...",
+    "select": "انتخاب کنید...",
+    "enter": "وارد کنید...",
+    "enterName": "نام را وارد کنید...",
+    "enterCode": "کد را وارد کنید...",
+    "selectStatus": "انتخاب وضعیت...",
+    "selectType": "انتخاب نوع..."
+  },
+  "labels": {
+    "row": "ردیف",
+    "action": "عملیات",
+    "yes": "بله",
+    "no": "خیر",
+    "active": "فعال",
+    "inactive": "غیرفعال",
+    "all": "همه",
+    "none": "هیچ",
+    "total": "مجموع",
+    "count": "تعداد"
+  },
+  "errors": {
+    "unknownError": "خطای ناشناخته در انجام عملیات!",
+    "networkError": "خطا در ارتباط با سرور!",
+    "unauthorized": "شما مجوز دسترسی ندارید!",
+    "forbidden": "دسترسی غیرمجاز!",
+    "notFound": "موردی یافت نشد!",
+    "serverError": "خطای سرور! لطفاً مجدداً تلاش کنید"
+  },
+  "status": {
+    "active": "فعال",
+    "inactive": "غیرفعال",
+    "pending": "در انتظار",
+    "approved": "تایید شده",
+    "rejected": "رد شده",
+    "disabled": "غیرفعال"
+  },
+  "filter": {
+    "title": "فیلترها",
+    "apply": "اعمال فیلتر",
+    "reset": "بازنشانی",
+    "search": "جستجو",
+    "sortBy": "مرتب‌سازی بر اساس",
+    "ascending": "صعودی",
+    "descending": "نزولی"
+  },
+  "messages": {
+    "noData": "اطلاعاتی برای نمایش وجود ندارد",
+    "confirmDelete": "آیا از حذف این مورد اطمینان دارید؟",
+    "confirmDeleteMultiple": "آیا از حذف موارد انتخاب شده اطمینان دارید؟",
+    "operationSuccess": "عملیات با موفقیت انجام شد",
+    "operationFailed": "عملیات با شکست مواجه شد"
+  }
+}

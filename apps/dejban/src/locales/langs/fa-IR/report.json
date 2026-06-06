@@ -1,0 +1,35 @@
+{
+    "breadCrumb": {
+        "dashboard": "داشبورد",
+        "trafficReports": "گزارشات تردد"
+    },
+    "columns": {
+        "authMode": "روش احراز",
+        "authType": "نوع احراز",
+        "device": "نوع دستگاه",
+        "terminalId": "شماره سریال / شناسه ترمینال",
+        "dateTime": "تاریخ",
+        "isAuthorized": "احراز",
+        "authorized": "احراز شده",
+        "unauthorized": "احراز نشده",
+        "userName": "نام کاربر",
+        "userType": "نوع کاربری",
+        "picture": "تصویر",
+        "deviceId": "شناسه دستگاه",
+        "userId": "شناسه کاربر",
+        "trafficMode": "نوع تردد"
+    },
+    "buttons": {
+        "liveStream": " مشاهده زنده گزارشات",
+        "allReports": "همه گزارشات",
+        "apply": "اعمال",
+        "export": "خروجی",
+        "exportPageCsv": "خروجی صفحه (CSV)",
+        "exportSelectedCsv": "خروجی سطرهای انتخاب شده (CSV)",
+        "exportPagePdf": "خروجی صفحه (PDF)",
+        "exportSelectedPdf": "خروجی سطرهای انتخاب شده (PDF)"
+    },
+    "filterValidations": {
+        "invalidBetweenDate": "تاریخ شروع بازه باید کوچکتر از تاریخ پایان بازه باشد"
+    }
+}

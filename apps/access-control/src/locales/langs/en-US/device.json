@@ -1,0 +1,337 @@
+{
+    "button": {
+        "new": "New Device",
+        "create": "Add Device",
+        "createDeviceType": "New Device Type",
+        "getInfo": "🔄Getting Information",
+        "saveSetting": "Save Settings",
+        "addDeviceType": "Add Device Type",
+        "newRegion": "New Region",
+        "networkSettings": "Network Settings",
+        "interfaceSettings": "Interface Settings",
+        "securitySettings": "Security Settings",
+        "setSettings": "Set Settings",
+        "newCalendar": "New Calendar",
+        "sortBy": "Sort by",
+        "setShifts": "Set Shifts",
+        "addShift": "Add Shift",
+        "setHolidays": "Set Holidays",
+        "createCalendar": "Create Calendar",
+        "updateCalendar": "Update Calendar",
+        "addHolidays": "Add Holidays",
+        "today": "Today",
+        "week": "Week",
+        "month": "Month",
+        "day": "Day",
+        "listWeek": "Agenda",
+        "createAccessGroup": "Create Access Group",
+        "maintenanceMode": "Maintenance Mode",
+        "commands": "Commands",
+        "syncDeviceWithAccessGroup": "Sync Device Users With Access Group",
+        "syncDevicesWithAccessGroup": "Sync Devices Users With their Access Groups",
+        "setMaintenanceMode": "Set Maintenance Mode",
+        "setDeviceDoorStatus": "Set Device Door Status",
+        "changeDeviceGroup": "Change Device Access Group",
+        "changeDeviceMaintenanceMode": "Change Device Maintenance Mode",
+        "changeDeviceMaintenanceModeLoading": "Changing mode...",
+        "syncing": "Syncing...",
+        "createRegion": "Create Region",
+        "updateRegion": "Update Region",
+        "showDeviceReports": "Show Device Reports",
+        "setRegionDoorsStatus": "Set Region Devices Doors Status",
+        "setDeviceToMaintenanceMode": "Set Device To Maintenance Mode",
+        "setDeviceOutOfMaintenanceMode": "Set Device Out Of Maintenance Mode",
+        "sendBiometricDataToDevices": "Send Biometric Data To Devices",
+        "getBiometricDataFromDevice": "Get Biometric Data From Device",
+        "getBiometricDataFromMultipleDevices": "Get Biometric Data From Devices",
+        "groupActions": "Group Actions",
+        "sendBiometricDataToDevice": "Send Biometric Data To Device"
+    },
+    "formsInputs": {
+        "deviceModel": "Brand/Model",
+        "authenticationMode": "Authentication Mode",
+        "supportAntipassback": "support Antipassback",
+        "terminalPort": "Terminal Port",
+        "terminalPassword": "Terminal Password",
+        "region": "Region",
+        "serialNumber": "Serial Number",
+        "terminalId": "Terminal ID",
+        "firmwareVersion": "Firmware Version",
+        "isActive": "Active",
+        "antipassback": "Anti Passback",
+        "description": "Description",
+        "terminalMacAddress": "Terminal Mac Address",
+        "lastConnected": "Last Connected",
+        "brand": " Brand",
+        "model": " Model",
+        "terminalIP": "Terminal IP",
+        "subnet": "Subnet",
+        "gateway": "Gateway",
+        "serverIP": "Server IP",
+        "serverPort": "Server Port",
+        "networkType": "Network Type",
+        "usesTerminalId": "Uses Terminal ID",
+        "usesSerialNumber": "Uses Serial Number",
+        "cardTypes": "Card Types",
+        "printText": "Print Text",
+        "sound": "Sound",
+        "autoEnterKey": "Auto Enter Key",
+        "accessLevel": "Access Level",
+        "applicationMode": "Application Mode",
+        "securityLevel_1To1": "Security Level 1 to 1",
+        "securityLevel_1ToN": "Security Level 1 to N",
+        "inputIDType": "Input ID Type",
+        "inputIDLength": "Input ID Length",
+        "uptime": "uptime",
+        "usersLastSync": "Users Last Synced",
+        "lastUpdated": "Last Updated",
+        "createdAt": "Created At",
+        "updatedAt": "Updated At",
+        "timeZone": "Time Zone",
+        "weekStartDayIndex": "Week Start Day",
+        "isDefaultCalendar": "Default Calendar",
+        "calendarName": "Calendar Name",
+        "workDays": "Work Days",
+        "holidays": "Holidays",
+        "shifts": "Shifts Number",
+        "shiftNumber": "Number",
+        "hasBreak": "Break",
+        "breakStart": "Start Break",
+        "breakEnd": "End Break",
+        "startTime": "Shift Start",
+        "endTime": "Shift End",
+        "holidayName": "Holiday Name",
+        "holidayDate": "Holiday Date",
+        "holidaysCount": "Holidays Count",
+        "accessGroupName": "Access Group Name",
+        "defaultAccessGroup": "Default Access Group",
+        "calendar": "Calendar",
+        "accessGroup": "Access Group",
+        "allowedAuthTypes": "Allowed Authorization Types",
+        "password": "Password",
+        "face": "Face",
+        "fingerprint": "Fingerprint",
+        "card": "Card",
+        "cardID": "Card ID",
+        "fpCard": "Fp Card",
+        "isAndOperation": "Required all selected items",
+        "isOrOperation": "At least one of the following items is required",
+        "authTypeAndOperation": "All of the following items are required",
+        "authTypeOrOperation": "At least one of the following item is required",
+        "devices": "Devices",
+        "isSyncWithAccessGroupUsers": "Sync with Access Group Users",
+        "notSyncWithAccessGroup": "Not Sync with Access Group",
+        "doorStatus": "Door Status",
+        "regionName": "Region Name",
+        "parentId": "Parent Region",
+        "hasCamera": "Has Camera",
+        "syncUsersStatus": "Last Sync Status",
+        "picture": "Picture",
+        "syncUsersWithAccessGroup": "Sync users with Access Group",
+        "syncSettingsWithAccessGroup": "Sync settings with Access Group",
+        "subRegions": "Sub Regions",
+        "regionDevices": "Region Devices",
+        "deviceName": "Device Name",
+        "trafficMode": "Traffic Mode"
+    },
+    "breadCrumb": {
+        "dashboard": "Dashboard",
+        "device": "Devices",
+        "add": "New Device",
+        "update": "Update Device",
+        "deviceType": "Device Types",
+        "addDeviceType": "New Device Type",
+        "updateDeviceType": "Update Device Type",
+        "region": "Regions",
+        "updateRegion": "Update Region",
+        "calendar": "Calendars",
+        "newCalendar": "New Calendar",
+        "updateCalendar": "Update Calendar",
+        "accessGroup": "Access Groups",
+        "newAccessGroup": "New Access Group",
+        "updateAccessGroup": "Update Access Group"
+    },
+    "filters": {
+        "all": "all",
+        "active": "active",
+        "inactive": "inactive",
+        "online": "online",
+        "offline": "offline",
+        "latest": "latest",
+        "oldest": "oldest",
+        "synced": "Successful",
+        "syncFailed": "Failed",
+        "syncing": "Syncing",
+        "notInitialized": "Not Initialized"
+    },
+    "toastMessages": {
+        "create": "Device was successfully created!",
+        "update": "Device was successfully updated!",
+        "delete": "Device was successfully deleted!",
+        "saveSetting": "Settings was successfully saved!",
+        "updateSetting": "Settings was successfully updated!",
+        "createDeviceType": "Device Type was successfully created!",
+        "updateDeviceType": "Device Type was successfully updated!",
+        "deleteDeviceType": "Device Type was successfully deleted!",
+        "deleteDeviceTypeError": "This DeviceType is bounded to devices!",
+        "setNetworkSettings": "Network Settings was successfully set!",
+        "setInterfaceSettings": "Interface Settings was successfully set!",
+        "setSecuritySettings": "Security Settings was successfully set!",
+        "setNetworkSettingsError": "Network Settings is not set!",
+        "setInterfaceSettingsError": "Interface Settings is not  set!",
+        "setSecuritySettingsError": "Security Settings is not  set!",
+        "deleteCalendar": "Calendar was successfully deleted!",
+        "createCalendar": "Calendar was successfully created!",
+        "updateCalendar": "Calendar was successfully updated!",
+        "deleteAccessGroup": "Access Group was successfully deleted!",
+        "createAccessGroup": "Access Group was successfully created!",
+        "updateAccessGroup": "Access Group was successfully updated!",
+        "changeMaintenanceMode": "Maintenance Mode was successfully changed!",
+        "changeDeviceGroup": "Device access group was successfully changed!",
+        "setDeviceDoorStatus": "Door status was successfully set!",
+        "syncDeviceWithAccessGroup": "Device was successfully synced with access group!",
+        "syncDevicesWithAccessGroup": "Devices have been successfully synced with their access group!",
+        "updateRegion": "Region was successfully updated!",
+        "deleteRegion": "Region was successfully deleted!",
+        "createRegion": "Region was successfully created!",
+        "sameShiftNumber": "Shift number must be unique!",
+        "deleteRootRegion": "Root Region Cannot be deleted!",
+        "sendBiometricDataToDevices": "Biometric data was sent to devices successfully!",
+        "getBiometricDataFromDevice": "Got biometric data from device successfully!",
+        "getBiometricDataFromMultipleDevices": "Got biometric data from selected devices successfully!",
+        "sendBiometricDataToDevice": "Biometric data was sent to device successfully!"
+    },
+    "texts": {
+        "selectImage": "please select your device image",
+        "noDeviceType": "No device type found!",
+        "workDaysShifts": "Work Days Shifts",
+        "noDeviceInAccessGroup": "No device found with this access group!",
+        "setMaintenanceModeTrue": "Are you sure you want to set device in maintenance mode?",
+        "setMaintenanceModeFalse": "Are you sure you want to set device out of maintenance mode?",
+        "syncDeviceWithAccessGroup": "This operation will take a few minutes. Are you sure you want to continue?",
+        "alreadySync": "Device is already synced with access group!",
+        "allDay": "all-day",
+        "rootRegion": "Main Region",
+        "deleteRegionConfirm": "Subregions will be deleted! Are you sure to delete this region?",
+        "sendBiometricDataToDevices": "This action will send biometric data to devices which have this access group and are online. Are you sure you want to send biometric data to devices?",
+        "sendBiometricDataToDevice": "This action will send biometric data to this device. Are you sure you want to send biometric data to this device?",
+        "getBiometricDataFromDevice": "This action will get all users' biometric data from this device. Are you sure you want to get biometric data from this device?",
+        "getBiometricDataFromMultipleDevices": "This action will get all users' biometric data from selected devices. Are you sure you want to get biometric data from selected devices?"
+    },
+    "formValidationErrors": {
+        "deviceTypeId": {
+            "required": "Brand/Model is required"
+        },
+        "authenticationModeId": {
+            "required": "Authentication Mode is required"
+        },
+        "terminalIP": {
+            "invalid": "Invalid IP Address",
+            "required": "IP Address is required"
+        },
+        "terminalPort": {
+            "required": "Terminal Port is required"
+        },
+        "terminalPassword": {
+            "required": "Terminal Passwprd is required"
+        },
+        "brand": {
+            "required": "Brand is required"
+        },
+        "model": {
+            "required": "Model is required"
+        },
+        "cardTypes": {
+            "required": "Choose at least one card type!"
+        },
+        "serialNumber": {
+            "required": "Serial Number is required"
+        },
+        "terminalId": {
+            "required": "TerminalId is required"
+        },
+        "serverIP": {
+            "required": "Server IP is required"
+        },
+        "serverPort": {
+            "required": "Server Port is required"
+        },
+        "networkType": {
+            "required": "Network Type is required"
+        },
+        "subnet": {
+            "required": "Subnet is required"
+        },
+        "gateway": {
+            "required": "Gateway is required"
+        },
+        "authenticationMode": {
+            "required": "Authentication Mode is required"
+        },
+        "settingsType": {
+            "required": "Choose at least one option!"
+        },
+        "calendarName": {
+            "required": "Calendar Name is required"
+        },
+        "shiftNumber": {
+            "required": "Shift Number is required"
+        },
+        "weekStartDayIndex": {
+            "required": "Week Start Day is required"
+        },
+        "shift": {
+            "required": "Setting shift for selected work days is required"
+        },
+        "shiftStartTime": {
+            "required": "Shift Start Time is required",
+            "invalid": "Invalid Shift Start Time"
+        },
+        "shiftEndTime": {
+            "required": "Shift End Time is required",
+            "invalid": "Invalid Shift End Time",
+            "greaterThanStartTime": "Shift End Time must be greater than Shift Start Time"
+        },
+        "breakStartTime": {
+            "invalid": "Invalid Break Start Time",
+            "betweenShift": "Break Start Time must be between Shift Start Time and Shift End Time"
+        },
+        "breakEndTime": {
+            "invalid": "Invalid Break End Time",
+            "betweenShift": "Break End Time must be between Shift Start Time and Shift End Time",
+            "greaterThanStartTime": "Break End Time must be greater than Break Start Time"
+        },
+        "holidayName": {
+            "required": "Holiday Name is required"
+        },
+        "holidayDate": {
+            "required": "Holiday Date is required",
+            "invalid": "Invalid Holiday Date"
+        },
+        "accessGroupName": {
+            "required": "Access Group Name is required"
+        },
+        "aclCalendarId": {
+            "required": "Calendar is required"
+        },
+        "allowedAuthTypes": {
+            "required": "Choose at least one authorization type!",
+            "limitExceeded": "You can select just 2 options"
+        },
+        "accessGroupId": {
+            "required": "Access Group is required"
+        },
+        "doorStatus": {
+            "required": "Door Status is required"
+        },
+        "regionName": {
+            "required": "Region Name is required"
+        },
+        "parentId": {
+            "required": "Parent Region is required"
+        },
+        "trafficMode": {
+            "required": "Traffic Mode is required"
+        }
+    }
+}

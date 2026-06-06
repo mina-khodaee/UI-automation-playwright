@@ -1,0 +1,32 @@
+{
+    "breadcrumb": {
+        "title": "Equipment Definition"
+    },
+    "buttons": {
+        "newEquipment": "New Equipment"
+    },
+    "columns": {
+        "name": "Equipment Name",
+        "category": "Category"
+    },
+    "fields": {
+        "category": "Category",
+        "name": "Equipment Name",
+        "description": "Description",
+        "status": "Status"
+    },
+    "placeholders": {
+        "selectCategory": "Select category..."
+    },
+    "formValidation": {
+        "categoryRequired": "Category selection is required",
+        "nameRequired": "Equipment name is required"
+    },
+    "toastMessages": {
+        "createSuccess": "Equipment created successfully",
+        "updateSuccess": "Equipment updated successfully",
+        "deleteSuccess": "Equipment deleted successfully"
+    },
+    "createTitle": "Create New Equipment",
+    "editTitle": "Edit Equipment"
+}

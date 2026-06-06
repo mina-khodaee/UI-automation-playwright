@@ -1,0 +1,60 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "newContractor": "New Contractor",
+    "updateContractor": "Update Contractor",
+    "contractors": "Contractors List"
+  },
+  "formsInputs": {
+    "name": "Name",
+    "parentSiteId": "Parent Contractor Company",
+    "registrationDate": "Company Registration Date",
+    "representativeFullName": "Company Representative No. 1",
+    "representativeMobilNo": "Representative No. 1 Mobile",
+    "representativePersonnelCode": "Representative No. 1 Personnel Code",
+    "registrationNumber": "Company Registration Number",
+    "companyPhoneNumber": "Company Phone Number",
+    "companyWebsite": "Company Website",
+    "companyEmail": "Company Email",
+    "ceoFullName": "CEO Name",
+    "ceoMobileNo": "CEO Mobile Number",
+    "nationalCode": "CEO National Code",
+    "ceoEducation": "CEO Education Degree",
+    "superviserFullName": "Supervisor Name",
+    "superviserMobileNo": "Supervisor Mobile",
+    "superviserPersonnelCode": "Supervisor Personnel Code",
+    "description": "Description",
+    "companyAddress": "Company Address",
+    "companyBackground": "Company Address"
+  },
+  "columns": {
+    "name": "Contractor Name",
+    "ceoFullName": "CEO Name",
+    "supervisorFullName": "Supervisor Name",
+    "description": "Description",
+    "createdAt": "Creation Date"
+  },
+  "toastMessages": {
+    "delete": "Contractor deleted successfully",
+    "update": "Contractor updated successfully",
+    "create": "Contractor created successfully"
+  },
+  "title": {
+    "insertContractor": "Create Contractor",
+    "updateContractor": "Edit Contractor"
+  },
+  "formValidationErrors": {
+    "name": "Company name is required",
+    "registrationNumber": "Company registration number is required",
+    "parentSiteId": "Parent contractor company is required",
+    "ceoFullName": "CEO name is required",
+    "ceoMobileNo": "CEO mobile number is required",
+    "registrationDate": "Company registration date is required",
+    "superviserFullName": "Supervisor name is required",
+    "superviserMobileNo": "Supervisor mobile number is required",
+    "superviserPersonnelCode": "Supervisor personnel code is required",
+    "representativeFullName": "Representative No. 1 is required",
+    "representativeMobilNo": "Representative No. 1 mobile is required",
+    "representativePersonnelCode": "Representative No. 1 personnel code is required"
+  }
+}

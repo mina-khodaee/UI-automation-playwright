@@ -1,0 +1,240 @@
+{
+    "breadcrumb": {
+        "dashboard": "داشبورد",
+        "deviceUsers": "کاربران دستگاه‌",
+        "newDeviceUser": "کاربر جدید دستگاه ",
+        "updateDeviceUser": "به‌روزرسانی کاربر دستگاه",
+        "APIKeys": "کلید‌های API",
+        "newAPIKey": "کلید API جدید",
+        "updateAPIKey": "به‌روزرسانی کلید API"
+    },
+    "formsInputs": {
+        "firstName": "نام",
+        "lastName": "نام خانوادگی",
+        "email": "ایمیل",
+        "password": "رمز عبور",
+        "confirmPassword": "تایید رمز عبور",
+        "phoneNumber": "شماره موبایل",
+        "currentPassword": "رمز عبور فعلی",
+        "newPassword": "رمز عبور جدید",
+        "ipAddress": "آدرس IP",
+        "device": "دستگاه",
+        "loginDate": "تاریخ ورود",
+        "isCurrent": "دستگاه فعلی",
+        "clientName": "نام کاربر",
+        "clientType": "نوع کاربری",
+        "clientVersion": "نسخه کاربر",
+        "userType": "نوع کاربری",
+        "userId": "شناسه کاربر",
+        "userName": "نام کاربری",
+        "uniqueId": "شناسه منحصر به فرد",
+        "isBlacklist": "کاربر غیرفعال",
+        "FPSecurityLevel": "حساسیت شناسایی اثر انگشت",
+        "accessGroupIds": "گروه‌های دسترسی",
+        "authTypeConfig": "تنظیمات نوع دسترسی",
+        "isAndOperation": "الزامی بودن همه موارد انتخاب شده",
+        "isAdmin": "مدیر دستگاه ",
+        "isIdentify": "جستجوی اثر انگشت",
+        "fingerId": "شناسه انگشت",
+        "isDuressFinger": "انگشت ارسال هشدار",
+        "dateType": "نوع بازه مجاز",
+        "startDate": "تاریخ شروع",
+        "endDate": "تاریخ پایان",
+        "cardNumber": "شماره کارت",
+        "rfid": "سریال کارت",
+        "cardType": "نوع کارت",
+        "isCheckSimilarFinger": "عدم ثبت اثر انگشت‌ مشابه",
+        "notCheckSimilarFinger": "ثبت اثر انگشت‌ مشابه",
+        "isFace1toN": "جستجوی چهره",
+        "accessFlags": "تنظیمات دسترسی",
+        "initializeCard": "حذف کارت‌های قبلی",
+        "applicationUserId": "کاربر سامانه",
+        "enrollmentDeviceTerminalId": "شناسه دستگاه ثبت اثر انگشت ",
+        "nationalCode": "کد ملی",
+        "registerDate": "تاریخ ثبت کاربر",
+        "apiKeyName": "نام کلید API",
+        "expirationDate": "تاریخ انقضا",
+        "createdAt": "تاریخ ثبت",
+        "lastUpdate": "آخرین بروزرسانی",
+        "creatorName": "نام کاربری ثبت کننده",
+        "description": "توضیحات",
+        "scopes": "بازه‌های دسترسی",
+        "syncWithDevicesInUserAccessGroups": "همگام‌سازی با دستگاه‌های گروه‌های دسترسی کاربران",
+        "roles": "نقش‌ها",
+        "accessType": "نوع محدودیت دسترسی"
+    },
+    "buttons": {
+        "changingPassword": "درحال تغییر رمز عبور ...",
+        "logoutOtherAccounts": "خروج از سایر حساب‌های کاربری",
+        "loggingout": "درحال خروج ...",
+        "createDeviceUser": "ثبت کاربر دستگاه",
+        "newDeviceUser": "کاربر جدید دستگاه ",
+        "fingerprintSettings": "تنظیمات اثر انگشت",
+        "cardSettings": "تنظیمات کارت‌های پرسنلی",
+        "accessAuthoritiesSettings": "تنظیمات بازه‌های مجاز دسترسی",
+        "addFingerprint": "اضافه کردن انگشت",
+        "addCard": "اضافه کردن کارت",
+        "addAccessAuthority": "اضافه کردن دسترسی",
+        "addNewDeviceUser": "افزودن کاربر جدید دستگاه",
+        "quickAddNewDeviceUser": "افزودن سریع کاربر جدید دستگاه ",
+        "editAccessAuthorities": "ویرایش بازه‌های مجاز دسترسی",
+        "editConfigureType": "ویرایش تنظیمات نوع دسترسی",
+        "editIsBlacklist": "غیرفعال کردن کاربر",
+        "editIsNotBlacklist": "فعال کردن کاربر",
+        "editAccessGroups": "ویرایش گروه‌های دسترسی",
+        "editIsNotBlacklistLoading": "درحال فعال کردن کاربر ...",
+        "editIsBlacklistLoading": "درحال غیرفعال کردن کاربر ...",
+        "newAPIKey": " کلید API جدید",
+        "updateAPIKey": "به‌روزرسانی کلید API",
+        "createAPIKey": "ثبت کلید API",
+        "removeCards": "حذف کارت‌ها",
+        "userReports": "گزارشات کاربر",
+        "sendUserBiometricDataToDevices": "ارسال اطلاعات بیومتریک کاربر به دستگاه‌ها",
+        "getUserBiometricDataFromDevice": "دریافت اطلاعات بیومتریک کاربر از دستگاه‌"
+    },
+    "tabs": {
+        "profile": "پروفایل",
+        "activeSessionManagement": "مدیریت نشست‌های فعال",
+        "changePassword": "تغییر رمز عبور",
+        "apiKeysManagement": "مدیریت کلید‌های API"
+    },
+    "columns": {
+        "userId": "شناسه کاربر",
+        "userName": "نام کاربری",
+        "userType": "نوع کاربری",
+        "isBlacklist": "کاربر فعال",
+        "createdAt": "تاریخ ثبت کاربر"
+    },
+    "filters": {
+        "active": "فعال",
+        "inactive": "غیر فعال"
+    },
+    "formValidationErrors": {
+        "currentPassword": {
+            "required": "رمز عبور فعلی الزامی است!"
+        },
+        "newPassword": {
+            "required": "رمز عبور جدید الزامی است!"
+        },
+        "confirmPassword": {
+            "required": "تایید رمز عبور الزامی است!",
+            "validate": "رمز عبور‌ها مطابقت ندارند!"
+        },
+        "fingerId": {
+            "required": "شناسه انگشت الزامی است!",
+            "invalid": "شناسه انگشت نامعتبر است!"
+        },
+        "dateType": {
+            "required": "نوع بازه مجاز الزامی است!"
+        },
+        "startDate": {
+            "required": "تاریخ شروع الزامی است!"
+        },
+        "dateRequired": {
+            "required": "تاریخ شروع یا پایان الزامی است!"
+        },
+        "endDate": {
+            "required": "تاریخ پایان الزامی است!",
+            "greaterThanStartDate": "تاریخ پایان باید بزرگتر از تاریخ شروع باشد!"
+        },
+        "rfid": {
+            "required": "سریال کارت الزامی است!"
+        },
+        "cardType": {
+            "required": "نوع کارت الزامی است!"
+        },
+        "userId": {
+            "required": "شناسه کاربر الزامی است!",
+            "number": "شناسه کاربر باید عدد باشد!"
+        },
+        "userName": {
+            "required": "نام کاربری الزامی است!"
+        },
+        "userType": {
+            "required": "نوع کاربری الزامی است!"
+        },
+        "password": {
+            "required": "رمز عبور الزامی است!",
+            "invalid": "رمز عبور باید عدد باشد!",
+            "invalidStartWithZero": "رمز عبور نمی‌تواند با صفر شروع شود!"
+        },
+        "FPSecurityLevel": {
+            "required": "حساسیت شناسایی اثر انگشت الزامی است!"
+        },
+        "cards": {
+            "required": "تنظیمات کارت‌های پرسنلی الزامی است!"
+        },
+        "accessGroupIds": {
+            "required": "گروه‌های دسترسی الزامی است!"
+        },
+        "fingerprints": {
+            "required": "تنظیمات اثر انگشت الزامی است!"
+        },
+        "authTypeConfig": {
+            "required": "تنظیمات نوع دسترسی الزامی است!",
+            "passwordOrCardRequired": "باید یکی از گزینه‌های رمز عبور یا کارت انتخاب شود!"
+        },
+        "accessAuthorities": {
+            "required": "بازه‌های مجاز دسترسی الزامی است!"
+        },
+        "enrollmentDeviceTerminalId": {
+            "required": "شناسه ترمینال دستگاه ثبت اثر انگشت الزامی است! "
+        },
+        "APIKeyName": {
+            "required": "نام کلید API الزامی است!"
+        },
+        "expirationDate": {
+            "required": "تاریخ انقضا الزامی است!",
+            "invalid": "تاریخ انقضا نامعتبر است!",
+            "greaterThanNow": "تاریخ انقضا باید بزرگتر از تاریخ فعلی باشد!"
+        },
+        "scopes": {
+            "required": "Scopes الزامی است!"
+        },
+        "deviceId": {
+            "required": " دستگاه الزامی است!"
+        },
+        "accessType": {
+            "required": "نوع محدودیت دسترسی الزامی است."
+        }
+    },
+    "toastMessages": {
+        "changePasswordSuccess": "رمز عبور با موفقیت تغییر کرد",
+        "logoutSuccess": "شما با موفقیت از حساب کاربری خود خارج شدید.",
+        "logoutError": "خطا در خروج از حساب کاربری!",
+        "deleteDeviceUser": "کاربر دستگاه با موفقیت حذف شد",
+        "updateDeviceUser": "کاربر دستگاه با موفقیت به‌روزرسانی شد",
+        "createDeviceUser": "کاربر دستگاه با موفقیت ثبت شد",
+        "activateDeviceUser": "کاربر دستگاه با موفقیت فعال شد",
+        "deactivateDeviceUser": "کاربر دستگاه با موفقیت غیرفعال شد",
+        "updateAccessAuthorities": "دسترسی‌های مجاز با موفقیت به‌روزرسانی شد",
+        "updateAccessGroups": "گروه‌های دسترسی با موفقیت به‌روزرسانی شد",
+        "updateAuthTypeConfig": "تنظیمات نوع دسترسی با موفقیت به‌روزرسانی شد",
+        "deleteAPIKey": "کلید API با موفقیت حذف شد",
+        "createAPIKey": "کلید API با مقدار {{key}} با موفقیت ثبت شد و در ادامه هرگز به شما نشان داده نخواهد شد. لطفا آن را کپی و ذخیره کنید.",
+        "updateAPIKey": "کلید API با موفقیت به‌روزرسانی شد",
+        "addAccessAuthority": "یک بازه مجاز دسترسی با موفقیت به لیست اضافه شد",
+        "addCard": "یک کارت پرسنلی با موفقیت به لیست اضافه شد",
+        "addFingerprint": "یک اثر انگشت با موفقیت به لیست اضافه شد",
+        "sameTime": "این بازه زمانی وجود دارد",
+        "copy": "کلید API با موفقیت کپی شد",
+        "sendUserBiometricDataToDevices": "ارسال اطلاعات بیومتریک کاربر به دستگاه‌ها با موفقیت انجام شد",
+        "getUserBiometricDataFromDevice": "دریافت اطلاعات بیومتریک کاربر از دستگاه انتخاب شده با موفقیت انجام شد"
+    },
+    "texts": {
+        "logoutConfirm": "آیا مطمئن هستید که می‌خواهید از این حساب کاربری  خارج شوید؟",
+        "currentLogoutConfirm": "این حساب کاربری فعلی شماست! آیا مطمئن هستید که می‌خواهید از حساب کاربری خود خارج شوید؟",
+        "logoutOtherAccounts": "آیا مطمئن هستید که می‌خواهید از سایر حساب‌های کاربری خود خارج شوید؟",
+        "selected": "انتخاب شده",
+        "accessGroupsChoices": "گروه‌های دسترسی",
+        "accessGroupsChosens": "گروه‌های دسترسی انتخاب شده",
+        "firstCaption": "*بلا استفاده: کاربر در بازه مشخص شده مجاز به استفاده از دستگاه است",
+        "secondCaption": "*بازه مجاز: کاربر در بازه مشخص شده مجاز به استفاده از دستگاه است",
+        "thirdCaption": "*بازه غیرمجاز: کاربر در بازه مشخص شده مجاز به استفاده از دستگاه نیست",
+        "activateConfirm": "آیا مطمئن هستید که می‌خواهید این کاربر فعال شود؟",
+        "deactivateConfirm": "آیا مطمئن هستید که می‌خواهید این کاربر غیرفعال شود؟",
+        "removeCardsConfirm": "با حذف کارت‌های قبلی، لیست کارت‌های پرسنلی شما به فقط یک کارت (آخرین کارت) به‌روزرسانی خواهد شد. ",
+        "getUserBiometricDataFromDevice": "این عملیات اطلاعات بیومتریک این کاربر را از دستگاه انتخاب شده دریافت می‌کند. آیا از دریافت اطلاعات بیومتریک این کاربر مطمئن هستید؟",
+        "sendUserBiometricDataToDevices": "این عملیات اطلاعات بیومتریک این کاربر را به دستگاه‌هایی که این کاربر در آنها وجود دارد و آنلاین هستند ارسال می‌کند. آیا از ارسال اطلاعات بیومتریک این کاربر مطمئن هستید؟"
+    }
+}

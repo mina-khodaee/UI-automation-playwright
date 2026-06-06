@@ -1,0 +1,65 @@
+{
+  "commonTexts": {
+    "signInText": "Sign in to your account",
+    "signInWelcomeText": "Hi, Welcome back",
+    "signingIn": "Signing in...",
+    "forgotPassword": "Forgot password?",
+    "requestError": "Something went wrong!",
+    "deleteConfirm": "Are you sure you want to delete?",
+    "deleteItemsConfirm": "Are you sure you want to delete {{count}} items?",
+    "selected": "items selected",
+    "noData": "no data found!",
+    "notFound": "Not found",
+    "noResultFound": "No results found for",
+    "tryCheckingTypos": "Try checking for typos or using complete words.",
+    "enterKeyWord": "Please enter keywords",
+    "notFoundPage": "Sorry, page not found!",
+    "notFoundText": " Sorry, we couldn’t find the page you’re looking for. Perhaps you’ve mistyped the URL? Be sure to check your spelling."
+  },
+  "button": {
+    "create": "Create",
+    "edit": "Edit",
+    "delete": "Delete",
+    "update": "Update",
+    "signIn": "Sign In",
+    "print": "print",
+    "deleteLoading": "deleting...",
+    "isLoading": "Loading...",
+    "cancel": "Cancel",
+    "back": "Back",
+    "settings": "Settings",
+    "close": "Close",
+    "ok": "Ok",
+    "save": "Save",
+    "details": "Details",
+    "more": "More",
+    "quickEdit": "Quick Edit",
+    "view": "View",
+    "goToHome": "Go to Home",
+    "copy": "Copy",
+        "sending": "Sending..."
+  },
+  "formsInputs": {
+    "username": "Username",
+    "password": "Password",
+    "createdDateTime": "Created Date Time",
+    "lastUpdatedDateTime": "Last Updated Date Time"
+  },
+  "formValidationErrors": {
+    "username": {
+      "required": "Username is required!"
+    },
+    "password": {
+      "required": "Password is required!"
+    }
+  },
+  "placeholders": {
+    "search":"search..."
+  },
+  "labels": {
+    "row": "Row",
+    "action": "Action",
+    "yes": "Yes",
+    "no": "No"
+  }
+}

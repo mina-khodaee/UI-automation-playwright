@@ -1,0 +1,283 @@
+{
+  "deviceManagement": {
+    "title": " مدیریت دستگاه‌ها",
+    "device": {
+      "title": "دستگاه‌ها"
+    },
+    "deviceType": {
+      "title": "انواع دستگاه‌ها"
+    },
+    "region": {
+      "title": "بخش‌ها"
+    },
+    "trafficReport": {
+      "title": "گزارشات تردد "
+    }
+  },
+  "userManagement": {
+    "title": "مدیریت کاربران",
+    "accessGroup": {
+      "title": "گروه‌های دسترسی"
+    },
+    "deviceUser": {
+      "title": "کاربران دستگاه"
+    }
+  },
+  "deviceScheduleManagement": {
+    "title": "مدیریت زمانبندی دستگاه‌ها",
+    "calendar": {
+      "title": "تقویم‌ها"
+    }
+  },
+  "apiKeyManagement": {
+    "title": "مدیریت کلیدهای API",
+    "APIs": {
+      "title": "کلیدهای API"
+    }
+  },
+  "positions": {
+    "title": "سمت‌ها"
+  },
+  "VisitorAndAppointment": {
+    "title": "تردد و ملاقات مهمان"
+  },
+  "carsManagement": {
+    "title": "مدیریت خودرو"
+  },
+  "vehicleAccess": {
+    "title": "تردد خودرو"
+  },
+  "guestVisitor": {
+    "title": "ارباب رجوع"
+  },
+  "contractors": {
+    "title": "پیمانکاران"
+  },
+
+  "cashInTransit": {
+    "title": "عملیات پول"
+  },
+  "armoryCategories": {
+    "title": "دسته بندی تجهیزات"
+  },
+  "armoryEquipments": {
+    "title": "تعریف تجهیزات"
+  },
+  "munitionsDepot": {
+    "title": "انبار تسلیحات"
+  },
+  "weaponModel": {
+    "title": "نوع سلاح"
+  },
+  "basicInformation": {
+    "title": "اطلاعات پایه"
+  },
+  "reports": {
+    "title": "گزارشات"
+  },
+  "centerGrouping": {
+    "title": "مرکز بندی"
+  },
+  "trafficOperations": {
+    "title": "عملیات تردد"
+  },
+  "staffAccessReport": {
+    "title": "گزارش تردد پرسنل"
+  },
+  "vehicleAccessReport": {
+    "title": "گزارش تردد خودرو"
+  },
+  "guestReport": {
+    "title": "گزارش مهمان"
+  },
+  "firearm": {
+    "title": "تعریف سلاح"
+  },
+  "ammunition": {
+    "title": "تعریف مهمات"
+  },
+
+  "cartridgeDefinitions": {
+    "title": "تعریف فشنگ"
+  },
+
+  "assets": {
+    "title": "نوع تجهیزات"
+  },
+  "assetDefinitions" : {
+    "title": "تعریف تجهیزات"
+  },
+
+
+  "armoryInventory": {
+    "title": "مدیریت تجهیزات"
+  },
+  "setting": {
+    "title": "مدیر سیستم"
+  },
+  "guestVisitorList": {
+    "title": "لیست مهمان‌ها"
+  },
+  "guestReserve": {
+    "title": "رزرو مهمان‌ها"
+  },
+  "visitorCards": {
+    "title": "کارت مهمان‌ها"
+  },
+  "visitorBlackList": {
+    "title": "مهمان ممنوع الورود"
+  },
+  "visitorBlackListReasons": {
+    "title": "علل ممنوع الورود مهمان"
+  },
+  "personnelBlackList": {
+    "title": "پرسنل ممنوع الورود"
+  },
+  "personnelBlackListReasons": {
+    "title": "علل ممنوع الورود پرسنل"
+  },
+  "units": {
+    "title": "واحد‌ها"
+  },
+  "patrolArea": {
+    "title": "محل نگهبانی"
+  },
+  "patrolShift": {
+    "title": "شیفت نگهبانی"
+  },
+  "assignEquipments": {
+    "title": "تخصیص تجهیزات"
+  },
+  "patrolShiftWorkPeriod": {
+    "title": "دوره کاری شیفت"
+  },
+  "shiftSupervisorAndDeputy": {
+    "title": "سرپرست شیفت و جانشین"
+  },
+  "groupShiftArrangement": {
+    "title": "چینش شیفت گردشی گروهی"
+  },
+  "singleShiftArrangement": {
+    "title": "چینش شیفت گردشی"
+  },
+
+  "employmentType": {
+    "title": "انواع استخدام"
+  },
+  "occupationType": {
+    "title": "انواع اشتغال"
+  },
+  "AccountManagement": {
+    "title": "مدیریت حساب کاربری"
+  },
+  "staff": {
+    "title": "پرسنل"
+  },
+  "organizationChart": {
+    "title": "چارت سازمانی"
+  },
+  "organizationTree": {
+    "title": "درخت سازمانی"
+  },
+  "manageCartable": {
+    "title": "مدیریت کارتابل"
+  },
+  "managerCartable": {
+    "title": "کارتابل مدیر"
+  },
+  "staffAccess": {
+    "title": "تردد پرسنل"
+  },
+  "arrangements": {
+    "title": "انتظامات"
+  },
+  "staffInfo": {
+    "title": "مدیریت پرسنل"
+  },
+  "staffAction": {
+    "title": "عملیات پرسنل"
+  },
+  "centerInfrastructureManagement": {
+    "title": "مدیریت زیرساخت"
+  },
+  "humanResourceManagement": {
+    "title": "مدیریت منابع انسانی"
+  },
+  "major": {
+    "title": "رشته تحصیلی"
+  },
+  "degree": {
+    "title": "مقطع تحصیلی"
+  },
+  "location": {
+    "title": "مدیریت مکان‌ها"
+  },
+  "roleManagement": {
+    "title": "مدیریت نقش‌ها"
+  },
+  "sites": {
+    "title": "مراکز"
+  },
+  "accessPermission": {
+    "title": "مجوز دسترسی‌ها"
+  },
+  "claimTypes": {
+    "title": "مدیریت انواع دسترسی"
+  },
+  "claimList": {
+    "title": "لیست دسترسی‌ها"
+  },
+  "claimManagement": {
+    "mainTitle": "مدیریت دسترسی",
+    "claimType": "انواع دسترسی"
+  },
+  "securityEquipmentTypes": {
+    "title": " انواع تجهیزات امنیتی"
+  },
+  "securityEquipments": {
+    "title": "تعریف تجهیزات"
+  },
+  "guardPlaque": {
+    "title": "لوح نگهبانی"
+  },
+  "patrolGroups": {
+    "title": "گروه های نگهبانی"
+  },
+  "doors": {
+    "title": "مدیریت درب ها"
+  },
+  "sidebar": {
+    "accountManagement": "مدیریت حساب کاربری",
+    "dashboard": "داشبورد",
+    "logout": "خروج",
+    "settings": "تنظیمات",
+    "resetAll": "بازنشانی همه",
+    "close": "بستن",
+    "darkMode": "حالت تیره",
+    "exit": "خروج",
+    "fullscreen": "تمام صفحه",
+    "presets": "تم",
+    "contrast": "کنتراست",
+    "RTL": "راست به چپ",
+    "nav": "منو",
+    "dashboardOnly": "فقط داشبورد",
+    "compact": "فشرده",
+    "compactTooltip": "فقط داشبورد و تنها در وضوح‌های بالا (بیش از ۱۶۰۰ پیکسل) در دسترس است.",
+    "layout": "چینش",
+    "color": "رنگ",
+    "integrate": "روشن",
+    "apparent": "تیره",
+    "font": "فونت",
+    "family": "نوع متن",
+    "size": "اندازه متن"
+  },
+  "armory": {
+    "title": "اسلحه خانه",
+    "sites": "مراکز",
+    "armoryResponsible": "مسئول اسلحه خانه",
+    "weaponInfo": "اطلاعات اسلحه",
+    "magazineInfo": "اطلاعات خشاب",
+    "ammunitionInfo": "اطلاعات مهمات",
+    "equipmentInfo": "اطلاعات تجهیزات"
+  }
+}

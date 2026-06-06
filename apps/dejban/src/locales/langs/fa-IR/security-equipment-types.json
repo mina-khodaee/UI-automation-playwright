@@ -1,0 +1,36 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "newSecurityEquipmentTypes": "انواع تجهیزات نظامی جدید",
+    "updateSecurityEquipmentTypes": "به‌روزرسانی انواع تجهیزات نظامی",
+    "securityEquipmentTypes": "انواع تجهیزات نظامی"
+  },
+  "formsInputs": {
+    "description": "توضیحات",
+    "name": "نام",
+    "isUnique": "نیازمند شماره سریال"
+
+  },
+  "buttons": {
+    "newSecurityEquipmentTypes": "افزودن جدید"
+  },
+  "columns": {
+    "name": "نام",
+    "description": "توضیحات"
+  },
+  "toastMessages": {
+    "deleteSecurityEquipmentTypes": "حذف نوع تجهیزات نظامی با موفقیت انجام شد",
+    "update": "به‌روزرسانی نوع تجهیزات نظامی با موفقیت انجام شد",
+    "create": "نوع تجهیزات نظامی با موفقیت ایجاد شد"
+  },
+  "title": {
+    "insertSecurityEquipmentTypes": "ایجاد نوع تجهیزات نظامی",
+    "updateSecurityEquipmentTypes": "ویرایش نوع تجهیزات نظامی"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "وارد کردن نام الزامی است"
+    }
+
+  }
+}

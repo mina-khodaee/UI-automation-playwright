@@ -1,0 +1,57 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "newBlockUsers": "New Visitor",
+    "blockUsers": "Banned Visitors"
+  },
+  "formsInputs": {
+    "reasonId": "Ban Reason",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "nationalCode": "National Code",
+    "passportNumber": "Passport Number",
+    "phoneNumber": "Phone Number",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "description": "Description"
+  },
+  "buttons": {
+    "newBlockUsers": "Add Banned Visitor"
+  },
+  "columns": {
+    "blockUserName": "Full Name",
+    "nationalCode": "National Code",
+    "phoneNumber": "Phone Number",
+    "reason": "Reason",
+    "description": "Description"
+  },
+  "toastMessages": {
+    "deleteBlockUsers": "Visitor deleted successfully",
+    "update": "Visitor updated successfully",
+    "create": "Visitor created successfully"
+  },
+  "title": {
+    "insertBlockUsers": "Create Banned Visitor",
+    "updateBlockUsers": "Edit Visitor"
+  },
+  "formValidationErrors": {
+    "firstName": {
+      "required": "First name is required"
+    },
+    "lastName": {
+      "required": "Last name is required"
+    },
+    "nationalCode": {
+      "required": "National code is required"
+    },
+    "reason": {
+      "required": "Ban reason is required"
+    },
+    "startDate": {
+      "required": "Start date is required"
+    },
+    "endDate": {
+      "required": "End date is required"
+    }
+  }
+}

@@ -1,0 +1,338 @@
+{
+    "button": {
+        "new": "دستگاه‌ جدید",
+        "create": "ثبت دستگاه",
+        "createDeviceType": " نوع دستگاه‌ جدید",
+        "addDeviceType": "ثبت نوع دستگاه",
+        "getInfo": "🔄گرفتن اطلاعات",
+        "saveSetting": "ذخیره تنظیمات",
+        "networkSettings": "تنظیمات شبکه",
+        "interfaceSettings": "تنظیمات اینترفیس",
+        "securitySettings": "تنظیمات امنیتی",
+        "setSettings": "ارسال تنظیمات",
+        "newRegion": "بخش جدید",
+        "newCalendar": "تقویم جدید",
+        "sortBy": "مرتب کردن براساس",
+        "setShifts": "تنظیم شیفت‌ها",
+        "setHolidays": "تنظیم تعطیلات",
+        "addShift": "اضافه کردن شیفت",
+        "createCalendar": "ثبت تقویم",
+        "updateCalendar": "به‌روز‌رسانی تقویم",
+        "addHolidays": "اضافه کردن تعطیلات",
+        "today": "امروز",
+        "week": "هفته",
+        "month": "ماه",
+        "day": "روز",
+        "listWeek": "شیفت‌ها",
+        "createAccessGroup": "ثبت گروه دسترسی",
+        "maintenanceMode": "وضعیت نگهداری",
+        "commands": "فرمان‌های اضطراری",
+        "syncDeviceWithAccessGroup": "همگام‌سازی کاربران دستگاه با گروه دسترسی",
+        "syncDevicesWithAccessGroup": "همگام‌سازی کاربران دستگاه‌ها با گروه دسترسی",
+        "setMaintenanceMode": "  تنظیم وضعیت نگهداری دستگاه",
+        "setDeviceDoorStatus": "تنظیم وضعیت درب دستگاه",
+        "changeDeviceGroup": "تغییر گروه دسترسی دستگاه",
+        "changeDeviceMaintenanceMode": "تغییر وضعیت نگهداری دستگاه",
+        "changeDeviceMaintenanceModeLoading": "درحال  تغییر وضعیت ...",
+        "syncing": "درحال همگام‌سازی ...",
+        "createRegion": "ثبت بخش",
+        "updateRegion": "به‌روز‌رسانی بخش",
+        "showDeviceReports": "نمایش گزارشات تردد دستگاه",
+        "setRegionDoorsStatus": "تنظیم وضعیت درب دستگاه‌های بخش",
+        "setDeviceToMaintenanceMode": " قرار دادن دستگاه در وضعیت نگهداری",
+        "setDeviceOutOfMaintenanceMode": "خارج کردن دستگاه از وضعیت نگهداری",
+        "sendBiometricDataToDevices": "ارسال اطلاعات بیومتریک به دستگاه‌ها",
+        "getBiometricDataFromDevice": "دریافت اطلاعات بیومتریک دستگاه",
+        "getBiometricDataFromMultipleDevices": "دریافت اطلاعات بیومتریک دستگاه‌ها",
+        "groupActions": "عملیات گروهی",
+        "sendBiometricDataToDevice": "ارسال اطلاعات بیومتریک به دستگاه"
+    },
+    "formsInputs": {
+        "deviceModel": "برند / مدل",
+        "authenticationMode": "نوع احراز هویت",
+        "supportAntipassback": "پشتیبانی Antipassback",
+        "terminalPort": "پورت ترمینال",
+        "terminalPassword": "رمز عبور ترمینال",
+        "region": "بخش",
+        "serialNumber": "شماره سریال",
+        "terminalId": "شناسه ترمینال",
+        "firmwareVersion": "نسخه مغزافزار",
+        "isActive": "فعال",
+        "antipassback": "Anti Passback",
+        "description": "توضیحات",
+        "terminalMacAddress": "مک آدرس ترمینال",
+        "lastConnected": "آخرین اتصال",
+        "brand": "برند ",
+        "model": "مدل ",
+        "cardTypes": "انواع کارت",
+        "networkType": "نوع شبکه",
+        "terminalIP": " IP ترمینال",
+        "subnet": "سابنت",
+        "gateway": " درگاه ارتباطی",
+        "serverIP": "IP سرور",
+        "serverPort": "پورت سرور",
+        "usesTerminalId": "استفاده از شناسه ترمینال",
+        "usesSerialNumber": "استفاده از شماره سریال",
+        "printText": "متن پرینت",
+        "sound": "میزان صدا",
+        "autoEnterKey": "Auto Enter Key",
+        "accessLevel": "سطح دسترسی",
+        "applicationMode": "نوع کاربرد",
+        "securityLevel_1To1": "سطح امنیتی یک به یک",
+        "securityLevel_1ToN": "سطح امنیتی یک به چند",
+        "inputIDType": "نوع شناسه ورودی",
+        "inputIDLength": "طول شناسه ورودی",
+        "uptime": "مدت زمان فعالیت بدون وقفه",
+        "usersLastSync": "آخرین همگام‌سازی کاربران",
+        "lastUpdated": "آخرین به‌روزرسانی",
+        "timeZone": "منطقه زمانی",
+        "createdAt": "زمان ثبت",
+        "updatedAt": "زمان به‌روزرسانی",
+        "weekStartDayIndex": "روز شروع هفته",
+        "isDefaultCalendar": "تقویم پیش‌فرض",
+        "calendarName": "نام تقویم",
+        "workDays": "روزهای کاری",
+        "holidays": " تعطیلات",
+        "shifts": "شماره شیفت‌ها",
+        "shiftNumber": "شیفت",
+        "hasBreak": "استراحت",
+        "startTime": "شروع شیفت",
+        "endTime": "پایان شیفت",
+        "breakStart": "شروع استراحت",
+        "breakEnd": "پایان استراحت",
+        "holidayName": "نام تعطیلات",
+        "holidayDate": "تاریخ تعطیلات",
+        "holidaysCount": "تعداد تعطیلات",
+        "accessGroupName": "نام گروه دسترسی",
+        "defaultAccessGroup": "گروه دسترسی پیش‌فرض",
+        "calendar": "تقویم",
+        "accessGroup": "گروه دسترسی",
+        "password": "رمز عبور",
+        "fpCard": "کارت Fp",
+        "face": "چهره",
+        "fingerprint": "اثر انگشت",
+        "allowedAuthTypes": "نوع احراز هویت مجاز",
+        "cardID": "شناسه کارت",
+        "card": "کارت",
+        "isAndOperation": " احراز همه موارد انتخاب شده",
+        "isOrOperation": " احراز یکی از موارد انتخاب شده (فقط 2 مورد از موارد زیر قابل انتخاب خواهد بود.)",
+        "authTypeAndOperation": "همه موارد زیر برای احراز الزامی هستند",
+        "authTypeOrOperation": " یکی از موارد زیر برای احراز الزامی است",
+        "devices": "دستگاه‌ها",
+        "isSyncWithAccessGroupUsers": "همگام‌ با گروه دسترسی کاربران",
+        "notSyncWithAccessGroup": "ناهمگام با گروه دسترسی",
+        "doorStatus": "وضعیت درب",
+        "regionName": "نام بخش",
+        "parentId": "بخش والد",
+        "hasCamera": "دارای دوربین",
+        "syncUsersStatus": "وضعیت آخرین همگام‌سازی",
+        "picture": "تصویر",
+        "syncUsersWithAccessGroup": "همگام‌سازی کاربران با گروه دسترسی",
+        "syncSettingsWithAccessGroup": "همگام‌سازی تنظیمات با گروه دسترسی",
+        "subRegions": "زیر بخش‌ها",
+        "regionDevices": "دستگاه‌های بخش",
+        "deviceName": "نام دستگاه",
+        "trafficMode": "نوع تردد از دستگاه"
+    },
+    "breadCrumb": {
+        "dashboard": "داشبورد",
+        "device": "دستگاه‌ها",
+        "add": "دستگاه جدید",
+        "update": "به‌روز‌رسانی دستگاه",
+        "deviceType": "انواع دستگاه‌ها",
+        "addDeviceType": "نوع جدید دستگاه",
+        "updateDeviceType": "به‌روز‌رسانی نوع دستگاه",
+        "updateRegion": "به‌روز‌رسانی بخش",
+        "region": "بخش‌ها",
+        "newCalendar": "تقویم جدید",
+        "updateCalendar": "به‌روز‌رسانی تقویم",
+        "calendar": "تقویم‌ها",
+        "accessGroup": "گروه‌های دسترسی",
+        "newAccessGroup": "گروه دسترسی جدید",
+        "updateAccessGroup": "به‌روز‌رسانی گروه دسترسی"
+    },
+    "filters": {
+        "all": "همه",
+        "active": "فعال",
+        "inactive": "غیر فعال",
+        "online": "آنلاین",
+        "offline": "آفلاین",
+        "latest": "جدیدترین",
+        "oldest": "قدیمی‌ترین",
+        "synced": "موفق",
+        "syncFailed": "ناموفق",
+        "syncing": "درحال همگام‌سازی",
+        "notInitialized": "همگام‌سازی نشده"
+    },
+    "toastMessages": {
+        "create": "دستگاه با موفقیت ثبت شد!",
+        "update": "دستگاه با موفقیت به‌روز‌رسانی شد!",
+        "delete": "دستگاه با موفقیت حذف شد!",
+        "saveSetting": "تنظیمات با موفقیت ذخیره شد!",
+        "updateSetting": "تنظیمات با موفقیت به‌روز‌رسانی شد!",
+        "createDeviceType": "نوع دستگاه با موفقیت ثبت شد!",
+        "updateDeviceType": "نوع دستگاه با موفقیت به‌روز‌رسانی شد!",
+        "deleteDeviceType": "نوع دستگاه با موفقیت حذف شد!",
+        "deleteDeviceTypeError": "این نوع دستگاه به دستگاه‌هایی اختصاص داده شده است و قابل حذف نیست!",
+        "setNetworkSettings": "تنظیمات شبکه با موفقیت ارسال شد!",
+        "setInterfaceSettings": "تنظیمات اینترفیس با موفقیت ارسال شد!",
+        "setSecuritySettings": "تنظیمات امنیتی با موفقیت ارسال شد!",
+        "setNetworkSettingsError": "خطا در ارسال تنظیمات شبکه!",
+        "setInterfaceSettingsError": "خطا در ارسال تنظیمات اینترفیس!",
+        "setSecuritySettingsError": "خطا در ارسال تنظیمات امنیتی!",
+        "createCalendar": "تقویم با موفقیت ثبت شد!",
+        "updateCalendar": "تقویم با موفقیت به‌روز‌رسانی شد!",
+        "deleteCalendar": "تقویم با موفقیت حذف شد!",
+        "createAccessGroup": "گروه دسترسی با موفقیت ثبت شد!",
+        "updateAccessGroup": "گروه دسترسی با موفقیت به‌روز‌رسانی شد!",
+        "deleteAccessGroup": "گروه دسترسی با موفقیت حذف شد!",
+        "changeMaintenanceMode": "حالت نگهداری با موفقیت تغییر کرد!",
+        "changeDeviceGroup": "گروه دسترسی با موفقیت تغییر کرد!",
+        "setDeviceDoorStatus": "وضعیت درب با موفقیت تنظیم شد!",
+        "syncDeviceWithAccessGroup": "همگام‌سازی دستگاه با گروه دسترسی با موفقیت انجام شد!",
+        "syncDevicesWithAccessGroup": "همگام‌سازی دستگاه‌ها با گروه دسترسی‌شان با موفقیت انجام شد!",
+        "deleteRegion": "بخش با موفقیت حذف شد!",
+        "createRegion": "بخش با موفقیت ثبت شد!",
+        "updateRegion": "بخش با موفقیت به‌روز‌رسانی شد!",
+        "sameShiftNumber": "شیفت با این شماره قبلا ثبت شده است!",
+        "deleteRootRegion": "بخش اصلی قابل حذف شدن نیست!",
+        "sendBiometricDataToDevices": "ارسال اطلاعات بیومتریک به دستگاه‌ها با موفقیت انجام شد!",
+        "getBiometricDataFromDevice": "دریافت اطلاعات بیومتریک دستگاه با موفقیت انجام شد!",
+        "getBiometricDataFromMultipleDevices": "دریافت اطلاعات بیومتریک از دستگاه‌های انتخاب شده با موفقیت انجام شد!",
+        "sendBiometricDataToDevice": "ارسال اطلاعات بیومتریک به دستگاه با موفقیت انجام شد!"
+    },
+    "texts": {
+        "selectImage": "لطفا تصویر دستگاه مورد نظر خود را انتخاب کنید",
+        "noDeviceType": "هیچ نوع دستگاهی یافت نشد!",
+        "workDaysShifts": "شیفت‌های روزهای کاری",
+        "noDeviceInAccessGroup": "هیچ دستگاهی با این گروه دسترسی وجود ندارد!",
+        "setMaintenanceModeTrue": "آیا از قرار دادن دستگاه در حالت نگهداری مطمئن هستید؟",
+        "setMaintenanceModeFalse": "آیا از خارج کردن دستگاه از حالت نگهداری مطمئن هستید؟",
+        "syncDeviceWithAccessGroup": "این عملیات چند دقیقه طول می‌کشد. آیا از ادامه این عملیات اطمینان دارید؟",
+        "alreadySynced": "دستگاه با گروه دسترسی همگام‌سازی شده است!",
+        "allDay": "تمام روز",
+        "rootRegion": "بخش اصلی",
+        "deleteRegionConfirm": "زیر‌بخش‌های این بخش نیز حذف خواهند شد! آیا از حذف این بخش مطمئن هستید؟ ",
+        "sendBiometricDataToDevices": "این عملیات اطلاعات بیومتریک کاربران موجود در این گروه دسترسی را به دستگاه‌هایی که در این گروه دسترسی و آنلاین هستند ارسال می‌کند. آیا از ارسال اطلاعات بیومتریک به دستگاه‌های این گروه دسترسی مطمئن هستید؟",
+        "sendBiometricDataToDevice": "این عملیات اطلاعات بیومتریک کاربران موجود در این دستگاه را به دستگاه ارسال می‌کند. آیا از ارسال اطلاعات بیومتریک به این دستگاه مطمئن هستید؟",
+        "getBiometricDataFromDevice": "این عملیات تمام اطلاعات بیومتریک کاربران این دستگاه را دریافت و ذخیره می‌کند. آیا از دریافت اطلاعات بیومتریک این دستگاه مطمئن هستید؟",
+        "getBiometricDataFromMultipleDevices": "این عملیات اطلاعات بیومتریک کاربران موجود در دستگاه‌های انتخاب شده را دریافت و ذخیره می‌کند. آیا از دریافت اطلاعات بیومتریک از دستگاه‌های انتخاب شده مطمئن هستید؟"
+    },
+    "formValidationErrors": {
+        "deviceTypeId": {
+            "required": "برند / مدل الزامی است"
+        },
+        "authenticationModeId": {
+            "required": "نوع احراز هویت الزامی است"
+        },
+        "terminalIP": {
+            "invalid": "آدرس IP نامعتبر است",
+            "required": "آدرس IP الزامی است"
+        },
+        "terminalPort": {
+            "required": "پورت ترمینال الزامی است"
+        },
+        "terminalPassword": {
+            "required": "رمز عبور ترمینال الزامی است"
+        },
+        "brand": {
+            "required": "برند الزامی است"
+        },
+        "model": {
+            "required": "مدل الزامی است"
+        },
+        "cardTypes": {
+            "required": "نوع کارت الزامی است"
+        },
+        "serialNumber": {
+            "required": "شماره سریال الزامی است"
+        },
+        "terminalId": {
+            "required": "شناسه ترمینال الزامی است"
+        },
+        "serverIP": {
+            "required": "IP سرور الزامی است"
+        },
+        "serverPort": {
+            "required": "پورت سرور الزامی است"
+        },
+        "networkType": {
+            "required": "نوع شبکه الزامی است"
+        },
+        "subnet": {
+            "required": "سابنت الزامی است"
+        },
+        "gateway": {
+            "required": "درگاه ارتباطی الزامی است"
+        },
+        "authenticationMode": {
+            "required": "نوع احراز هویت الزامی است"
+        },
+        "settingsType": {
+            "required": "حداقل یک گزینه را انتخاب کنید!"
+        },
+        "calendarName": {
+            "required": "نام تقویم الزامی است"
+        },
+        "shiftNumber": {
+            "required": "شماره شیفت الزامی است"
+        },
+        "weekStartDayIndex": {
+            "required": "روز شروع هفته الزامی است"
+        },
+        "shift": {
+            "required": "تنظیم شیفت برای روزهای کاری انتخاب شده الزامی است"
+        },
+        "shiftStartTime": {
+            "required": "زمان شروع شیفت الزامی است",
+            "invalid": "زمان شروع شیفت نامعتبر است"
+        },
+        "shiftEndTime": {
+            "required": "زمان پایان شیفت الزامی است",
+            "invalid": "زمان پایان شیفت نامعتبر است",
+            "greaterThanStartTime": "زمان پایان شیفت باید بزرگتر از زمان شروع شیفت باشد"
+        },
+        "breakStartTime": {
+            "invalid": "زمان شروع استراحت نامعتبر است",
+            "betweenShift": "زمان شروع استراحت باید بین زمان شروع و پایان شیفت باشد"
+        },
+        "breakEndTime": {
+            "invalid": "زمان پایان استراحت نامعتبر است",
+            "betweenShift": "زمان پایان استراحت باید بین زمان شروع و پایان شیفت باشد",
+            "greaterThanStartTime": "زمان پایان استراحت باید بزرگتر از زمان شروع استراحت باشد"
+        },
+        "holidayName": {
+            "required": "نام تعطیلات الزامی است"
+        },
+        "holidayDate": {
+            "required": "تاریخ تعطیلات الزامی است",
+            "invalid": "تاریخ تعطیلات نامعتبر است"
+        },
+        "accessGroupName": {
+            "required": "نام گروه دسترسی الزامی است"
+        },
+        "aclCalendarId": {
+            "required": "تقویم الزامی است"
+        },
+        "allowedAuthTypes": {
+            "required": "حداقل یک نوع احراز هویت را انتخاب کنید!",
+            "limitExceeded": "حداکثر 2 مورد می‌توانید انتخاب کنید"
+        },
+        "accessGroupId": {
+            "required": "گروه دسترسی الزامی است"
+        },
+        "doorStatus": {
+            "required": "وضعیت درب الزامی است"
+        },
+        "regionName": {
+            "required": "نام بخش الزامی است"
+        },
+        "parentId": {
+            "required": "بخش والد الزامی است"
+        },
+        "trafficMode":
+        {
+            "required": "نوع تردد از دستگاه الزامی است."
+        }
+    }
+}

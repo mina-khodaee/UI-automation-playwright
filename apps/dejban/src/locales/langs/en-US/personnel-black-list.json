@@ -1,0 +1,51 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "newBlockUsers": "New Personnel",
+    "blockUsers": "Blacklisted Personnel"
+  },
+  "formsInputs": {
+    "personnelId": "Personnel ID",
+    "reasonId": "Reason ID",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "description": "Description"
+  },
+  "buttons": {
+    "newBlockUsers": "Add Blacklisted Personnel"
+  },
+  "columns": {
+    "personnelId": "Personnel",
+    "reasonId": "Reason",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "description": "Description"
+  },
+  "toastMessages": {
+    "deleteBlockUsers": "Personnel deleted successfully",
+    "update": "Personnel updated successfully",
+    "create": "Personnel created successfully"
+  },
+  "title": {
+    "insertBlockUsers": "Create Blacklisted Personnel",
+    "updateBlockUsers": "Edit Personnel"
+  },
+  "formValidationErrors": {
+    "personnelId": {
+      "required": "Personnel ID is required"
+    },
+    "reasonId": {
+      "required": "Reason ID is required"
+    },
+    "startDate": {
+      "required": "Start Date is required"
+    },
+    "endDate": {
+      "required": "End Date is required"
+    },
+    "description": {
+      "required": "Description is required"
+    }
+
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "newBlockUsers": "مهمان جدید",
+    "blockUsers": "مهمانان ممنوع الورود"
+  },
+  "formsInputs": {
+    "reasonId": "علت ممنوعیت",
+    "firstName": "نام",
+    "lastName": "نام خانوادگی",
+    "nationalCode": "کد ملی",
+    "passportNumber": "شماره پاسپورت",
+    "phoneNumber": "شماره تماس",
+    "startDate": "تاریخ شروع",
+    "endDate": "تاریخ پایان",
+    "description": "توضیحات"
+  },
+  "buttons": {
+    "newBlockUsers": "افزودن مهمان ممنوع الورود"
+  },
+  "columns": {
+    "blockUserName": "نام و نام خانوادگی",
+    "nationalCode": "کد ملی",
+    "phoneNumber": "شماره تماس",
+    "reason": "علت",
+    "description": "توضیحات"
+  },
+  "toastMessages": {
+    "deleteBlockUsers": "حذف مهمان با موفقیت انجام شد",
+    "update": "به‌روزرسانی مهمان با موفقیت انجام شد",
+    "create": "مهمان با موفقیت ایجاد شد"
+  },
+  "title": {
+    "insertBlockUsers": "ایجاد مهمان ممنوع الورود",
+    "updateBlockUsers": "ویرایش مهمان"
+  },
+  "formValidationErrors": {
+    "firstName": {
+      "required": "وارد کردن نام الزامی است"
+    },
+    "lastName": {
+      "required": "وارد کردن نام خانوادگی الزامی است"
+    },
+    "nationalCode": {
+      "required": "وارد کردن کد ملی الزامی است"
+    },
+    "reason": {
+      "required": "وارد کردن علت ممنوعیت الزامی است"
+    },
+    "startDate": {
+      "required": "وارد کردن تاریخ شروع الزامی است"
+    },
+    "endDate": {
+      "required": "وارد کردن تاریخ پایان الزامی است"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "newTreasury": "New Treasury Location",
+    "updateTreasury": "Update Treasury Location",
+    "treasury": "Treasury Basic Information"
+  },
+  "formsInputs": {
+    "treasuryLocationName": "Treasury Location Name",
+    "treasuryLocationCode": "Treasury Location Code",
+    "centerName": "Center Name"
+  },
+  "buttons": {
+    "newTreasury": "Add New Treasury Location"
+  },
+  "columns": {
+    "treasuryLocationName": "Treasury Location Name",
+    "treasuryLocationCode": "Treasury Location Code",
+    "centerName": "Center Name"
+  },
+  "toastMessages": {
+    "deleteTreasury": "Treasury location deleted successfully",
+    "update": "Treasury location updated successfully",
+    "create": "Treasury location created successfully"
+  },
+  "title": {
+    "insertTreasury": "Create Treasury Location",
+    "updateTreasury": "Edit Treasury Location"
+  },
+  "formValidationErrors": {
+    "treasuryLocationName": {
+      "required": "Treasury location name is required"
+    },
+    "treasuryLocationCode": {
+      "required": "Treasury location code is required"
+    },
+    "centerName": {
+      "required": "Center name is required"
+    }
+  }
+}

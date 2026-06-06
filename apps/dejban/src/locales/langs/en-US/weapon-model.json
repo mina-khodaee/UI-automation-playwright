@@ -1,0 +1,107 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "weaponModels": "Weapon Models",
+    "newWeaponModel": "New Weapon Model",
+    "editWeaponModel": "Edit Weapon Model"
+  },
+  "formsInputs": {
+    "manufacturer": "Manufacturer",
+    "modelName": "Model Name",
+    "category": "Category",
+    "caliber": "Caliber",
+    "action": "Action",
+    "magazineModel": "Magazine Model",
+    "weightEmptyGrams": "Empty Weight (g)",
+    "overallLengthMm": "Overall Length (mm)",
+    "barrelLengthMm": "Barrel Length (mm)",
+    "rifling": "Rifling"
+  },
+  "buttons": {
+    "newWeaponModel": "Add Weapon Model",
+    "create": "Create",
+    "update": "Update",
+    "cancel": "Cancel",
+    "creating": "Creating...",
+    "updating": "Updating..."
+  },
+  "columns": {
+    "manufacturer": "Manufacturer",
+    "modelName": "Model Name",
+    "category": "Category",
+    "caliber": "Caliber",
+    "action": "Action",
+    "magazineModel": "Magazine Model",
+    "weightEmptyGrams": "Empty Weight",
+    "overallLengthMm": "Overall Length",
+    "barrelLengthMm": "Barrel Length",
+    "rifling": "Rifling",
+    "createdAt": "Created At"
+  },
+  "toastMessages": {
+    "delete": "Weapon model deleted successfully",
+    "update": "Weapon model updated successfully",
+    "create": "Weapon model created successfully"
+  },
+  "title": {
+    "insertWeaponModel": "Create Weapon Model",
+    "updateWeaponModel": "Edit Weapon Model"
+  },
+  "formValidationErrors": {
+    "manufacturer": {
+      "required": "Manufacturer is required"
+    },
+    "modelName": {
+      "required": "Model name is required"
+    },
+    "category": {
+      "required": "Category is required"
+    },
+    "caliber": {
+      "required": "Caliber is required"
+    },
+    "action": {
+      "required": "Action is required"
+    },
+    "weightEmptyGrams": {
+      "invalid": "Weight must be a positive number"
+    },
+    "overallLengthMm": {
+      "invalid": "Length must be a positive number"
+    },
+    "barrelLengthMm": {
+      "invalid": "Barrel length must be a positive number"
+    }
+  },
+  "categoryOptions": {
+    "pistol": "Pistol",
+    "rifle": "Rifle",
+    "shotgun": "Shotgun",
+    "sniper": "Sniper",
+    "machinegun": "Machine Gun",
+    "subMachinegun": "Submachine Gun"
+  },
+  "actionOptions": {
+    "semiAuto": "Semi-Automatic",
+    "auto": "Automatic",
+    "bolt": "Bolt Action",
+    "lever": "Lever Action",
+    "pump": "Pump Action",
+    "break": "Break Action"
+  },
+  "riflingOptions": {
+    "polygonal": "Polygonal",
+    "conventional": "Conventional",
+    "button": "Button",
+    "cut": "Cut"
+  },
+  "magazineOptions": {
+    "none": "None",
+    "stanag": "STANAG",
+    "ak": "AK",
+    "glock": "Glock",
+    "beretta": "Beretta",
+    "m4": "M4/M16",
+    "other": "Other"
+  }
+}

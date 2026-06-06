@@ -1,0 +1,75 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "newVehicleAccess": "New Vehicle Access",
+    "updateVehicleAccess": "Update Vehicle Access",
+    "VehicleAccess": "Vehicle Access"
+  },
+  "formsInputs": {
+    "searchQuery": "Search vehicle plate",
+    "driverName": "Driver Name",
+    "vehicleType": "Vehicle Type",
+    "vehiclePlate": "Vehicle Plate",
+    "passengers": "Passengers",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "nationalCode": "National Code",
+    "phoneNumber": "Phone Number",
+    "gender": "Gender",
+    "accessGroupId": "Entry Door",
+    "exitDoor": "Exit Door",
+    "visitDate": "Start Date",
+    "visitStartTime": "Start Time",
+    "visitEndDate": "End Date",
+    "visitEndTime": "End Time",
+    "trafficMode": "Traffic Mode",
+    "doorId": "Door Name",
+    "date": "Date",
+    "entry": "Entry",
+    "exit": "Exit"
+  },
+  "buttons": {
+    "newVehicleAccess": "Add New Vehicle Access",
+    "accessList": "Access List",
+    "submitAccess": "Submit Access",
+    "cancel": "Cancel",
+    "addCompanion": "Add Companion"
+  },
+  "columns": {
+    "vehiclePlate": "Vehicle Plate",
+    "vehicleType": "Vehicle Type",
+    "driverName": "Driver Name",
+    "ownerName": "Owner Name",
+    "entryDoor": "Entry Door",
+    "entryDateTime": "Entry Date/Time",
+    "exitDoor": "Exit Door",
+    "exitDateTime": "Exit Date/Time",
+    "occupantsCount": "Occupants"
+  },
+  "toastMessages": {
+    "deleteVehicleAccess": "Vehicle access deleted successfully",
+    "create": "Vehicle access created successfully",
+    "update": "Vehicle access updated successfully"
+  },
+  "title": {
+    "insertVehicleAccess": "Vehicle Access Information",
+    "updateVehicleAccess": "Edit Vehicle Access"
+  },
+  "formValidationErrors": {
+    "searchQuery": "Search field is required",
+    "driverName": "Driver name field is required",
+    "vehicleType": "Vehicle type field is required",
+    "vehiclePlate": "Vehicle plate field is required",
+    "firstName": "First name field is required",
+    "lastName": "Last name field is required",
+    "nationalCode": "National code field is required",
+    "phoneNumber": "Phone number field is required",
+    "gender": "Gender field is required",
+    "accessGroupId": "Entry door field is required",
+    "exitDoor": "Exit door field is required",
+    "visitDate": "Start date field is required",
+    "visitStartTime": "Start time field is required",
+    "visitEndDate": "End date field is required",
+    "visitEndTime": "End time field is required"
+  }
+}

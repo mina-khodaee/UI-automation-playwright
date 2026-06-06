@@ -1,0 +1,35 @@
+{
+    "breadCrumb": {
+        "dashboard": "Dashboard",
+        "trafficReports": "Traffic Reports"
+    },
+    "columns": {
+        "authMode": "Auth Mode",
+        "authType": "Auth Type",
+        "device": "Device",
+        "terminalId": "Terminal ID / Serial Number",
+        "dateTime": "Date Time",
+        "isAuthorized": "Authorization",
+        "authorized": "Authorized",
+        "unauthorized": "Unauthorized",
+        "userName": "User Name",
+        "userType": "User  Role",
+        "picture": "Picture",
+        "deviceId": "Device ID",
+        "userId": "User ID",
+        "trafficMode": "Traffic Mode"
+    },
+    "buttons": {
+        "liveStream": "Live Stream Reports",
+        "allReports": "All Reports",
+        "apply": "Apply",
+        "export": "Export",
+        "exportPageCsv": "Export Page (CSV)",
+        "exportSelectedCsv": "Export Selected Rows (CSV)",
+        "exportPagePdf": "Export Page (PDF)",
+        "exportSelectedPdf": "Export Selected Rows (PDF)"
+    },
+    "filterValidations": {
+        "invalidBetweenDate": "Start date must be less than end date"
+    }
+}

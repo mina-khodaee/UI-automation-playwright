@@ -1,0 +1,31 @@
+{
+  "breadcrumb": {
+    "claimTypes": "مدیریت انواع دسترسی"
+  },
+  "title": {
+    "insertClaimType": "ایجاد نوع دسترسی",
+    "updateClaimType": "ویرایش نوع دسترسی"
+  },
+  "buttons": {
+    "newClaimType": "نوع دسترسی جدید"
+  },
+  "formsInputs": {
+    "name": "نام",
+    "description": "توضیحات"
+  },
+  "columns": {
+    "name": "نام",
+    "description": "توضیحات",
+    "createdAt": "تاریخ ایجاد"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "نام اجباری است"
+    }
+  },
+  "toastMessages": {
+    "create": "نوع دسترسی با موفقیت ایجاد شد",
+    "update": "نوع دسترسی با موفقیت ویرایش شد",
+    "delete": "نوع دسترسی با موفقیت حذف شد"
+  }
+}

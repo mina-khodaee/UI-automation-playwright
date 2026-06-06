@@ -1,0 +1,37 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "newOccuType": "New Occupation Type",
+    "updateOccuType": "Update Occupation Type",
+    "occuType": "Occupation Types"
+  },
+  "formsInputs": {
+    "description": "Description",
+    "name": "Name"
+  },
+  "buttons": {
+    "newOccuType": "Add New Occupation Type"
+  },
+  "columns": {
+    "occuTypeName": "Name",
+    "description": "Description",
+    "createAt": "Created At"
+  },
+  "toastMessages": {
+    "deleteOccuType": "Occupation type deleted successfully",
+    "update": "Occupation type updated successfully",
+    "create": "Occupation type created successfully"
+  },
+  "title": {
+    "insertOccuType": "Create Occupation Type",
+    "updateOccuType": "Edit Occupation Type"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "Name is required"
+    },
+    "sites": {
+      "required": "Selecting at least one site is required"
+    }
+  }
+}

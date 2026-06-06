@@ -1,0 +1,37 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "newEmpType": "نوع استخدام جدید",
+    "updateEmpType": "به‌روزرسانی نوع استخدام",
+    "empType": "انواع استخدام"
+  },
+  "formsInputs": {
+    "description": "توضیحات",
+    "name": "نام"
+  },
+  "buttons": {
+    "newEmpType": "افزودن نوع استخدام جدید"
+  },
+  "columns": {
+    "empTypeName": "نام",
+    "description": "توضیحات",
+    "createAt": "تاریخ ایجاد"
+  },
+  "toastMessages": {
+    "deleteEmpType": "حذف نوع استخدام با موفقیت انجام شد",
+    "update": "به‌روزرسانی نوع استخدام با موفقیت انجام شد",
+    "create": "نوع استخدام با موفقیت ایجاد شد"
+  },
+  "title": {
+    "insertEmpType": "ایجاد نوع استخدام",
+    "updateEmpType": "ویرایش نوع استخدام"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "وارد کردن نام الزامی است"
+    },
+    "sites": {
+      "required": "انتخاب حداقل یک مرکز الزامی است"
+    }
+  }
+}

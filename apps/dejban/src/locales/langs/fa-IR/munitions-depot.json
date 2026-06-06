@@ -1,0 +1,39 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "munitionsDepots": "انبارهای مهمات",
+    "newMunitionsDepot": "انبار جدید",
+    "editMunitionsDepot": "ویرایش انبار"
+  },
+  "formsInputs": {
+    "name": "نام انبار",
+    "siteId": "سایت"
+  },
+  "buttons": {
+    "newMunitionsDepot": "افزودن انبار مهمات",
+    "create": "ایجاد",
+    "update": "به‌روزرسانی",
+    "cancel": "انصراف",
+    "creating": "در حال ایجاد...",
+    "updating": "در حال به‌روزرسانی..."
+  },
+  "columns": {
+    "name": "نام انبار",
+    "siteId": "سایت",
+    "createdAt": "تاریخ ایجاد"
+  },
+  "toastMessages": {
+    "delete": "انبار مهمات با موفقیت حذف شد",
+    "update": "انبار مهمات با موفقیت به‌روزرسانی شد",
+    "create": "انبار مهمات با موفقیت ایجاد شد"
+  },
+  "title": {
+    "insertMunitionsDepot": "ایجاد انبار مهمات",
+    "updateMunitionsDepot": "ویرایش انبار مهمات"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "وارد کردن نام انبار الزامی است"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "sidebar": {
+    "modules": "Modules",
+    "accountManagement": "Account Management",
+    "dashboard": "Dashboard",
+    "logout": "Log out",
+    "settings": "Settings",
+    "resetAll": "Reset All",
+    "close": "Close",
+    "darkMode": "Dark Mode",
+    "exit": "Exit",
+    "fullscreen": "Full Screen",
+    "presets": "Presets",
+    "contrast": "Contrast",
+    "RTL": "Right to left",
+    "nav": "Nav",
+    "dashboardOnly": "Dashboard Only",
+    "compact": "Compact",
+    "compactTooltip": "Dashboard only and available at large resolutions > 1600px (xl)",
+    "layout": "Layout",
+    "color": "Color",
+    "integrate": "Integrate",
+    "apparent": "Apparent",
+    "font": "Font",
+    "family": "Family",
+    "size": "Size"
+  }
+}

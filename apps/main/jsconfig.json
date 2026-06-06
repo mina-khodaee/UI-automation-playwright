@@ -1,0 +1,24 @@
+{
+  "extends": "@repo/typescript-config/nextjs.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "checkJs": false,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.js",
+    "**/*.jsx",
+    "next-env.d.ts",
+    "next.config.mjs",
+    ".next/types/**/*.ts",
+    "tests/unitTest/*.test.jsx",
+    "tests/e2e/*.spec.jsx"
+  ],
+  "exclude": ["node_modules"]
+}

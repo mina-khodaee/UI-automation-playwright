@@ -1,0 +1,56 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "newSecurityEquipments": " تجهیزات جدید",
+    "updateSecurityEquipments": "به‌روزرسانی تجهیزات",
+    "SecurityEquipments": "تعریف تجهیزات"
+  },
+  "formsInputs": {
+    "equipmentTypeId": "نوع تجهیزات",
+    "serialNumber": "شماره سریال",
+    "description": "توضیحات",
+    "count": "تعداد",
+    "name": "نام",
+    "placeholder": "لطفا جستجو کنید"
+
+  },
+  "buttons": {
+    "newSecurityEquipments": "افزودن جدید"
+  },
+  "columns": {
+    "equipmentTypeId": "نوع تجهیزات",
+    "serialNumber": "شماره سریال",
+    "description": "توضیحات",
+    "count": "تعداد",
+    "name" : "نام"
+  },
+  "toastMessages": {
+    "deleteSecurityEquipments": "حذف تجهیزات نظامی با موفقیت انجام شد",
+    "update": "به‌روزرسانی  تجهیزات نظامی با موفقیت انجام شد",
+    "create": " تجهیزات نظامی با موفقیت ایجاد شد"
+  },
+  "title": {
+    "insertSecurityEquipments": "ایجاد تجهیزات",
+    "updateSecurityEquipments": "ویرایش تجهیزات"
+  },
+  "formValidationErrors": {
+    "equipmentTypeId": {
+      "required": "وارد کردن نوع تجهیزات الزامی است"
+    },
+
+    "count": {
+      "required": "وارد کردن تعداد الزامی است",
+      "invalid" : "لطفا عدد وارد کنید"
+    },
+
+    "name": {
+      "required": "وارد کردن نام الزامی است",
+      "invalid" : "لطفا نام وارد کنید"
+    },
+
+    "serialNumber": {
+      "required": "وارد کردن شماره سریال الزامی است",
+      "invalid" : "لطفا شماره سریال وارد کنید"
+    }
+  }
+}

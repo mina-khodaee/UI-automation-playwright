@@ -1,0 +1,52 @@
+{
+    "breadcrumb": {
+        "title": "Armory Locations Management"
+    },
+    "buttons": {
+        "newLocation": "New Location"
+    },
+    "columns": {
+        "name": "Location Name",
+        "code": "Location Code",
+        "site": "Related Site/Center",
+        "location": "Physical Location",
+        "capacity": "Capacity",
+        "responsiblePerson": "Responsible Person",
+        "contactNumber": "Contact Number",
+        "type": "Type",
+        "status": "Status"
+    },
+    "fields": {
+        "name": "Location Name",
+        "code": "Location Code",
+        "location": "Physical Location",
+        "capacity": "Capacity (Quantity)",
+        "responsiblePerson": "Responsible Person Name",
+        "contactNumber": "Contact Number",
+        "type": "Armory Type",
+        "status": "Status",
+        "createdAt": "Create Date",
+        "description": "Description"
+    },
+    "types": {
+        "weapon": "Weapon",
+        "ammo": "Ammunition",
+        "both": "Combined (Weapon & Ammo)"
+    },
+    "status": {
+        "active": "Active",
+        "inactive": "Inactive"
+    },
+    "formValidation": {
+        "nameRequired": "Location name is required",
+        "codeRequired": "Location code is required",
+        "typeRequired": "Armory type is required"
+    },
+    "toastMessages": {
+        "createSuccess": "Armory location created successfully",
+        "updateSuccess": "Armory location updated successfully",
+        "deleteSuccess": "Armory location deleted successfully"
+    },
+    "createTitle": "Create New Armory Location",
+    "editTitle": "Edit Armory Location"
+}

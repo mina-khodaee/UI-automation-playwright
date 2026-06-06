@@ -1,0 +1,41 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "newTreasury": "محل خزانه جدید",
+    "updateTreasury": "به‌روزرسانی محل خزانه",
+    "treasury": "اطلاعات پایه خزانه"
+  },
+  "formsInputs": {
+    "treasuryLocationName": "نام محل خزانه",
+    "treasuryLocationCode": "کد محل خزانه",
+    "centerName": "نام مرکز"
+  },
+  "buttons": {
+    "newTreasury": "افزودن محل خزانه جدید"
+  },
+  "columns": {
+    "treasuryLocationName": "نام محل خزانه",
+    "treasuryLocationCode": "کد محل خزانه",
+    "centerName": "نام مرکز"
+  },
+  "toastMessages": {
+    "deleteTreasury": "حذف محل خزانه با موفقیت انجام شد",
+    "update": "به‌روزرسانی محل خزانه با موفقیت انجام شد",
+    "create": "محل خزانه با موفقیت ایجاد شد"
+  },
+  "title": {
+    "insertTreasury": "ایجاد محل خزانه",
+    "updateTreasury": "ویرایش محل خزانه"
+  },
+  "formValidationErrors": {
+    "treasuryLocationName": {
+      "required": "وارد کردن نام محل خزانه الزامی است"
+    },
+    "treasuryLocationCode": {
+      "required": "وارد کردن کد محل خزانه الزامی است"
+    },
+    "centerName": {
+      "required": "وارد کردن نام مرکز الزامی است"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "breadcrumb": {
+    "dashboard": "Dashboard",
+    "sites": "Sites",
+    "newSite": "New Site",
+    "editSite": "Edit Site"
+  },
+  "formsInputs": {
+    "name": "Site Name",
+    "parentSiteId": "Parent Site",
+    "description": "Description"
+  },
+  "buttons": {
+    "newSite": "Add Site",
+    "create": "Create",
+    "update": "Update",
+    "cancel": "Cancel",
+    "creating": "Creating...",
+    "updating": "Updating..."
+  },
+  "columns": {
+    "name": "Site Name",
+    "parentSiteId": "Parent Site",
+    "description": "Description",
+    "createdAt": "Created At"
+  },
+  "toastMessages": {
+    "delete": "Site deleted successfully",
+    "update": "Site updated successfully",
+    "create": "Site created successfully"
+  },
+  "title": {
+    "insertSite": "Create Site",
+    "updateSite": "Edit Site"
+  },
+  "formValidationErrors": {
+    "name": {
+      "required": "Site name is required"
+    }
+  }
+}

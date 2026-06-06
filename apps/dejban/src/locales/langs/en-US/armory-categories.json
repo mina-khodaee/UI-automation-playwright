@@ -1,0 +1,36 @@
+{
+    "breadcrumb": {
+        "title": "Equipment Categories"
+    },
+    "buttons": {
+        "newCategory": "New Category"
+    },
+    "columns": {
+        "name": "Category Name",
+        "code": "Category Code",
+        "hasSerialNumber": "Has Serial Number"
+    },
+    "fields": {
+        "name": "Category Name",
+        "code": "Category Code",
+        "hasSerialNumber": "This category has unique serial number",
+        "description": "Description",
+        "status": "Status"
+    },
+    "status": {
+        "active": "Active",
+        "inactive": "Inactive"
+    },
+    "yes": "Yes",
+    "no": "No",
+    "formValidation": {
+        "nameRequired": "Category name is required"
+    },
+    "toastMessages": {
+        "createSuccess": "Category created successfully",
+        "updateSuccess": "Category updated successfully",
+        "deleteSuccess": "Category deleted successfully"
+    },
+    "createTitle": "Create New Category",
+    "editTitle": "Edit Category"
+}

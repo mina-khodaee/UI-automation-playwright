@@ -1,0 +1,67 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "firearms": "سلاح‌های گرم",
+    "newFirearm": "سلاح جدید",
+    "editFirearm": "ویرایش سلاح"
+  },
+  "formsInputs": {
+    "weaponModelId": "مدل سلاح",
+    "serialNumber": "شماره سریال",
+    "manufactureYear": "سال ساخت",
+    "status": "وضعیت",
+    "munitionsDepotId": "انبار مهمات",
+    "assignedPersonnelId": "پرسنل مسئول"
+  },
+  "buttons": {
+    "newFirearm": "افزودن سلاح گرم",
+    "create": "ایجاد",
+    "update": "به‌روزرسانی",
+    "cancel": "انصراف",
+    "creating": "در حال ایجاد...",
+    "updating": "در حال به‌روزرسانی..."
+  },
+  "columns": {
+    "weaponModel": "مدل سلاح",
+    "serialNumber": "شماره سریال",
+    "manufactureYear": "سال ساخت",
+    "status": "وضعیت",
+    "munitionsDepot": "انبار",
+    "assignedPersonnel": "پرسنل مسئول",
+    "createdAt": "تاریخ ثبت"
+  },
+  "toastMessages": {
+    "delete": "سلاح گرم با موفقیت حذف شد",
+    "update": "سلاح گرم با موفقیت به‌روزرسانی شد",
+    "create": "سلاح گرم با موفقیت ایجاد شد"
+  },
+  "title": {
+    "insertFirearm": "ایجاد سلاح گرم",
+    "updateFirearm": "ویرایش سلاح گرم"
+  },
+  "formValidationErrors": {
+    "weaponModelId": {
+      "required": "انتخاب مدل سلاح الزامی است"
+    },
+    "serialNumber": {
+      "required": "وارد کردن شماره سریال الزامی است",
+      "duplicate": "شماره سریال تکراری است"
+    },
+    "manufactureYear": {
+      "invalid": "سال ساخت معتبر نیست (بین ۱۸۰۰ تا سال جاری)"
+    },
+    "status": {
+      "required": "انتخاب وضعیت الزامی است"
+    },
+    "munitionsDepotId": {
+      "required": "انتخاب انبار مهمات الزامی است"
+    }
+  },
+  "statusOptions": {
+    "operational": "عملیاتی",
+    "maintenance": "در تعمیر",
+    "damaged": "آسیب دیده",
+    "stored": "انبار شده",
+    "lost": "گم شده"
+  }
+}

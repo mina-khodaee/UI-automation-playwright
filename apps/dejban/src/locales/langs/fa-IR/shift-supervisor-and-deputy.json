@@ -1,0 +1,47 @@
+{
+  "breadcrumb": {
+    "dashboard": "داشبورد",
+    "shiftSupervisorAndDeputy": "مسئول و جانشین شیفت",
+    "newShiftSupervisorAndDeputy": "مسئول و جانشین شیفت جدید"
+  },
+  "formsInputs": {
+    "personnelId": "پرسنل",
+    "shiftId": "شیفت",
+    "startDate": "تاریخ شروع",
+    "endDate": "تاریخ پایان",
+    "description": "توضیحات"
+  },
+  "buttons": {
+    "newShiftSupervisorAndDeputy": "افزودن مسئول و جانشین شیفت"
+  },
+  "columns": {
+    "personnelId": "پرسنل",
+    "shiftId": "شیفت",
+    "startDate": "از تاریخ",
+    "endDate": "تا تاریخ",
+    "description": "توضیحات"
+  },
+  "toastMessages": {
+    "delete": "مسئول و جانشین شیفت با موفقیت حذف شد",
+    "update": "مسئول و جانشین شیفت با موفقیت به‌روزرسانی شد",
+    "create": "مسئول و جانشین شیفت با موفقیت ایجاد شد"
+  },
+  "title": {
+    "insertShiftSupervisorAndDeputy": "ایجاد مسئول و جانشین شیفت",
+    "updateShiftSupervisorAndDeputy": "ویرایش مسئول و جانشین شیفت"
+  },
+  "formValidationErrors": {
+    "personnelId": {
+      "required": "انتخاب پرسنل الزامی است"
+    },
+    "shiftId": {
+      "required": "انتخاب شیفت الزامی است"
+    },
+    "startDate": {
+      "required": "تاریخ شروع الزامی است"
+    },
+    "endDate": {
+      "required": "تاریخ پایان الزامی است"
+    }
+  }
+}

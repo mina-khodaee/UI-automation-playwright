@@ -1,0 +1,13 @@
+{
+  "title": "Select a module",
+  "apps": {
+    "dejban": "Dejban",
+    "dejbanDescription": "Canonical Dejban application",
+    "accessControl": "Access Control",
+    "accessControlDescription": "Manage access control devices and permissions"
+  },
+  "emptyState": {
+    "title": "No authorized projects",
+    "description": "No projects are available for this account. Please contact your administrator."
+  }
+}
