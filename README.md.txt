@@ -66,6 +66,8 @@ npx playwright test --project=e2e
 * Authentication state reuse for faster execution
 * Organized test data management
 
+Note: CI runs may fail because tests depend on a local environment (localhost server).
+
 ## Author
 
 Mina Khodaei
