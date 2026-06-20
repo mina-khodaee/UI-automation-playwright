@@ -1,5 +1,5 @@
 import { Locator, Page } from '@playwright/test';
-import { URLS } from '../config/urls';
+import { URLS } from 'tests/config/urls';
 
 export class LoginPage {
   readonly username: Locator;

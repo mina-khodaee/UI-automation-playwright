@@ -1,4 +1,4 @@
-import { Locator, Page } from '@playwright/test';
+import { Locator, Page, expect } from '@playwright/test';
 
 export class HomePage {
   readonly accountBtn: Locator;
@@ -10,10 +10,11 @@ export class HomePage {
   }
 
   async logout() {
-    await this.accountBtn.waitFor({ state: 'visible' });
-    await this.accountBtn.click(); // step 1: open menu
+    await expect(this.accountBtn).toBeVisible({ timeout: 15000 });
+    await this.accountBtn.click();
 
-    await this.logoutBtn.waitFor({ state: 'visible' });
-    await this.logoutBtn.click(); // step 2: logout
+    await expect(this.logoutBtn).toBeVisible({ timeout: 15000 });
+
+    await this.logoutBtn.click();
   }
 }
