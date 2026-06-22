@@ -27,4 +27,21 @@ test.describe('regression', () => {
     await settingPage.toggleDirection();
     await expect(pageWithAuth.locator('html')).toHaveAttribute('dir', 'rtl', { timeout: 10000 });
   });
+
+  test('User can toggle fullscreen mode', async ({ pageWithAuth, settingPage }) => {
+    await pageWithAuth.goto(URLS.home);
+    await settingPage.open();
+    await settingPage.fullScreenShow();
+
+    // Enter fullscreen
+    await expect
+      .poll(async () => pageWithAuth.evaluate(() => !!document.fullscreenElement))
+      .toBe(true);
+
+    // Exit fullscreen
+    await pageWithAuth.evaluate(() => document.exitFullscreen());
+    await expect
+      .poll(async () => pageWithAuth.evaluate(() => !!document.fullscreenElement))
+      .toBe(false);
+  });
 });
