@@ -27,16 +27,16 @@ export const test = base.extend<MyFixtures>({
 
   pageWithAuth: async ({ browser, request }, use) => {
     const context = await browser.newContext();
-    const page = await context.newPage();
 
     const { accessToken } = await loginViaApi(request);
 
-    await page.goto(config.baseURL);
-
-    // inject BEFORE navigation
     await context.addInitScript((token) => {
       localStorage.setItem('jwt_access_token', token);
     }, accessToken);
+
+    const page = await context.newPage();
+
+    await page.goto(config.baseURL);
 
     await use(page);
 
