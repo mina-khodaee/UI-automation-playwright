@@ -14,14 +14,12 @@ test.describe('employment', () => {
 
   test.describe('Search', () => {
     test('should search employment', async ({ employment }) => {
-      await employment.searchEmploymentType('آزمایشی');
-      await employment.searchEmploymentTypeNoteVisible('قراردادی');
+      await employment.searchEmploymentType('رسمی');
+      await employment.searchEmploymentTypeNoteVisible('آزمایشی');
     });
     test('should clear search employment', async ({ employment }) => {
-      await employment.searchEmploymentType('آزمایشی');
-      await employment.clearSearch();
-      await employment.searchEmploymentType('آزمایشی');
-      await employment.searchEmploymentType('قراردادی');
+      await employment.searchEmploymentType('رسمی');
+      await employment.clearSearch('آزمایشی');
     });
   });
 
@@ -35,7 +33,52 @@ test.describe('employment', () => {
     });
     test('should add employment successfully', async ({ employment }) => {
       const employmentName = `تستی-${Date.now()}`;
-      await employment.addEmployment(employmentName, 'فقط تست است!');
+      const description = `توضیح اول است!  - ${Date.now()}`;
+
+      await employment.addEmployment(employmentName, description);
     });
+    test('should show error when employment type already exists', async ({ employment }) => {
+      await employment.addEmployment('آزمایشی', '');
+      await employment.verifyDuplicateEmploymentError();
+    });
+    test('should show required validation when employment name is empty', async ({
+      employment,
+    }) => {
+      await employment.addEmployment('', '');
+      await employment.verifyEmploymentNameRequiredError();
+    });
+  });
+
+  test.describe('delete', () => {
+    test('should delete employment name', async ({ employment }) => {
+      await expect(employment.addEmploymentButton).toBeVisible();
+      await employment.openCreateEmploymentDialog();
+      await employment.verifyCreateEmploymentDialog();
+      const employmentName = `سناریو پاک-${Date.now()}`;
+      await employment.addEmployment(employmentName, '');
+      await employment.deletEmployment(employmentName);
+    });
+  });
+
+  test.describe('edit', () => {
+    test('should edit employment successfully', async ({ employment }) => {
+      await expect(employment.addEmploymentButton).toBeVisible();
+      await employment.openCreateEmploymentDialog();
+      await employment.verifyCreateEmploymentDialog();
+      const oldName = `تست ویرایش-${Date.now()}`;
+      const oldDescription = `توضیح برای ویرایش - ${Date.now()}`;
+
+      const newName = `${Date.now()}-ویرایش شده`;
+      const newDescription = `توضیح ویرایش شده-${Date.now()}`;
+
+      await employment.addEmployment(oldName, oldDescription);
+
+      await employment.editEmployment(oldName, newName, oldDescription, newDescription);
+    });
+  });
+
+  test('should change rows per page to 20', async ({ employment }) => {
+    await employment.changeRowsPerPage('20');
+    await employment.verifyRowsCount(20);
   });
 });
