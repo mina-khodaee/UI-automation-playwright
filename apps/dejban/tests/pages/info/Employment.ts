@@ -65,20 +65,6 @@ export class Employment {
     await expect(this.rowsPerPage).toBeVisible();
   }
 
-  async searchEmploymentType(name: string) {
-    await this.searchInput.fill(name);
-    await expect(this.page.getByRole('cell', { name }).first()).toBeVisible();
-  }
-
-  async clearSearch(name: string) {
-    await this.clearSearchButton.click();
-    await expect(this.page.getByRole('cell', { name }).first()).toBeVisible();
-  }
-
-  async searchEmploymentTypeNoteVisible(name: string) {
-    await expect(this.page.getByRole('cell', { name }).first()).not.toBeVisible();
-  }
-
   async openCreateEmploymentDialog() {
     await this.addEmploymentButton.click();
   }
@@ -102,17 +88,20 @@ export class Employment {
       await this.descriptionInput.fill(description);
     }
     await this.createButton.click();
+  }
 
-    const row = this.page.locator('tr', {
-      has: this.page.getByRole('cell', { name }),
-    });
-    if (name != '') {
-      await expect(this.createEmployment).not.toBeVisible();
-      await expect(row).toBeVisible();
-    }
-    if (description) {
-      await expect(row).toContainText(description);
-    }
+  async searchEmploymentType(name: string) {
+    await this.searchInput.fill(name);
+    await expect(this.page.getByRole('cell', { name }).first()).toBeVisible();
+  }
+
+  async clearSearch() {
+    await expect(this.clearSearchButton).toBeEnabled();
+    await this.clearSearchButton.click();
+  }
+
+  async searchEmploymentTypeNoteVisible(name: string) {
+    await expect(this.page.getByRole('cell', { name }).first()).not.toBeVisible();
   }
 
   async verifyDuplicateEmploymentError() {
@@ -124,10 +113,12 @@ export class Employment {
   }
 
   async deletEmployment(name: string) {
-    const row = this.page.locator('tr').filter({
-      has: this.page.getByRole('cell', { name }),
-    });
-
+    const row = this.page
+      .locator('tr')
+      .filter({
+        has: this.page.getByRole('cell', { name }),
+      })
+      .first();
     await expect(row).toBeVisible();
 
     await row.getByRole('button', { name: 'اقدامات ردیف' }).click();

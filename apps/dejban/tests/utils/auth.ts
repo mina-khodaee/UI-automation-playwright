@@ -11,7 +11,7 @@ export async function loginViaApi(request: APIRequestContext) {
   if (!response.ok()) {
     const body = await response.text();
 
-    throw new Error(`Login failed: ${response.status()} ${body}`);
+    throw new Error(`Login failed: ${response.status()} - ${body}`);
   }
 
   const data = await response.json();
